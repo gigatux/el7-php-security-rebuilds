@@ -1,0 +1,38 @@
+--- SPECS/php.spec.original
++++ SPECS/php.spec
+@@ -117,7 +117,7 @@
+ Summary: PHP scripting language for creating dynamic web sites
+ Name:    %{?scl_prefix}php
+ Version: %{upver}%{?rcver:~%{rcver}}%{?gh_date:.%{gh_date}}
+-Release: 15%{?dist}
++Release: 15.1.gigatux20261021%{?dist}
+ # All files licensed under PHP version 3.01, except
+ # Zend is licensed under Zend
+ # TSRM is licensed under BSD
+@@ -205,6 +205,7 @@
+ Patch302: php-7.4.33-zlib-tests.patch
+ 
+ # WIP
++Patch990: php74-emergency-rebased.patch
+ 
+ BuildRequires: gnupg2
+ BuildRequires: bzip2-devel
+@@ -1000,6 +1001,7 @@
+ %patch -P302 -p1 -b .zlibng
+ 
+ # WIP patch
++%patch -P990 -p1 -b .emergency20261021
+ 
+ # Prevent %%doc confusion over LICENSE files
+ cp Zend/LICENSE ZEND_LICENSE
+@@ -1884,6 +1886,10 @@
+ 
+ 
+ %changelog
++* Wed Oct 21 2026 GigaTux emergency rebuild <ops@gigatux.com> - 7.4.33-15.1.gigatux20261021
++- Local emergency build for CVE-2026-109618 and CVE-2026-109619.
++- Preserve original Remi EL7 recipe and runtime ABI; not Remi-signed.
++
+ * Tue Jun  4 2024 Remi Collet <remi@remirepo.net> - 7.4.33-15
+ - Fix filter bypass in filter_var FILTER_VALIDATE_URL
+   CVE-2024-5458

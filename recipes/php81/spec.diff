@@ -1,0 +1,38 @@
+--- SPECS/php.spec.original
++++ SPECS/php.spec
+@@ -134,7 +134,7 @@
+ Summary: PHP scripting language for creating dynamic web sites
+ Name:    %{?scl_prefix}php
+ Version: %{upver}%{?rcver:~%{rcver}}%{?gh_date:.%{gh_date}}
+-Release: 1%{?dist}
++Release: 1.1.gigatux20261021%{?dist}
+ # All files licensed under PHP version 3.01, except
+ # Zend is licensed under Zend
+ # TSRM is licensed under BSD
+@@ -208,6 +208,7 @@
+ Patch301: php-8.1.27-zlib-tests.patch
+ 
+ # WIP
++Patch990: php81-emergency.patch
+ 
+ BuildRequires: gnupg2
+ BuildRequires: bzip2-devel
+@@ -991,6 +992,7 @@
+ %patch -P301 -p1 -b .zlibng
+ 
+ # WIP patch
++%patch -P990 -p1 -b .emergency20261021
+ 
+ # Prevent %%doc confusion over LICENSE files
+ cp Zend/LICENSE ZEND_LICENSE
+@@ -1866,6 +1868,10 @@
+ 
+ 
+ %changelog
++* Wed Oct 21 2026 GigaTux emergency rebuild <ops@gigatux.com> - 8.1.29-1.1.gigatux20261021
++- Local emergency build for CVE-2026-109618 and CVE-2026-109619.
++- Preserve original Remi EL7 recipe and runtime ABI; not Remi-signed.
++
+ * Wed Jun  5 2024 Remi Collet <remi@remirepo.net> - 8.1.29-1
+ - Update to 8.1.29 - http://www.php.net/releases/8_1_29.php
+ 

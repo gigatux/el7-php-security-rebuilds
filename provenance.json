@@ -1,0 +1,107 @@
+{
+  "recipes": {
+    "php74": {
+      "repository": "https://git.remirepo.net/cgit/rpms/scl-php74/php.git",
+      "commit": "3114644fa8259712359df5e5b49c83beabbf4705",
+      "version": "7.4.33",
+      "release": "15.1.gigatux20261021",
+      "patch": "php74-emergency-rebased.patch"
+    },
+    "php81": {
+      "repository": "https://git.remirepo.net/cgit/rpms/scl-php81/php.git",
+      "commit": "be1c757d196a9abfa7fbf549c4a5dac29624d356",
+      "version": "8.1.29",
+      "release": "1.1.gigatux20261021",
+      "patch": "php81-emergency.patch"
+    },
+    "php82": {
+      "repository": "https://git.remirepo.net/cgit/rpms/scl-php82/php.git",
+      "commit": "475b78223d7a4bca5fc6d75aeee91f7be0613dc5",
+      "version": "8.2.35",
+      "release": "1.gigatux20261021",
+      "patch": null
+    },
+    "php83": {
+      "repository": "https://git.remirepo.net/cgit/rpms/scl-php83/php.git",
+      "commit": "e55d4927e7c9de8223ec7dd5f925e7e9e8b547c0",
+      "version": "8.3.36",
+      "release": "1.gigatux20261021",
+      "patch": null
+    },
+    "php-system": {
+      "repository": "https://git.remirepo.net/cgit/rpms/php/php83.git",
+      "commit": "6f1f926ffe9df9d67f152fcb3507f4bd1a698a39",
+      "version": "8.3.36",
+      "release": "1.gigatux20261021",
+      "patch": null
+    }
+  },
+  "sources": [
+    {
+      "path": "sources/php-7.4.33.tar.xz",
+      "url": "https://www.php.net/distributions/php-7.4.33.tar.xz",
+      "bytes": 10420144,
+      "sha256": "924846abf93bc613815c55dd3f5809377813ac62a9ec4eb3778675b82a27b927"
+    },
+    {
+      "path": "sources/php-7.4.33.tar.xz.asc",
+      "url": "https://www.php.net/distributions/php-7.4.33.tar.xz.asc",
+      "bytes": 833,
+      "sha256": "569a01c7c605a4571fdf7dfadfff4215cc4a63ea5d474c7ec92bd7b4fecfffcb"
+    },
+    {
+      "path": "sources/php-8.1.29.tar.xz",
+      "url": "https://www.php.net/distributions/php-8.1.29.tar.xz",
+      "bytes": 11826292,
+      "sha256": "288884af60581d4284baba2ace9ca6d646f72facbd3e3c2dd2acc7fe6f903536"
+    },
+    {
+      "path": "sources/php-8.1.29.tar.xz.asc",
+      "url": "https://www.php.net/distributions/php-8.1.29.tar.xz.asc",
+      "bytes": 833,
+      "sha256": "f57651e6e2790a86889808725dd28e1f54dd49e294bf0a5c09595b89ac4b84cc"
+    },
+    {
+      "path": "sources/php-8.2.35.tar.xz",
+      "url": "https://www.php.net/distributions/php-8.2.35.tar.xz",
+      "bytes": 12216408,
+      "sha256": "5737b98601fe5ab1b8c5db0c82ed3158acb9283ed3081ffe2faffb9ac81455e6"
+    },
+    {
+      "path": "sources/php-8.2.35.tar.xz.asc",
+      "url": "https://www.php.net/distributions/php-8.2.35.tar.xz.asc",
+      "bytes": 870,
+      "sha256": "79af893d2e7571e0e312754af8e5536179d722b6a102481b888c28d605c4aca0"
+    },
+    {
+      "path": "sources/php-8.3.36.tar.xz",
+      "url": "https://www.php.net/distributions/php-8.3.36.tar.xz",
+      "bytes": 12669456,
+      "sha256": "dd54693aa334c5c4d72e9aee96b082c2473750a18a6c1d105789c93a3b1692fd"
+    },
+    {
+      "path": "sources/php-8.3.36.tar.xz.asc",
+      "url": "https://www.php.net/distributions/php-8.3.36.tar.xz.asc",
+      "bytes": 833,
+      "sha256": "0789337d83e18389ad5dafa58e0df70560d88f369fbcc9f8fd6ae3723b082772"
+    },
+    {
+      "path": "sources/php74-emergency.patch",
+      "url": "https://github.com/php/php-src/commit/712e60f9edfd03f0960fc4fc3c2c375f42b90aa2.patch",
+      "bytes": 42027,
+      "sha256": "5fe57ca6ee96d59b36c6e0ca842843c50884f177bef1e85234cf669b577f5e48"
+    },
+    {
+      "path": "sources/php81-emergency.patch",
+      "url": "https://github.com/php/php-src/commit/1d7dec178a094e6e75b229ce22754045f8c6070a.patch",
+      "bytes": 49800,
+      "sha256": "c85ad0fddcbff7f2318617eeaa54d271135463b5bf70a01228447e3ed78de96e"
+    },
+    {
+      "path": "sources/php-keyring.gpg",
+      "url": "https://www.php.net/distributions/php-keyring.gpg",
+      "bytes": 52059,
+      "sha256": "43fcb3eaf65536cb0833c229b492c70cfad8562138164dd13673e08925d6c56c"
+    }
+  ]
+}

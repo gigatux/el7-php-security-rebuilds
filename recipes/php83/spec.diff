@@ -1,0 +1,85 @@
+--- SPECS/php.spec.original
++++ SPECS/php.spec
+@@ -129,14 +129,14 @@
+ #global gh_date      20230605
+ %global gh_owner     php
+ %global gh_project   php-src
+-%global upver        8.3.8
++%global upver        8.3.36
+ #global rcver        RC1
+ # TODO set PHP_EXTRA_VERSION for EOL version
+ 
+ Summary: PHP scripting language for creating dynamic web sites
+ Name:    %{?scl_prefix}php
+ Version: %{upver}%{?rcver:~%{rcver}}%{?gh_date:.%{gh_date}}
+-Release: 1%{?dist}
++Release: 1.gigatux20261021%{?dist}
+ # All files licensed under PHP version 3.01, except
+ # Zend is licensed under Zend
+ # TSRM is licensed under BSD
+@@ -175,7 +175,7 @@
+ # Build fixes
+ Patch1: php-7.4.0-httpd.patch
+ Patch5: php-7.2.0-includedir.patch
+-Patch6: php-8.0.0-embed.patch
++Patch6: php-8.3.20-embed.patch
+ Patch8: php-8.1.0-libdb.patch
+ # RHEL backports
+ Patch10: php-8.2.0-curl.patch
+@@ -184,7 +184,7 @@
+ # Use system nikic/php-parser
+ Patch41: php-8.3.3-parser.patch
+ # use system tzdata
+-Patch43: php-8.3.0-systzdata-v24.patch
++Patch43: php-8.3.11-systzdata-v24.patch
+ # See http://bugs.php.net/53436
+ # + display PHP version backported from 8.4
+ Patch44: php-7.4.0-phpize.patch
+@@ -194,7 +194,7 @@
+ Patch46: php-8.0.7-argon2.patch
+ # drop "Configure command" from phpinfo output
+ # and only use gcc (instead of full version)
+-Patch47: php-8.1.0-phpinfo.patch
++Patch47: php-8.3.13-phpinfo.patch
+ # Always warn about missing curve_name
+ # Both Fedora and RHEL do not support arbitrary EC parameters
+ Patch48: php-8.3.0-openssl-ec-param.patch
+@@ -211,6 +211,8 @@
+ Patch300: php-7.4.0-datetests.patch
+ 
+ # WIP
++Patch992: php83-el7-ffi-strncmp.patch
++Patch991: php-el7-openssl-asn1-compat.patch
+ 
+ BuildRequires: gnupg2
+ BuildRequires: bzip2-devel
+@@ -996,6 +998,8 @@
+ %patch -P300 -p1 -b .datetests
+ 
+ # WIP patch
++%patch -P992 -p1 -b .el7ffi
++%patch -P991 -p1 -b .el7openssl
+ 
+ # Prevent %%doc confusion over LICENSE files
+ cp Zend/LICENSE ZEND_LICENSE
+@@ -1458,7 +1462,7 @@
+ %endif
+ 
+ %if %{with lsws}
+-install -m 755 build-apache/sapi/litespeed/php $RPM_BUILD_ROOT%{_bindir}/lsphp
++install -m 755 build-apache/sapi/litespeed/lsphp $RPM_BUILD_ROOT%{_bindir}/lsphp
+ %endif
+ 
+ # PHP-FPM stuff
+@@ -1874,6 +1878,11 @@
+ 
+ 
+ %changelog
++* Wed Oct 21 2026 GigaTux emergency rebuild <ops@gigatux.com> - 8.3.36-1.gigatux20261021
++- Preserve OpenSSL 1.0.2 read-only ASN.1 accessor compatibility on EL7.
++- Local emergency build for CVE-2026-109618 and CVE-2026-109619.
++- Preserve original Remi EL7 recipe and runtime ABI; not Remi-signed.
++
+ * Tue Jun  4 2024 Remi Collet <remi@remirepo.net> - 8.3.8-1
+ - Update to 8.3.8 - http://www.php.net/releases/8_3_8.php
+ 
