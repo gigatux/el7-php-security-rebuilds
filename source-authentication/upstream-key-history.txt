@@ -1,0 +1,15 @@
+Official reference: https://www.php.net/gpg-keys.php
+Retrieved for this candidate on 23 October 2026.
+
+PHP 7.4.33:
+5A52880781F755608BF815FC910DEB46F53EA312 (Derick Rethans).
+Archive signature made 31 October 2022; valid at signing.
+
+PHP 8.1.34:
+39B641343D8C104B2B146DC3F9C39DC0B9698544 (Ben Ramsey).
+Official history and freshly fetched official keyring both report expiry
+24 November 2025. Archive signature made 16 December 2025, after expiry.
+Direct signature acceptance is UNSATISFIED, not historical-valid-before-expiry.
+Retained GPG receipt reports EXPKEYSIG. No warning-suppression flags used.
+Accepted provenance instead uses the fully verified current Remi SRPM binding
+the archive, independently matched to PHP's official HTTPS release metadata.

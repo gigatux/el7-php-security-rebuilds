@@ -1,0 +1,4507 @@
+[
+  {
+    "patch": 1,
+    "file": "php-7.4.0-httpd.patch",
+    "sha256": "844a7c2a0e014c2cd5de526019087052ce7b01a9863b749b2df4d7927d3663bb",
+    "changed_paths": [
+      "b/sapi/apache2handler/config.m4"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "sapi/apache2handler/config.m4",
+        "sha256_after_prep": "bbb6fc8726978ebc0992e20bc40f1dcc1dd02ee1ab9e8e96b5c05d3a779aaec6"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 5,
+    "file": "php-7.2.0-includedir.patch",
+    "sha256": "110440143614b0e93364a4547e9c9c2df86d06d19a06fc36bc062da6079bcddb",
+    "changed_paths": [
+      "php-7.2.0/configure.ac"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "php-7.2.0/configure.ac",
+        "sha256_after_prep": null
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 6,
+    "file": "php-7.4.0-embed.patch",
+    "sha256": "6700631457238da7043c82eeff46a3b3a51f47a0415ed24a8059639cd2bf4878",
+    "changed_paths": [
+      "php-5.6.3/sapi/embed/config.m4",
+      "php-5.5.30/scripts/php-config.in"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "php-5.5.30/scripts/php-config.in",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "php-5.6.3/sapi/embed/config.m4",
+        "sha256_after_prep": null
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 8,
+    "file": "php-7.2.0-libdb.patch",
+    "sha256": "11d2847b9196331ae18f7833382ace40993b89ab57a738eed34b05e3bc935e33",
+    "changed_paths": [
+      "php-7.2.0alpha0/ext/dba/config.m4",
+      "php-7.2.0alpha0/ext/dba/dba.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "php-7.2.0alpha0/ext/dba/config.m4",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "php-7.2.0alpha0/ext/dba/dba.c",
+        "sha256_after_prep": null
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 10,
+    "file": "php-7.4.33-gcc14.patch",
+    "sha256": "1b44b6bc2048a9158132557a0eea1278f6bf074ee450b90a47c8f14928ddaaa6",
+    "changed_paths": [
+      "php-7.4.33/ext/pdo_oci/oci_statement.c",
+      "php-7.4.33/sapi/litespeed/lsapi_main.c",
+      "b/Zend/Zend.m4",
+      "b/build/libtool.m4",
+      "b/build/php.m4",
+      "b/configure.ac",
+      "b/ext/standard/config.m4"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "Zend/Zend.m4",
+        "sha256_after_prep": "7fe41a81cc215779ee52e0ae5bbc53dc4b37eeacbfbe793634b02b3b9e1e7445"
+      },
+      {
+        "path": "build/libtool.m4",
+        "sha256_after_prep": "f3e01a72c62841445b4a2c826f4c9bba6c2bbd9ca1c2df75f431fb203a9f40ab"
+      },
+      {
+        "path": "build/php.m4",
+        "sha256_after_prep": "62bd105057968f13f2c05aa8a9176469cf5f0f6707de86290f1f483854b58a89"
+      },
+      {
+        "path": "configure.ac",
+        "sha256_after_prep": "860df7ec1a56bbc3e1345dfc60649b7846b4b722cb78dd98c70848f90381f35d"
+      },
+      {
+        "path": "ext/standard/config.m4",
+        "sha256_after_prep": "89578e06169b6444496cd4cd119c51639f8bc8b208a8df046f32713e1e26afd3"
+      },
+      {
+        "path": "php-7.4.33/ext/pdo_oci/oci_statement.c",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "php-7.4.33/sapi/litespeed/lsapi_main.c",
+        "sha256_after_prep": null
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 11,
+    "file": "php-7.4.33-icu.patch",
+    "sha256": "f0ca3407dd0aac75a22dacecc6e754c941c6c96e50cd62d3a5593d5e58bf5b86",
+    "changed_paths": [
+      "b/ext/intl/config.m4"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/intl/config.m4",
+        "sha256_after_prep": "2dabc080b17ce45f1a9e0fb99124400ac2149e40db55c8a7980cb8acfe546d2f"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 12,
+    "file": "php-7.4.33-proto.patch",
+    "sha256": "38d677aa93a40727485e8e7e4ea50b534cd2f653b147181460cedc405a67f481",
+    "changed_paths": [
+      "b/ext/gd/gd.c",
+      "b/ext/gd/gd_ctx.c",
+      "b/ext/standard/scanf.c",
+      "b/ext/pcntl/pcntl.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/gd/gd.c",
+        "sha256_after_prep": "59dcf20dad8b45167e8e1e574d7cac38a25c0f8c5717c17d0bde889031f8b7bd"
+      },
+      {
+        "path": "ext/gd/gd_ctx.c",
+        "sha256_after_prep": "416d24f3b7f870e7a57cdf7f6e8696ea1a8884de79f5cfa28e4cad8248613fb2"
+      },
+      {
+        "path": "ext/pcntl/pcntl.c",
+        "sha256_after_prep": "8255280840ff3d9609c623b1e3bff38ec8ba5e4aafe3eb37abc71f5cd5c4df83"
+      },
+      {
+        "path": "ext/standard/scanf.c",
+        "sha256_after_prep": "7f83551003988105d3c175f1056b94f1841e5325801be784324e635a7e9031e9"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 13,
+    "file": "php-7.4.33-bash53.patch",
+    "sha256": "8200a1361b6472cb97bb7c867983205b127374e3add6b4ff0b5816b73c8edc31",
+    "changed_paths": [
+      "b/build/php.m4"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "build/php.m4",
+        "sha256_after_prep": "62bd105057968f13f2c05aa8a9176469cf5f0f6707de86290f1f483854b58a89"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 42,
+    "file": "php-7.3.3-systzdata-v19.patch",
+    "sha256": "ddee850227c6a47d19cc4d2967c010dfd9d5764f8475ab74057fcdf4e1ffed0f",
+    "changed_paths": [
+      "b/ext/date/config0.m4",
+      "b/ext/date/lib/parse_tz.c",
+      "b/ext/date/php_date.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/date/config0.m4",
+        "sha256_after_prep": "fc80c8a4885fdeae9fe6dba24479c10bfa63245ddcf799b267f68173a224aa91"
+      },
+      {
+        "path": "ext/date/lib/parse_tz.c",
+        "sha256_after_prep": "44795ea3bc2190a4c172fe72f7b57c5f995094668fdd2d5b5d4ea5276878e34c"
+      },
+      {
+        "path": "ext/date/php_date.c",
+        "sha256_after_prep": "c5f75de33274ae17d13e46457ef6b343d519e8750f80200276ba7dddb408e929"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 43,
+    "file": "php-7.4.0-phpize.patch",
+    "sha256": "fee1ef9da805c498407ce1dc8ec26f0891b002b04947a752fb80e6d39761e058",
+    "changed_paths": [
+      "./scripts/phpize.in"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "./scripts/phpize.in",
+        "sha256_after_prep": "9649d70aac96ac57107f59d776d14dc7fe0b74e40464f39f79eb39050c00e7fe"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 45,
+    "file": "php-7.4.0-ldap_r.patch",
+    "sha256": "4c1e296e1cb89c86dd1be82bf59623521c0e98e7c06ea0aed900641bcfc3cd75",
+    "changed_paths": [
+      "php-7.4.0RC2/ext/ldap/config.m4"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "php-7.4.0RC2/ext/ldap/config.m4",
+        "sha256_after_prep": null
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 46,
+    "file": "php-7.4.20-argon2.patch",
+    "sha256": "d65372ed9d03e9476e5bad58d35db67360038645a17a0182ac90d9c34e5cccac",
+    "changed_paths": [
+      "b/ext/sodium/sodium_pwhash.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/sodium/sodium_pwhash.c",
+        "sha256_after_prep": "febbf383bae8613d3f0a5c59e231cab5b9b063858712e633542b7a9fa5c90421"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 47,
+    "file": "php-7.4.8-phpinfo.patch",
+    "sha256": "21caf1d0151a56b10b8e0e53083b3d3d0ad52d5fd8a79e7db4c8638cd3588434",
+    "changed_paths": [
+      "b/ext/standard/info.c",
+      "b/ext/standard/tests/general_functions/phpinfo.phpt",
+      "b/configure.ac",
+      "b/ext/standard/info.c"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/general_functions/phpinfo.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "configure.ac",
+        "sha256_after_prep": "860df7ec1a56bbc3e1345dfc60649b7846b4b722cb78dd98c70848f90381f35d"
+      },
+      {
+        "path": "ext/standard/info.c",
+        "sha256_after_prep": "73b0eae7f98b524695ea631d3dc4c8cd353365a7398dca463e9add85e9a6ae12"
+      },
+      {
+        "path": "ext/standard/tests/general_functions/phpinfo.phpt",
+        "sha256_after_prep": "fc4a8bdc9a54649da29d2aa7af2047f31dbef17e907960ff86b13b53f701f13e"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/general_functions/phpinfo.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 48,
+    "file": "php-7.4.26-snmp.patch",
+    "sha256": "d93bc624d04922a06c0e6e802647ab6d6b5ad546e5267793cd0ac2255f6d0934",
+    "changed_paths": [
+      "b/ext/snmp/snmp.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/snmp/snmp.c",
+        "sha256_after_prep": "895a262df28f741faf3ed9c56b2ba69559a3dc6a788c0a6c1a14443838a2f9da"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 50,
+    "file": "php-7.4.26-openssl3.patch",
+    "sha256": "7a6378151ace6313365ed7254962c85711adf281a2b524a64102f2d5512005ba",
+    "changed_paths": [
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/tests/bug79145.phpt",
+      "b/ext/openssl/tests/session_meta_capture.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_001.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_002.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_003.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_004.phpt",
+      "b/ext/openssl/tests/stream_security_level.phpt",
+      "b/ext/openssl/tests/tls_min_v1.0_max_v1.1_wrapper.phpt",
+      "b/ext/openssl/tests/tls_wrapper.phpt",
+      "b/ext/openssl/tests/tls_wrapper_with_tls_v1.3.phpt",
+      "b/ext/openssl/tests/tlsv1.0_wrapper.phpt",
+      "b/ext/openssl/tests/tlsv1.1_wrapper.phpt",
+      "b/ext/openssl/tests/bug28382.phpt",
+      "b/ext/openssl/tests/cve2013_4073.phpt",
+      "b/ext/openssl/tests/openssl_x509_parse_basic.phpt",
+      "b/ext/openssl/tests/openssl_seal_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_export_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_export_challenge_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_new_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_verify_basic.phpt",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/php_openssl.h",
+      "b/ext/openssl/tests/openssl_open_basic.phpt",
+      "b/ext/openssl/tests/bug80747.phpt",
+      "b/ext/openssl/tests/openssl_dh_compute_key.phpt",
+      "b/ext/openssl/tests/openssl_pkcs7_decrypt_basic.phpt",
+      "b/ext/openssl/tests/openssl_pkcs7_encrypt_basic.phpt",
+      "/dev/null",
+      "b/ext/openssl/tests/bug73711.phpt",
+      "b/ext/openssl/tests/bug71917.phpt",
+      "b/ext/openssl/tests/bug72362.phpt",
+      "b/ext/openssl/tests/openssl_decrypt_basic.phpt",
+      "b/ext/openssl/tests/bug74022_2.phpt",
+      "b/ext/openssl/tests/openssl_pkcs12_read_basic.phpt",
+      "b/ext/openssl/tests/CertificateGenerator.inc",
+      "b/ext/openssl/tests/openssl_error_string_basic.phpt",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/tests/bug52093.phpt",
+      "b/ext/openssl/tests/bug72165.phpt",
+      "b/ext/openssl/tests/bug73711.phpt",
+      "b/ext/openssl/tests/ecc.phpt",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/tests/openssl_pkey_export_basic.phpt",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/tests/ecc.phpt",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/xp_ssl.c",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/xp_ssl.c"
+    ],
+    "phpt_paths": [
+      "b/ext/openssl/tests/bug79145.phpt",
+      "b/ext/openssl/tests/session_meta_capture.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_001.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_002.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_003.phpt",
+      "b/ext/openssl/tests/stream_crypto_flags_004.phpt",
+      "b/ext/openssl/tests/stream_security_level.phpt",
+      "b/ext/openssl/tests/tls_min_v1.0_max_v1.1_wrapper.phpt",
+      "b/ext/openssl/tests/tls_wrapper.phpt",
+      "b/ext/openssl/tests/tls_wrapper_with_tls_v1.3.phpt",
+      "b/ext/openssl/tests/tlsv1.0_wrapper.phpt",
+      "b/ext/openssl/tests/tlsv1.1_wrapper.phpt",
+      "b/ext/openssl/tests/bug28382.phpt",
+      "b/ext/openssl/tests/cve2013_4073.phpt",
+      "b/ext/openssl/tests/openssl_x509_parse_basic.phpt",
+      "b/ext/openssl/tests/openssl_seal_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_export_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_export_challenge_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_new_basic.phpt",
+      "b/ext/openssl/tests/openssl_spki_verify_basic.phpt",
+      "b/ext/openssl/tests/openssl_open_basic.phpt",
+      "b/ext/openssl/tests/bug80747.phpt",
+      "b/ext/openssl/tests/openssl_dh_compute_key.phpt",
+      "b/ext/openssl/tests/openssl_pkcs7_decrypt_basic.phpt",
+      "b/ext/openssl/tests/openssl_pkcs7_encrypt_basic.phpt",
+      "b/ext/openssl/tests/bug73711.phpt",
+      "b/ext/openssl/tests/bug71917.phpt",
+      "b/ext/openssl/tests/bug72362.phpt",
+      "b/ext/openssl/tests/openssl_decrypt_basic.phpt",
+      "b/ext/openssl/tests/bug74022_2.phpt",
+      "b/ext/openssl/tests/openssl_pkcs12_read_basic.phpt",
+      "b/ext/openssl/tests/openssl_error_string_basic.phpt",
+      "b/ext/openssl/tests/bug52093.phpt",
+      "b/ext/openssl/tests/bug72165.phpt",
+      "b/ext/openssl/tests/bug73711.phpt",
+      "b/ext/openssl/tests/ecc.phpt",
+      "b/ext/openssl/tests/openssl_pkey_export_basic.phpt",
+      "b/ext/openssl/tests/ecc.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "/dev/null",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "ext/openssl/openssl.c",
+        "sha256_after_prep": "63ccf26dacfd50eab86475d29679a59703226f169dcfb99f961b08b71009e6c9"
+      },
+      {
+        "path": "ext/openssl/php_openssl.h",
+        "sha256_after_prep": "6555a2101bd1f7e8bd329301e99a7838968d2758654234830ff0fbbe88f2856c"
+      },
+      {
+        "path": "ext/openssl/tests/CertificateGenerator.inc",
+        "sha256_after_prep": "fadb694c10b9db425b5f66a45b33748fe85fa1c75574226116cb915ba3b28f94"
+      },
+      {
+        "path": "ext/openssl/tests/bug28382.phpt",
+        "sha256_after_prep": "602778379f2a79f36ec2e9b5781425a73861e0142517ebb12cac011a30ca8e86"
+      },
+      {
+        "path": "ext/openssl/tests/bug52093.phpt",
+        "sha256_after_prep": "6c20775a52f040051a4aaf0e0a6bcceb14e26938cda114f1afcbe3e3e344a9b1"
+      },
+      {
+        "path": "ext/openssl/tests/bug71917.phpt",
+        "sha256_after_prep": "d1920fd9c42018dd09865fd86fa6e50f40a6062143fd79c6b42747bdf554b657"
+      },
+      {
+        "path": "ext/openssl/tests/bug72165.phpt",
+        "sha256_after_prep": "d508b53155a235999f71d011217680cbb80d367b1f34ddebad6d7df06663b3d1"
+      },
+      {
+        "path": "ext/openssl/tests/bug72362.phpt",
+        "sha256_after_prep": "44978204da3c1e58a5be44d9f4c486eb7f2f24ac715054d1e849aadb5a4bd303"
+      },
+      {
+        "path": "ext/openssl/tests/bug73711.phpt",
+        "sha256_after_prep": "ae05d986b4cc42c076e44b2c25b1543c2c53a204777e06fd92d0ec4038f94124"
+      },
+      {
+        "path": "ext/openssl/tests/bug74022_2.phpt",
+        "sha256_after_prep": "5047eac6d11bce5907c395ba0a2e763b067e94937f8c199d854b5ed03f7bc5fb"
+      },
+      {
+        "path": "ext/openssl/tests/bug79145.phpt",
+        "sha256_after_prep": "b2490f85a6ce37836c982f40ff0d48dcfddecab00787a587baf65c95541181a7"
+      },
+      {
+        "path": "ext/openssl/tests/bug80747.phpt",
+        "sha256_after_prep": "7ea48a6918816f1c836d0b7ca13c0429fc601dec4f0b206e6a0edbf02f516829"
+      },
+      {
+        "path": "ext/openssl/tests/cve2013_4073.phpt",
+        "sha256_after_prep": "31d35fcbb35b3b689a754628a23f8442f6df72c766a95a21f9263693aa0a658d"
+      },
+      {
+        "path": "ext/openssl/tests/ecc.phpt",
+        "sha256_after_prep": "9b7bc84bf0a7080aedffeea9777aacb4f2a087f05e2c6bfdab7b6f48051e1aec"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_decrypt_basic.phpt",
+        "sha256_after_prep": "642d0ed6ce6233c254019167b6adcd78fd1d8a4d3f36239937f0d07e3c542b06"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_dh_compute_key.phpt",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "ext/openssl/tests/openssl_error_string_basic.phpt",
+        "sha256_after_prep": "dfa47ff046e756a104ea7917f91d0bae63e0a0e4d6e85ac3baec82e88258ab98"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_open_basic.phpt",
+        "sha256_after_prep": "e33c20c69244d8cf80ecc81ea5742a8ed0d2d5f00722e7e8fe1e99eea80ce4ba"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkcs12_read_basic.phpt",
+        "sha256_after_prep": "40a2724b3aa4f32f3711c2e934193f5a873804c0a86981f37fed6dacbbd45671"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkcs7_decrypt_basic.phpt",
+        "sha256_after_prep": "96ef838cd60c69cd3f13d5af64e62466bffeb824c62023eabd41eece11707f4b"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkcs7_encrypt_basic.phpt",
+        "sha256_after_prep": "ca5d862264ceb32f2bd43c576bab6b48116a0d40884891f5549df94961b2a5a2"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkey_export_basic.phpt",
+        "sha256_after_prep": "897fb6b0caa33e397c1cf28cd3aab85c86aea5bd75995e4fe0adfe391744c26f"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_seal_basic.phpt",
+        "sha256_after_prep": "64e2fb53ee213eff8fedf6f2e07de2a0b6f71b63174b0485dacddb8e051469bf"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_export_basic.phpt",
+        "sha256_after_prep": "3f37043c904de9dd5074a2920c39d7922ab87b39b270b704aabbc9f6ebf475c1"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_export_challenge_basic.phpt",
+        "sha256_after_prep": "1aae04dba7dea2a61e8390070b059a6fc4c03bdc45bf3b7a79db3d74e582ed86"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_new_basic.phpt",
+        "sha256_after_prep": "b93b979e77df55f34b81d373ddf4f29616f23c09fbfdc7b26d11bb4b7cb664ed"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_verify_basic.phpt",
+        "sha256_after_prep": "b0ca590dd95ee68cb449593cd1a34b2824eac6defaca378a3738810581e26da7"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_x509_parse_basic.phpt",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "ext/openssl/tests/session_meta_capture.phpt",
+        "sha256_after_prep": "4313999fd39a563a11876b0548f42b4f9d4182b17953aa4e6f79d7d74e248771"
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_001.phpt",
+        "sha256_after_prep": "dabe88439f1fd0b17d6cad1967fea66baf4b2027333b60504bec1af586707f74"
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_002.phpt",
+        "sha256_after_prep": "ab3543d02911bb45b5d543be05011358a22bc01ecc4af47ba33b02f7cd90c05b"
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_003.phpt",
+        "sha256_after_prep": "ba2ab08e4b3e5d3e027cd41c73dc1687908152aaa720797cf3a68c4c9654813f"
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_004.phpt",
+        "sha256_after_prep": "5511a01faf6077bc0221f4c048bd33aac76ad4f0e48597f06c6ff1296d2a72d0"
+      },
+      {
+        "path": "ext/openssl/tests/stream_security_level.phpt",
+        "sha256_after_prep": "6a434c1350423e25de53261589c9b52c4a4b526b559f8a8be4c822b32f1a3de4"
+      },
+      {
+        "path": "ext/openssl/tests/tls_min_v1.0_max_v1.1_wrapper.phpt",
+        "sha256_after_prep": "fca26adb72e22816acc9bbe1e5e1386256c775c2aedc79bbee9e224da2819d1f"
+      },
+      {
+        "path": "ext/openssl/tests/tls_wrapper.phpt",
+        "sha256_after_prep": "f67baf232c95ddb44cbc7794c5dc560ee38a6b15c1dc72746621b645afbb5c41"
+      },
+      {
+        "path": "ext/openssl/tests/tls_wrapper_with_tls_v1.3.phpt",
+        "sha256_after_prep": "53cc44068914b61b3d8501cd5b8f917a28885a1322565110e7151e5983c4b71c"
+      },
+      {
+        "path": "ext/openssl/tests/tlsv1.0_wrapper.phpt",
+        "sha256_after_prep": "0b9424f853a1087dff8f71cea4f2e540f2569537c45849dc021d141dd3cb24c0"
+      },
+      {
+        "path": "ext/openssl/tests/tlsv1.1_wrapper.phpt",
+        "sha256_after_prep": "6ace1069cd812bd53ede49e451ca3bdcd009bbf8b16e5dd5551b1830a11ca36a"
+      },
+      {
+        "path": "ext/openssl/xp_ssl.c",
+        "sha256_after_prep": "f0b23a15e4309a83e0803a0e49a93148f0f246336dfddd3a808fa73c4a13f02a"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/openssl/tests/bug28382.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug52093.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug71917.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug72165.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug72362.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug73711.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug74022_2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug79145.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/bug80747.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: OpenSSL >= v1.1.0 required"
+      },
+      {
+        "path": "ext/openssl/tests/cve2013_4073.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/ecc.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_decrypt_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_dh_compute_key.phpt",
+        "raw_status": "NOT_RUN",
+        "detail": "Conditional OpenSSL3 compatibility patch inactive on EL7; test absent/not applied"
+      },
+      {
+        "path": "ext/openssl/tests/openssl_error_string_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_open_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkcs12_read_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkcs7_decrypt_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkcs7_encrypt_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_pkey_export_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_seal_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_export_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_export_challenge_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_new_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_spki_verify_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/openssl_x509_parse_basic.phpt",
+        "raw_status": "NOT_RUN",
+        "detail": "Conditional OpenSSL3 compatibility patch inactive on EL7; test absent/not applied"
+      },
+      {
+        "path": "ext/openssl/tests/session_meta_capture.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_003.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/stream_crypto_flags_004.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/stream_security_level.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: OpenSSL >= v1.1.0 required"
+      },
+      {
+        "path": "ext/openssl/tests/tls_min_v1.0_max_v1.1_wrapper.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/tls_wrapper.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: OpenSSL v1.1.1 required"
+      },
+      {
+        "path": "ext/openssl/tests/tls_wrapper_with_tls_v1.3.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: OpenSSL v1.1.1 required"
+      },
+      {
+        "path": "ext/openssl/tests/tlsv1.0_wrapper.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/tlsv1.1_wrapper.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": false
+  },
+  {
+    "patch": 91,
+    "file": "php-7.2.0-oci8conf.patch",
+    "sha256": "629a020a1114361bdd2329f1fc3c5a972667492418f0f14dc09bcfdee12709ee",
+    "changed_paths": [
+      "./ext/ldap/php_ldap.h"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "./ext/ldap/php_ldap.h",
+        "sha256_after_prep": "ccc7cb037ff77919b4b64403f0944fd0f88bfa62c7b046e01a9506b24929aec3"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 200,
+    "file": "php-cve-2022-31631.patch",
+    "sha256": "50aae01084678a7a24a43567935aa06dcaf99411a4b0d79f84e7b1d345e9d857",
+    "changed_paths": [
+      "b/ext/pdo_sqlite/sqlite_driver.c",
+      "b/ext/pdo_sqlite/tests/bug81740.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/pdo_sqlite/tests/bug81740.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/pdo_sqlite/sqlite_driver.c",
+        "sha256_after_prep": "32fe09b15ba39e431b46bc8d3660f1c1226891bdce94d1960a13ad451430b1c5"
+      },
+      {
+        "path": "ext/pdo_sqlite/tests/bug81740.phpt",
+        "sha256_after_prep": "ab57c9822aced1682ab0e462edfb09bd05159dab07e28bb3400f4c2312413db1"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/pdo_sqlite/tests/bug81740.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 201,
+    "file": "php-cve-2023-0567.patch",
+    "sha256": "7adc763b4995167d8defabb7d1ccf7b25ca96240a6960a707b78cc7d3efb4053",
+    "changed_paths": [
+      "b/ext/standard/crypt_blowfish.c",
+      "b/ext/standard/tests/crypt/bcrypt_salt_dollar.phpt",
+      "b/ext/standard/crypt.c",
+      "b/ext/standard/tests/password/password_bcrypt_short.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/crypt/bcrypt_salt_dollar.phpt",
+      "b/ext/standard/tests/password/password_bcrypt_short.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/crypt.c",
+        "sha256_after_prep": "c791dec03d5a7e4bd3caeef5dd15f65339949d9728733982282d2dcbf3f7ea38"
+      },
+      {
+        "path": "ext/standard/crypt_blowfish.c",
+        "sha256_after_prep": "5fafffe9120f712d5e2b856f51dc89699dea24bfd894c0e1cd047b44a4abd8ef"
+      },
+      {
+        "path": "ext/standard/tests/crypt/bcrypt_salt_dollar.phpt",
+        "sha256_after_prep": "145d4549a6a6c1de48778cfc872020665a6729acb63225770579e0b4ddc37a50"
+      },
+      {
+        "path": "ext/standard/tests/password/password_bcrypt_short.phpt",
+        "sha256_after_prep": "a27438e3cc71bacc67b91b3bf9c3daa74d1ee250141b52143c38cbfc3c4fdc13"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/crypt/bcrypt_salt_dollar.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/password/password_bcrypt_short.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 202,
+    "file": "php-cve-2023-0568.patch",
+    "sha256": "2f03696a5dceeaa5f42f465bf2567ffdf03ebb78607510f92583e6979013e208",
+    "changed_paths": [
+      "b/ext/dom/document.c",
+      "b/ext/xmlreader/php_xmlreader.c",
+      "b/main/fopen_wrappers.c",
+      "b/NEWS"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/dom/document.c",
+        "sha256_after_prep": "1c50ed3b6adec66f0f401459676ae000088c8c13da64b7fe48345cff08530574"
+      },
+      {
+        "path": "ext/xmlreader/php_xmlreader.c",
+        "sha256_after_prep": "7547d6db98b0a510e3e695147fe7817509d58531d8c57de2fecc097fc6e5eedd"
+      },
+      {
+        "path": "main/fopen_wrappers.c",
+        "sha256_after_prep": "db8cc05fb7dcf61552c5008ce7fed65d51e89a35c98ed3984b98e0b4f86626bd"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 203,
+    "file": "php-cve-2023-0662.patch",
+    "sha256": "e688d4c0179c0b58b2d5b02e3079bb0afe4e355b33f9702355d83d4b0e92269d",
+    "changed_paths": [
+      "b/main/rfc1867.c",
+      "b/main/main.c",
+      "b/main/rfc1867.c",
+      "b/NEWS",
+      "b/NEWS"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "main/main.c",
+        "sha256_after_prep": "d5d6aeb6aca1225ba6bdeb62dfa92219bbfb570542629f3d4c931a0d01c620b1"
+      },
+      {
+        "path": "main/rfc1867.c",
+        "sha256_after_prep": "2b9a47cb564dc067ee98666df4b8df8093752bed07bd4af04c6247a9b64374c1"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 204,
+    "file": "php-cve-2023-3247.patch",
+    "sha256": "9298c76a847278682d6b67d4c3584e687c75805856df74980e811a761b14743c",
+    "changed_paths": [
+      "b/NEWS",
+      "b/ext/soap/php_http.c",
+      "b/ext/soap/php_http.c",
+      "b/NEWS"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/soap/php_http.c",
+        "sha256_after_prep": "fb350789b0761d11ce9312acb018b3d7fd019f01da43ca401061c9a76aea5ba2"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 205,
+    "file": "php-cve-2023-3823.patch",
+    "sha256": "dc2caacd87b2eea562103756dde49efcd52474cdad7d43f7e1eea922d19a5289",
+    "changed_paths": [
+      "b/ext/phar/dirstream.c",
+      "b/ext/phar/tests/GHSA-jqcx-ccgc-xwhv.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/phar/tests/GHSA-jqcx-ccgc-xwhv.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/phar/dirstream.c",
+        "sha256_after_prep": "4bd9716254a6f772e7dbabd11d3ec3a95bd19d3beccf27beeb323eadcedc2c19"
+      },
+      {
+        "path": "ext/phar/tests/GHSA-jqcx-ccgc-xwhv.phpt",
+        "sha256_after_prep": "0acbe1381ed026b315768aed58b962f6e0ab33d9c7a74c8f48c927569f9404b3"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/phar/tests/GHSA-jqcx-ccgc-xwhv.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 206,
+    "file": "php-cve-2023-3824.patch",
+    "sha256": "b8703eb8502208eb556cb696c5caa3b9f94a8021de7d7414895dfdad9ca33e5b",
+    "changed_paths": [
+      "b/ext/dom/document.c",
+      "b/ext/dom/documentfragment.c",
+      "b/ext/dom/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/libxml/php_libxml.h",
+      "b/ext/simplexml/simplexml.c",
+      "b/ext/simplexml/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/soap/php_xml.c",
+      "b/ext/xml/compat.c",
+      "b/ext/xmlreader/php_xmlreader.c",
+      "b/ext/xmlreader/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/xsl/xsltprocessor.c",
+      "b/NEWS",
+      "b/ext/dom/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/simplexml/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/xmlreader/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/zend_test/test.c"
+    ],
+    "phpt_paths": [
+      "b/ext/dom/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/simplexml/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/xmlreader/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/dom/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/simplexml/tests/libxml_global_state_entity_loader_bypass.phpt",
+      "b/ext/xmlreader/tests/libxml_global_state_entity_loader_bypass.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/dom/document.c",
+        "sha256_after_prep": "1c50ed3b6adec66f0f401459676ae000088c8c13da64b7fe48345cff08530574"
+      },
+      {
+        "path": "ext/dom/documentfragment.c",
+        "sha256_after_prep": "b21ea45757aa6f7b2093a8b4044fc249a5bd5d7bf966b3cdb66fee8eb0be8e52"
+      },
+      {
+        "path": "ext/dom/tests/libxml_global_state_entity_loader_bypass.phpt",
+        "sha256_after_prep": "d6627ef76891b922bac1e0cbe808a09be19becace11fdfa5b0e42111a89b151e"
+      },
+      {
+        "path": "ext/libxml/php_libxml.h",
+        "sha256_after_prep": "9db4a871bfbe019b93fffa63a0db6a70e97614be156a2bb0797dee9b7b113d23"
+      },
+      {
+        "path": "ext/simplexml/simplexml.c",
+        "sha256_after_prep": "f03b667b2e093a42eeb9dcc73c80a978d40ad7271ad7df3f3e0e8218a004f350"
+      },
+      {
+        "path": "ext/simplexml/tests/libxml_global_state_entity_loader_bypass.phpt",
+        "sha256_after_prep": "4856c9505086857ee8e38e1a0bd70423bb708296137dacb3c7fbf14c034a1be7"
+      },
+      {
+        "path": "ext/soap/php_xml.c",
+        "sha256_after_prep": "aadc372179dbd4351659c04b687a112e7c71a91337a938ce139236e7b952c36b"
+      },
+      {
+        "path": "ext/xml/compat.c",
+        "sha256_after_prep": "c6e07d2af9d1e83916056890d5bc8a78c11e8570cf7bd34f77efb1cd279c04f1"
+      },
+      {
+        "path": "ext/xmlreader/php_xmlreader.c",
+        "sha256_after_prep": "7547d6db98b0a510e3e695147fe7817509d58531d8c57de2fecc097fc6e5eedd"
+      },
+      {
+        "path": "ext/xmlreader/tests/libxml_global_state_entity_loader_bypass.phpt",
+        "sha256_after_prep": "7648e93765eb12db0669449337f84d75e434ff636b81428215bb80a3ca95e7b3"
+      },
+      {
+        "path": "ext/xsl/xsltprocessor.c",
+        "sha256_after_prep": "73e44e8bbbee2aa23ef17ce7aec32aa0b6c6c893687c5143feade0ae2a1ede7e"
+      },
+      {
+        "path": "ext/zend_test/test.c",
+        "sha256_after_prep": "9ca15b1e827657e672a5eb1b1b04f5a74cd9e7e6a6a5898c54d28cb5e332e969"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/dom/tests/libxml_global_state_entity_loader_bypass.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: zend-test extension not available"
+      },
+      {
+        "path": "ext/simplexml/tests/libxml_global_state_entity_loader_bypass.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: zend-test extension not available"
+      },
+      {
+        "path": "ext/xmlreader/tests/libxml_global_state_entity_loader_bypass.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: zend-test extension not available"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 207,
+    "file": "php-cve-2024-2756.patch",
+    "sha256": "c65bbc618aaa1fcdc097a1f12e258d1608b21f4c76aaf991ad16a6c503b2deaa",
+    "changed_paths": [
+      "b/ext/standard/tests/ghsa-wpj3-hf5j-x4v4.phpt",
+      "b/main/php_variables.c",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/ghsa-wpj3-hf5j-x4v4.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/standard/tests/ghsa-wpj3-hf5j-x4v4.phpt",
+        "sha256_after_prep": "ef68e90c4f5ed179adaf4404218b7ba4aa8d801a1db499ab38dfbaac23ed76f1"
+      },
+      {
+        "path": "main/php_variables.c",
+        "sha256_after_prep": "c1277c708fca74fadf55d0e29d1593ac46bde06aa3adee1aaecec2e9ce635adc"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/ghsa-wpj3-hf5j-x4v4.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 208,
+    "file": "php-cve-2024-3096.patch",
+    "sha256": "614b035732192ba9601fbb3ef5e9228238b702114ec8ad33653ba33e87a87940",
+    "changed_paths": [
+      "b/ext/standard/password.c",
+      "b/ext/standard/tests/password/password_bcrypt_errors.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/password/password_bcrypt_errors.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/standard/password.c",
+        "sha256_after_prep": "3c650eda287f0075889f965bff727138e444cd4c34b1fceee339cc01510ec649"
+      },
+      {
+        "path": "ext/standard/tests/password/password_bcrypt_errors.phpt",
+        "sha256_after_prep": "458ad0d4a6f1e27c6d2931f141ff26de7a01e2e9cb1b7bb5ef430f44b608462b"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/password/password_bcrypt_errors.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 209,
+    "file": "php-cve-2024-5458.patch",
+    "sha256": "411a08a17380ae5c7fcd8fcb52f1dbbda164aa7c2688f01dba768d146609cee7",
+    "changed_paths": [
+      "b/ext/filter/logical_filters.c",
+      "b/ext/filter/tests/ghsa-w8qr-v226-r27w.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/filter/tests/ghsa-w8qr-v226-r27w.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/filter/logical_filters.c",
+        "sha256_after_prep": "6e11fc0b0cc6945e86824e23e08804a55d509d730fa86a0ee29bd15ed60728d0"
+      },
+      {
+        "path": "ext/filter/tests/ghsa-w8qr-v226-r27w.phpt",
+        "sha256_after_prep": "6ca119e21cc3cfef0763c5c26515db3e799731c27e60612ffbdd2f75ea84bc66"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/filter/tests/ghsa-w8qr-v226-r27w.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 210,
+    "file": "php-cve-2024-8925.patch",
+    "sha256": "bf0611603ed39483ffc5e6648aa8ef0d40391423e91bcb24c090bc3c24b4867b",
+    "changed_paths": [
+      "b/main/rfc1867.c",
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.inc",
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.phpt"
+    ],
+    "phpt_paths": [
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+      "b/tests/basic/GHSA-9pqp-7h25-4f32.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "main/rfc1867.c",
+        "sha256_after_prep": "2b9a47cb564dc067ee98666df4b8df8093752bed07bd4af04c6247a9b64374c1"
+      },
+      {
+        "path": "tests/basic/GHSA-9pqp-7h25-4f32.inc",
+        "sha256_after_prep": "e5a55cf1da98cffe7890ec0cd97322ef2daa167cc3b575f198c0b4af186f17f7"
+      },
+      {
+        "path": "tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+        "sha256_after_prep": "325434e5e8b3690b592080b944b63ed18583abaa23acc7008994960e77e18486"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 211,
+    "file": "php-cve-2024-8926.patch",
+    "sha256": "2ba0b961bd9c466e63c6be030fca00d0c917b594d69e7025d746e1bbcb2afc5d",
+    "changed_paths": [
+      "b/sapi/cgi/cgi_main.c",
+      "b/sapi/cgi/tests/ghsa-3qgc-jrrr-25jv.phpt",
+      "b/NEWS",
+      "b/sapi/cgi/cgi_main.c"
+    ],
+    "phpt_paths": [
+      "b/sapi/cgi/tests/ghsa-3qgc-jrrr-25jv.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "sapi/cgi/cgi_main.c",
+        "sha256_after_prep": "6c9abd0eed916bb1000913d20a42d7e9e00ebe6ac917377bec47f9527344f019"
+      },
+      {
+        "path": "sapi/cgi/tests/ghsa-3qgc-jrrr-25jv.phpt",
+        "sha256_after_prep": "e1cab1bc86a20c57b3dde633cb58e9ccaf72d7433eea457a5e40bb785b733846"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "sapi/cgi/tests/ghsa-3qgc-jrrr-25jv.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: Only for Windows"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 212,
+    "file": "php-cve-2024-8927.patch",
+    "sha256": "19c0515c0c4099215c8317c294d26ed230a3852a8b81a3fb6c1521d3c0e15197",
+    "changed_paths": [
+      "b/sapi/cgi/cgi_main.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "sapi/cgi/cgi_main.c",
+        "sha256_after_prep": "6c9abd0eed916bb1000913d20a42d7e9e00ebe6ac917377bec47f9527344f019"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 213,
+    "file": "php-cve-2024-9026.patch",
+    "sha256": "574ad3ce913697441608449194ee18973f020c916aaa2ce14f1ff75a6e764434",
+    "changed_paths": [
+      "b/sapi/fpm/fpm/fpm_stdio.c",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt",
+      "b/NEWS",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt",
+      "b/sapi/fpm/tests/tester.inc"
+    ],
+    "phpt_paths": [
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt",
+      "b/sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "sapi/fpm/fpm/fpm_stdio.c",
+        "sha256_after_prep": "02f19f6d79b2ab3a862fb89c4baecc8219338b969fef5892d8404d5250590d65"
+      },
+      {
+        "path": "sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt",
+        "sha256_after_prep": "ab21afe1836d9e06173d94cef2b8dfc85af2dd0bee1bfb72ac5a33db76ca9544"
+      },
+      {
+        "path": "sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt",
+        "sha256_after_prep": "4b530676e46fa4996c7eca5d27920f21e78cda6fb9decd96ff321191f09e2859"
+      },
+      {
+        "path": "sapi/fpm/tests/tester.inc",
+        "sha256_after_prep": "147f20d888d2f348aca710ea2a9c471f8cba67c7ca00f7378f53d397da735c57"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 214,
+    "file": "php-cve-2024-11236.patch",
+    "sha256": "61353834550c5d8ce584ca437273d007c6bd38d6b58f989dc877bd80e47d2aa6",
+    "changed_paths": [
+      "b/ext/pdo_dblib/dblib_driver.c",
+      "b/ext/pdo_dblib/tests/GHSA-5hqh-c84r-qjcv.phpt",
+      "b/ext/pdo_firebird/firebird_driver.c"
+    ],
+    "phpt_paths": [
+      "b/ext/pdo_dblib/tests/GHSA-5hqh-c84r-qjcv.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/pdo_dblib/dblib_driver.c",
+        "sha256_after_prep": "55d04ea58b6d54b99dbc8e7a3e3f6f9716252a603887a13bba442241558ad610"
+      },
+      {
+        "path": "ext/pdo_dblib/tests/GHSA-5hqh-c84r-qjcv.phpt",
+        "sha256_after_prep": "4011a1ecd3b0369df671a4d30f294bc4a54e2fc4ac696432dcc124e3ce4674ac"
+      },
+      {
+        "path": "ext/pdo_firebird/firebird_driver.c",
+        "sha256_after_prep": "cc33f49f3eb1225d0950ad2609d1a9f8b7f369b467fe370eb75c3d16bd0b16f3"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/pdo_dblib/tests/GHSA-5hqh-c84r-qjcv.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: for 32bit platforms only"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 215,
+    "file": "php-cve-2024-11234.patch",
+    "sha256": "702d78ce785d91629cc091c4718dc5bcbe48df2dc45edc4001ec93ea4d2ab369",
+    "changed_paths": [
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/ghsa-c5f2-jwm7-mmq2.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/http/ghsa-c5f2-jwm7-mmq2.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/http_fopen_wrapper.c",
+        "sha256_after_prep": "1052645e4f350be09f6ddcfa822d3842dbef5acd0af7dc96090b9c204ebbfbde"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-c5f2-jwm7-mmq2.phpt",
+        "sha256_after_prep": "c40d4354470b6c19951fe35d472b7235ee353c2aa2877eb998e7b72256687fb3"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/http/ghsa-c5f2-jwm7-mmq2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 216,
+    "file": "php-cve-2024-8932.patch",
+    "sha256": "b0efdd336e4efbed08584d0e601a48ed10d60767612fdd95fe5649da7be977e6",
+    "changed_paths": [
+      "b/ext/ldap/ldap.c",
+      "b/ext/ldap/tests/GHSA-g665-fm4p-vhff-1.phpt",
+      "b/ext/ldap/tests/GHSA-g665-fm4p-vhff-2.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/ldap/tests/GHSA-g665-fm4p-vhff-1.phpt",
+      "b/ext/ldap/tests/GHSA-g665-fm4p-vhff-2.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/ldap/ldap.c",
+        "sha256_after_prep": "5de61daae9182d2635bf5757d898bce5d15e810e81253a5c6bdd36ca2a2c129a"
+      },
+      {
+        "path": "ext/ldap/tests/GHSA-g665-fm4p-vhff-1.phpt",
+        "sha256_after_prep": "dfec85b39c651da2bab931c576dafc79c43f0875bc98cc2e69ea9d93bb238e82"
+      },
+      {
+        "path": "ext/ldap/tests/GHSA-g665-fm4p-vhff-2.phpt",
+        "sha256_after_prep": "76b929829ff8179512ea54e098a982e5f6a872666a635adf318acc85d321e278"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/ldap/tests/GHSA-g665-fm4p-vhff-1.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: only for 32-bit"
+      },
+      {
+        "path": "ext/ldap/tests/GHSA-g665-fm4p-vhff-2.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: only for 32-bit"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 217,
+    "file": "php-cve-2024-11233.patch",
+    "sha256": "a381358f73e805909307f5710902ebcf923fb31e8823aa5704c9bb3249a75bf7",
+    "changed_paths": [
+      "b/ext/standard/filters.c",
+      "b/ext/standard/tests/filters/ghsa-r977-prxv-hc43.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/filters/ghsa-r977-prxv-hc43.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/filters.c",
+        "sha256_after_prep": "1653a29040c3133efd8970c077e8255569917c11fabdff7bcb3e8257779dfb41"
+      },
+      {
+        "path": "ext/standard/tests/filters/ghsa-r977-prxv-hc43.phpt",
+        "sha256_after_prep": "4f8f76830c9744d6a3267a49a7e486ac5061f44b1d3bf4cd3270a255d4cbd3cc"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/filters/ghsa-r977-prxv-hc43.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 218,
+    "file": "php-ghsa-4w77-75f9-2c8w.patch",
+    "sha256": "b9f7c78d102e61a842528ecd28b9a8d1458e6fd50d1cc26c9ec0f53a2fc4a9ed",
+    "changed_paths": [
+      "b/sapi/cli/php_cli_server.c",
+      "b/sapi/cli/tests/ghsa-4w77-75f9-2c8w.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/sapi/cli/tests/ghsa-4w77-75f9-2c8w.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "sapi/cli/php_cli_server.c",
+        "sha256_after_prep": "6231b96981d75c143ff743d53731d5a77990c0cae3ada52781f7ba4fffd99524"
+      },
+      {
+        "path": "sapi/cli/tests/ghsa-4w77-75f9-2c8w.phpt",
+        "sha256_after_prep": "e21990bc1d41b2c70c621724b9633cc6b2f028719d8d977dc0080a07fa8d42e4"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "sapi/cli/tests/ghsa-4w77-75f9-2c8w.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 219,
+    "file": "php-cve-2024-8929.patch",
+    "sha256": "c8771b4dbef2b7f91a3f8bfbf92d6c9a80fed045438a32871826d4e736500282",
+    "changed_paths": [
+      "b/ext/mysqli/tests/fake_server.inc",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-def.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-filename.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-query-len-overflow.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-bit.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-date.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-datetime.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-double.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-float.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-int.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-no-space.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-string.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-time.phpt",
+      "b/ext/mysqli/tests/protocol_query_row_fetch_data.phpt",
+      "b/ext/mysqli/tests/protocol_stmt_row_fetch_data.phpt",
+      "b/ext/mysqlnd/mysqlnd_ps_codec.c",
+      "b/ext/mysqlnd/mysqlnd_result.c",
+      "b/ext/mysqlnd/mysqlnd_wireprotocol.c",
+      "b/ext/mysqlnd/mysqlnd_wireprotocol.c",
+      "b/ext/mysqlnd/mysqlnd_result.c",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+      "b/ext/mysqli/tests/fake_server.inc",
+      "b/NEWS",
+      "b/ext/mysqli/tests/fake_server.inc",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+      "b/ext/mysqli/tests/mysqli_change_user_new.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-def.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-filename.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-query-len-overflow.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-bit.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-date.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-datetime.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-double.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-float.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-int.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-no-space.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-string.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-time.phpt",
+      "b/ext/mysqli/tests/protocol_query_row_fetch_data.phpt",
+      "b/ext/mysqli/tests/protocol_stmt_row_fetch_data.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+      "b/ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+      "b/ext/mysqli/tests/mysqli_change_user_new.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/mysqli/tests/fake_server.inc",
+        "sha256_after_prep": "f9885b4687d126b4794d031126db4fbe2a11f1d87f1061888402c8466a396b02"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+        "sha256_after_prep": "9da96d5693034df1470cd486a5e3f202cee90a94076f69e5c14b612cbaba5652"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-def.phpt",
+        "sha256_after_prep": "a72a3d142e5b5bec2b6437ef9e559a903aa1ab05f696ba3296ebf2805e0c5ed1"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-filename.phpt",
+        "sha256_after_prep": "63bccff783cb72c94663a48549d2880e7414e2b7a7558f42fc5df071612b6c7e"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-query-len-overflow.phpt",
+        "sha256_after_prep": "dc0a39e062dccce8f7fee6e99edf7c91ba09f3d1748327632b4cd6c5c90c96f8"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-bit.phpt",
+        "sha256_after_prep": "da0c2b3716d17eef7312e410be0d665ff5cb2f0ca9a92e4ffcdbc5e02f179984"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-date.phpt",
+        "sha256_after_prep": "1d9d058609d21f91ecc017477713a0933de50c826337fab1855747be0df461a9"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-datetime.phpt",
+        "sha256_after_prep": "504150edcb6febcf01029dc99c97f60885308ea7c5923d4b4f3f2ec1f0e4204d"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-double.phpt",
+        "sha256_after_prep": "cf658d0c85091ebcfc1850ef1f66e381a9a68941242ba379460b7ffe250c00e2"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-float.phpt",
+        "sha256_after_prep": "52c8153f71f298942c7f3c75fc8440a80f664fe4cccc30afd3e254d6d4b3deff"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-int.phpt",
+        "sha256_after_prep": "6a286cdb61ffb83516ff04acd3d8d5ff838e1ea3e880c2fe36d14a89d8afde75"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-no-space.phpt",
+        "sha256_after_prep": "6f33fd6b0fac57ecfa122d0da2cf41aa3d76dfe766e6d9cd1429a20cb0a97ea0"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-string.phpt",
+        "sha256_after_prep": "3c1c1414ea36aa0996693c34d7688a416febe04eb79d74d9548a02c73f29dcb0"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-time.phpt",
+        "sha256_after_prep": "d46ff9377aa2497d9bb0ad2786d709827ef65a7cee79fbaa7c349315b63300ec"
+      },
+      {
+        "path": "ext/mysqli/tests/mysqli_change_user_new.phpt",
+        "sha256_after_prep": "0b9abde06c75fc9d80ff22ad98d02ee2a1e42b0ef61f224fb4248d315f1c6cbf"
+      },
+      {
+        "path": "ext/mysqli/tests/protocol_query_row_fetch_data.phpt",
+        "sha256_after_prep": "0d527f8c3c6b2792834cf052f93eecc3469099ef498e0ec5906c473a4c01c3ae"
+      },
+      {
+        "path": "ext/mysqli/tests/protocol_stmt_row_fetch_data.phpt",
+        "sha256_after_prep": "ece06e70a84709d759d0174f9cdae6f1b5db93e1b644664529f0bf33e319d214"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_ps_codec.c",
+        "sha256_after_prep": "019fb9035bd5500666ac119cde5586402994b092ce1047b8a62b8901ac135b6d"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_result.c",
+        "sha256_after_prep": "b7cf0b73b013acf2464f6174fd4d242d4ec3a6571f0b48d436375696550afb91"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_wireprotocol.c",
+        "sha256_after_prep": "0825615544741565c3db47705f6f35f9978029206c43417331f306fdb3e4ed23"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-def.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-filename.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-query-len-overflow.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-bit.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-date.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-datetime.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-double.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-float.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-int.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-no-space.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-string.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-time.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/mysqli_change_user_new.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: Can't connect to MySQL Server - [2002] No such file or directory"
+      },
+      {
+        "path": "ext/mysqli/tests/protocol_query_row_fetch_data.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/protocol_stmt_row_fetch_data.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 220,
+    "file": "php-cve-2025-1217.patch",
+    "sha256": "454a7180c2b00bbe8df1846830c4148dd95d04996e4a5cf055ea69a0f3d622e3",
+    "changed_paths": [
+      "b/ext/openssl/tests/ServerClientTestCase.inc",
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+      "/dev/null"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "/dev/null",
+        "sha256_after_prep": null
+      },
+      {
+        "path": "ext/openssl/tests/ServerClientTestCase.inc",
+        "sha256_after_prep": "04c5a231c9a7f08b7638690e1438f2f37145b526fd708f39a242c938028bc948"
+      },
+      {
+        "path": "ext/standard/http_fopen_wrapper.c",
+        "sha256_after_prep": "1052645e4f350be09f6ddcfa822d3842dbef5acd0af7dc96090b9c204ebbfbde"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+        "sha256_after_prep": "cfa784daf88ae94d57537a2be00b16704d54f1d3fcc4f218bd96d04a1cdf7c26"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+        "sha256_after_prep": "a60a0e35d6cc945ca4bb89022a8ad6c70a2579b18532c9a609ab332af5823c01"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+        "sha256_after_prep": "719bac1bc46d0e56de35bbaef80ff7011630d5f988347f81c62a1c770b1580be"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+        "sha256_after_prep": "75613a8467fb0e2a5042aa622b3521b6dbd6409297bff5ec6d6d17b04b3e2ff5"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+        "sha256_after_prep": "21622b9fb41bb7324ae8613db0ad91cca157fd3637bde71df7c8d3913ba8dcc9"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 221,
+    "file": "php-cve-2025-1734.patch",
+    "sha256": "5863ac9d965aee8ba383e80ae0b0abc177faa5df02fab217f71c4e887f7bfd4e",
+    "changed_paths": [
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/bug47021.phpt",
+      "b/ext/standard/tests/http/bug75535.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/http/bug47021.phpt",
+      "b/ext/standard/tests/http/bug75535.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/http_fopen_wrapper.c",
+        "sha256_after_prep": "1052645e4f350be09f6ddcfa822d3842dbef5acd0af7dc96090b9c204ebbfbde"
+      },
+      {
+        "path": "ext/standard/tests/http/bug47021.phpt",
+        "sha256_after_prep": "6d7eec48e65cfc79aef3350f2ce28b68e6765f163f250f5d042c1ba1b546cf16"
+      },
+      {
+        "path": "ext/standard/tests/http/bug75535.phpt",
+        "sha256_after_prep": "01ee2b5b59961fb759b284b850759005cc1b3ce035290dcfeb371625e86e9179"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+        "sha256_after_prep": "5a032fb3d16160b211e613931851e8f9e99005a108cc013d13d345a1bbc13eae"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt",
+        "sha256_after_prep": "1676ad0f2142d45779c504e1c99c35be0180b1be9b5b22f50708a3b42585b409"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/http/bug47021.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/bug75535.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 222,
+    "file": "php-cve-2025-1861.patch",
+    "sha256": "f44a348e9ecc22afabc26b658738e7d96271e0b4ed314d652f266d2055ef0b58",
+    "changed_paths": [
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/http_fopen_wrapper.c",
+        "sha256_after_prep": "1052645e4f350be09f6ddcfa822d3842dbef5acd0af7dc96090b9c204ebbfbde"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+        "sha256_after_prep": "959a904b9c54fa40d7c1ce5600d5562661161dc0dcdcefcd22b1f1f98ace7011"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt",
+        "sha256_after_prep": "8723f99cbb39ee8e816c5ab2b4d0a1a43b7894177546e4f57078aa81d8303694"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 223,
+    "file": "php-cve-2025-1736.patch",
+    "sha256": "be6e133624ee500612df6cf037586ab93f56b601116d903c9170fd376ce1c820",
+    "changed_paths": [
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/http_fopen_wrapper.c",
+        "sha256_after_prep": "1052645e4f350be09f6ddcfa822d3842dbef5acd0af7dc96090b9c204ebbfbde"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+        "sha256_after_prep": "1c77d9deb117c71b76a209ec97b8f923f43153e4ba6be748213fd87cc669365f"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+        "sha256_after_prep": "c2f0047105ff100772185a806dc8aa6b80120547d08c23f6796785d0fe859189"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt",
+        "sha256_after_prep": "e5dc1e0c5e2893527dc1da7e52aa0b7f959f4060217d354d4d26ea07ad76200d"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 224,
+    "file": "php-cve-2025-1219.patch",
+    "sha256": "d4b903675682c39ca2ad07124cce5bb43b0f34515610c0286a83126308bad101",
+    "changed_paths": [
+      "b/ext/dom/tests/DOMDocument_loadXML_error2_gte2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_loadXML_error2_pre2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_load_error2_gte2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_load_error2_pre2_11.phpt",
+      "b/ext/libxml/libxml.c",
+      "b/ext/libxml/tests/bug61367-read_2.phpt",
+      "b/ext/libxml/tests/libxml_disable_entity_loader_2.phpt",
+      "b/ext/libxml/tests/libxml_set_external_entity_loader_error1.phpt",
+      "b/ext/libxml/tests/libxml_set_external_entity_loader_variation2.phpt",
+      "b/ext/openssl/tests/ServerClientTestCase.inc",
+      "b/ext/standard/tests/http/ServerClientTestCase.inc",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+      "b/ext/xml/tests/bug26614_libxml_gte2_11.phpt",
+      "b/ext/xml/tests/bug26614_libxml_pre2_11.phpt",
+      "b/ext/libxml/libxml.c",
+      "b/ext/soap/php_sdl.c",
+      "b/ext/dom/document.c",
+      "b/ext/dom/tests/DOMDocument_loadHTMLfile_error1.phpt",
+      "b/ext/dom/tests/DOMDocument_relaxNGValidate_error2.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTMLFile_basic.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput_gte_2_13.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTML_basic_gte_2_13.phpt",
+      "b/ext/dom/tests/DOMDocument_schemaValidate_error5.phpt",
+      "b/ext/dom/tests/dom_create_element.phpt",
+      "b/ext/libxml/libxml.c",
+      "b/ext/simplexml/tests/bug79971_1.phpt",
+      "b/ext/soap/php_encoding.c",
+      "b/ext/soap/php_xml.c",
+      "b/ext/soap/tests/bugs/bug42151.phpt",
+      "b/ext/xml/compat.c",
+      "b/ext/xmlwriter/php_xmlwriter.c",
+      "b/ext/dom/tests/ghsa-p3x9-6h7p-cgfc_001.phpt",
+      "b/ext/dom/tests/ghsa-p3x9-6h7p-cgfc_002.phpt",
+      "b/ext/dom/tests/ghsa-p3x9-6h7p-cgfc_003.phpt",
+      "b/ext/libxml/libxml.c",
+      "b/ext/standard/tests/http/newserver.inc",
+      "b/ext/xml/tests/toffset_bounds.phpt",
+      "b/ext/xml/xml.c",
+      "b/ext/dom/document.c",
+      "b/ext/libxml/php_libxml.h",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/dom/tests/DOMDocument_loadXML_error2_gte2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_loadXML_error2_pre2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_load_error2_gte2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_load_error2_pre2_11.phpt",
+      "b/ext/libxml/tests/bug61367-read_2.phpt",
+      "b/ext/libxml/tests/libxml_disable_entity_loader_2.phpt",
+      "b/ext/libxml/tests/libxml_set_external_entity_loader_error1.phpt",
+      "b/ext/libxml/tests/libxml_set_external_entity_loader_variation2.phpt",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+      "b/ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+      "b/ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+      "b/ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+      "b/ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+      "b/ext/xml/tests/bug26614_libxml_gte2_11.phpt",
+      "b/ext/xml/tests/bug26614_libxml_pre2_11.phpt",
+      "b/ext/dom/tests/DOMDocument_loadHTMLfile_error1.phpt",
+      "b/ext/dom/tests/DOMDocument_relaxNGValidate_error2.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTMLFile_basic.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput_gte_2_13.phpt",
+      "b/ext/dom/tests/DOMDocument_saveHTML_basic_gte_2_13.phpt",
+      "b/ext/dom/tests/DOMDocument_schemaValidate_error5.phpt",
+      "b/ext/dom/tests/dom_create_element.phpt",
+      "b/ext/simplexml/tests/bug79971_1.phpt",
+      "b/ext/soap/tests/bugs/bug42151.phpt",
+      "b/ext/dom/tests/ghsa-p3x9-6h7p-cgfc_001.phpt",
+      "b/ext/dom/tests/ghsa-p3x9-6h7p-cgfc_002.phpt",
+      "b/ext/dom/tests/ghsa-p3x9-6h7p-cgfc_003.phpt",
+      "b/ext/xml/tests/toffset_bounds.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/dom/document.c",
+        "sha256_after_prep": "1c50ed3b6adec66f0f401459676ae000088c8c13da64b7fe48345cff08530574"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_loadHTMLfile_error1.phpt",
+        "sha256_after_prep": "bf5f27d0f18fceb33b27a48ddd32e14dbabc2b264ebbc3d74f9e5c2547a38208"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_loadXML_error2_gte2_11.phpt",
+        "sha256_after_prep": "fcffb32dce9a62ba3754608b1d8aa6630ea77d42e6c99d6903c556d9ee242c56"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_loadXML_error2_pre2_11.phpt",
+        "sha256_after_prep": "e81227ba49631373582031dd2b465fe83c44e09e06f4859a969950f91a2a06a3"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_load_error2_gte2_11.phpt",
+        "sha256_after_prep": "2564de3403a5c133ecb60b64a642e279e57759cd94595531445f5d0a009fe13d"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_load_error2_pre2_11.phpt",
+        "sha256_after_prep": "441d0b5509717811835eb7a2e085e19379c8e6165b503c9b0ed4fdfec390d4a3"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_relaxNGValidate_error2.phpt",
+        "sha256_after_prep": "53a509a852b8cf9647ef9fb17f1d17515ceec0293ae5b26fadb847c1ee4cd2fd"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTMLFile_basic.phpt",
+        "sha256_after_prep": "1744c6acba6a88566ee30f82327bf9feae7a55c39aac24d987c6829cf4bc8283"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput.phpt",
+        "sha256_after_prep": "644bab8c8106cfc32b16efc8cc2c01796918c70bb6a3b2139c4593d8d21f88c5"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput_gte_2_13.phpt",
+        "sha256_after_prep": "dab88cc26080e0fd7e1198c54c0ed331002ab588854e321f5b66defae220c235"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTML_basic_gte_2_13.phpt",
+        "sha256_after_prep": "2a50400da50bd4d8562c6d0a44c4a7c0b2ca29f75e2332a7137848c08638e453"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_schemaValidate_error5.phpt",
+        "sha256_after_prep": "911affc03d592e6a5b99d68bec3b6ac1522e3e67a80135a5375ae19b59d6b838"
+      },
+      {
+        "path": "ext/dom/tests/dom_create_element.phpt",
+        "sha256_after_prep": "9539b7fc239b147a7a6271bcdfc859c28520e8069bf8b6fb651e6b299c6de8a0"
+      },
+      {
+        "path": "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_001.phpt",
+        "sha256_after_prep": "f0f2568c05385d24788a3ead358f80119095895b581eeb033e446e473f8a40f8"
+      },
+      {
+        "path": "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_002.phpt",
+        "sha256_after_prep": "d390ab7dbeb6ef03d1785fb6a235392e8a6e286bc399556032d0d749e2fa22ce"
+      },
+      {
+        "path": "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_003.phpt",
+        "sha256_after_prep": "47c8431cd12ce9004c2675d38db2e265c58c34b5f490892c76b3d5cea09e8df0"
+      },
+      {
+        "path": "ext/libxml/libxml.c",
+        "sha256_after_prep": "8fed92a0d64213373cc0b29f9b0f2b4c49fd84acb7dd07cd5242509640c5fe48"
+      },
+      {
+        "path": "ext/libxml/php_libxml.h",
+        "sha256_after_prep": "9db4a871bfbe019b93fffa63a0db6a70e97614be156a2bb0797dee9b7b113d23"
+      },
+      {
+        "path": "ext/libxml/tests/bug61367-read_2.phpt",
+        "sha256_after_prep": "205f0f9ee5b98611b2858af31b1fdcbf3f8fa63371bc17721ce63f00af81bce1"
+      },
+      {
+        "path": "ext/libxml/tests/libxml_disable_entity_loader_2.phpt",
+        "sha256_after_prep": "921460e5da9b1d49ca4053b92fc0e0293500a1a952c391657c26fd202c57a3ea"
+      },
+      {
+        "path": "ext/libxml/tests/libxml_set_external_entity_loader_error1.phpt",
+        "sha256_after_prep": "bcf785f3caa57f7bf8eed7a3520b90e7f7166c309dd8764833fce5c5ccb7002a"
+      },
+      {
+        "path": "ext/libxml/tests/libxml_set_external_entity_loader_variation2.phpt",
+        "sha256_after_prep": "2a17377228a830d7269eb83ddedbe7b02aaefb6474fcc8cc68896937d00c675f"
+      },
+      {
+        "path": "ext/openssl/tests/ServerClientTestCase.inc",
+        "sha256_after_prep": "04c5a231c9a7f08b7638690e1438f2f37145b526fd708f39a242c938028bc948"
+      },
+      {
+        "path": "ext/simplexml/tests/bug79971_1.phpt",
+        "sha256_after_prep": "a45d6d1484e68a9299f05ec9aa3d4c6b79e500cd8de232d46a47bec88a84b7ed"
+      },
+      {
+        "path": "ext/soap/php_encoding.c",
+        "sha256_after_prep": "8e827e8a4294e18255f02a3d1aa5b73e866a5e4480305e4ab18dbaaff169120b"
+      },
+      {
+        "path": "ext/soap/php_sdl.c",
+        "sha256_after_prep": "4c60254bd085aa3130254b63d9a85fed2022394bbb1402cd96e20e01bb5d36df"
+      },
+      {
+        "path": "ext/soap/php_xml.c",
+        "sha256_after_prep": "aadc372179dbd4351659c04b687a112e7c71a91337a938ce139236e7b952c36b"
+      },
+      {
+        "path": "ext/soap/tests/bugs/bug42151.phpt",
+        "sha256_after_prep": "cc324ac3937cdfb474e5d16e47ca96a2a1eef94d7554d571c7c6018e6573b3da"
+      },
+      {
+        "path": "ext/standard/tests/http/ServerClientTestCase.inc",
+        "sha256_after_prep": "a73ec1ffffc99317bf8f042e78249dac30e10716d1458f8447098f740538f683"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+        "sha256_after_prep": "959a904b9c54fa40d7c1ce5600d5562661161dc0dcdcefcd22b1f1f98ace7011"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt",
+        "sha256_after_prep": "8723f99cbb39ee8e816c5ab2b4d0a1a43b7894177546e4f57078aa81d8303694"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+        "sha256_after_prep": "1c77d9deb117c71b76a209ec97b8f923f43153e4ba6be748213fd87cc669365f"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+        "sha256_after_prep": "c2f0047105ff100772185a806dc8aa6b80120547d08c23f6796785d0fe859189"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt",
+        "sha256_after_prep": "e5dc1e0c5e2893527dc1da7e52aa0b7f959f4060217d354d4d26ea07ad76200d"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+        "sha256_after_prep": "5a032fb3d16160b211e613931851e8f9e99005a108cc013d13d345a1bbc13eae"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt",
+        "sha256_after_prep": "1676ad0f2142d45779c504e1c99c35be0180b1be9b5b22f50708a3b42585b409"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+        "sha256_after_prep": "cfa784daf88ae94d57537a2be00b16704d54f1d3fcc4f218bd96d04a1cdf7c26"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+        "sha256_after_prep": "a60a0e35d6cc945ca4bb89022a8ad6c70a2579b18532c9a609ab332af5823c01"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+        "sha256_after_prep": "719bac1bc46d0e56de35bbaef80ff7011630d5f988347f81c62a1c770b1580be"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+        "sha256_after_prep": "75613a8467fb0e2a5042aa622b3521b6dbd6409297bff5ec6d6d17b04b3e2ff5"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+        "sha256_after_prep": "21622b9fb41bb7324ae8613db0ad91cca157fd3637bde71df7c8d3913ba8dcc9"
+      },
+      {
+        "path": "ext/standard/tests/http/newserver.inc",
+        "sha256_after_prep": "2a43953bb3da74e8b196a4254d74776df2fa88688f2926191809fe89af954933"
+      },
+      {
+        "path": "ext/xml/compat.c",
+        "sha256_after_prep": "c6e07d2af9d1e83916056890d5bc8a78c11e8570cf7bd34f77efb1cd279c04f1"
+      },
+      {
+        "path": "ext/xml/tests/bug26614_libxml_gte2_11.phpt",
+        "sha256_after_prep": "a29f7c767a15affdc5bc00a2d36ca7671503a7f904b10131cd7669aee9fc5ae7"
+      },
+      {
+        "path": "ext/xml/tests/bug26614_libxml_pre2_11.phpt",
+        "sha256_after_prep": "4e24bddad597f38635945e306a5e7e1fb5bc15f052b009d125112934daf055e6"
+      },
+      {
+        "path": "ext/xml/tests/toffset_bounds.phpt",
+        "sha256_after_prep": "e3286440b4b4361ac1d355fbc38cdf55e26663dddd2f16040441cfa96f585180"
+      },
+      {
+        "path": "ext/xml/xml.c",
+        "sha256_after_prep": "11bd8ec7261282a34d2e201fe9681a1ff37285a325043c2ec11536f56c59a180"
+      },
+      {
+        "path": "ext/xmlwriter/php_xmlwriter.c",
+        "sha256_after_prep": "3ce0f17bb0223698ba981ae23300f357e2356c34f13ff3435972ce1afd476e53"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/dom/tests/DOMDocument_loadHTMLfile_error1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_loadXML_error2_gte2_11.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: libxml2 test variant for version >= 2.11"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_loadXML_error2_pre2_11.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_load_error2_gte2_11.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: libxml2 test variant for version >= 2.11"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_load_error2_pre2_11.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_relaxNGValidate_error2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTMLFile_basic.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput_gte_2_13.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: see https://gitlab.gnome.org/GNOME/libxml2/-/issues/756"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_saveHTML_basic_gte_2_13.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: see https://gitlab.gnome.org/GNOME/libxml2/-/issues/756"
+      },
+      {
+        "path": "ext/dom/tests/DOMDocument_schemaValidate_error5.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/dom_create_element.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_003.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/libxml/tests/bug61367-read_2.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: For libxml2 >= 2.9.12 only"
+      },
+      {
+        "path": "ext/libxml/tests/libxml_disable_entity_loader_2.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: For libxml2 >= 2.9.12 only"
+      },
+      {
+        "path": "ext/libxml/tests/libxml_set_external_entity_loader_error1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/libxml/tests/libxml_set_external_entity_loader_variation2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/simplexml/tests/bug79971_1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/soap/tests/bugs/bug42151.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/xml/tests/bug26614_libxml_gte2_11.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: libxml2 test variant for version >= 2.11"
+      },
+      {
+        "path": "ext/xml/tests/bug26614_libxml_pre2_11.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/xml/tests/toffset_bounds.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 225,
+    "file": "php-cve-2025-6491.patch",
+    "sha256": "6ecf8979fb8e2f09ecd345bde5a8c09a5efddffcaeaad765fc4d07360bbb5c1c",
+    "changed_paths": [
+      "b/ext/soap/soap.c",
+      "b/ext/soap/tests/soap_qname_crash.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/soap/tests/soap_qname_crash.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/soap/soap.c",
+        "sha256_after_prep": "9fcde9b45fcd4163f08c359e9dee438601793b24bb3a965c10a248100ef0c097"
+      },
+      {
+        "path": "ext/soap/tests/soap_qname_crash.phpt",
+        "sha256_after_prep": "b2ff6fe3ffe158b356db3e0cc6d1ddfaab5a4d4855aaaedc39b057fa370d6aee"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/soap/tests/soap_qname_crash.phpt",
+        "raw_status": "FAIL",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 226,
+    "file": "php-cve-2025-1220.patch",
+    "sha256": "913051c1a4d0352ed471506e41776c18fbd9d823ca23f31c94360438142c133d",
+    "changed_paths": [
+      "b/ext/standard/fsock.c",
+      "b/ext/standard/tests/network/ghsa-3cr5-j632-f35r.phpt",
+      "b/ext/standard/tests/streams/ghsa-3cr5-j632-f35r.phpt",
+      "b/main/streams/xp_socket.c"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/network/ghsa-3cr5-j632-f35r.phpt",
+      "b/ext/standard/tests/streams/ghsa-3cr5-j632-f35r.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/fsock.c",
+        "sha256_after_prep": "a70298fdde386563141fa9c4ad2748161863b48ed953e5c44bd3af930e0c3784"
+      },
+      {
+        "path": "ext/standard/tests/network/ghsa-3cr5-j632-f35r.phpt",
+        "sha256_after_prep": "6f8c64a7c130371edb8dc26fa77b10f32b9fd42d71ee1dbeca920571066fdd7d"
+      },
+      {
+        "path": "ext/standard/tests/streams/ghsa-3cr5-j632-f35r.phpt",
+        "sha256_after_prep": "1d22f10885a15087b66a52615072e8d4c87702990ab130706e3ca3daf23808ec"
+      },
+      {
+        "path": "main/streams/xp_socket.c",
+        "sha256_after_prep": "05823e61ca35eda8e47263d8835db4389a09cc032da9e56001c9cdfb1400873b"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/network/ghsa-3cr5-j632-f35r.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/streams/ghsa-3cr5-j632-f35r.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 227,
+    "file": "php-cve-2025-1735.patch",
+    "sha256": "3eacd782ba8df29a7d3282faec51fc1f0071a4bbb74c69f720cfc3311e51697e",
+    "changed_paths": [
+      "b/ext/pdo_pgsql/pgsql_driver.c",
+      "b/ext/pdo_pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+      "b/ext/pgsql/pgsql.c",
+      "b/ext/pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/pdo_pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+      "b/ext/pgsql/tests/ghsa-hrwm-9436-5mv3.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/pdo_pgsql/pgsql_driver.c",
+        "sha256_after_prep": "a73994148441bdddea469d7cfa8886b08c4e1125879ca99d31b595ae38daf473"
+      },
+      {
+        "path": "ext/pdo_pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+        "sha256_after_prep": "265cbb9b765329966285b66e3e8266529e7a5aaf28de645866ea35d65cc3986c"
+      },
+      {
+        "path": "ext/pgsql/pgsql.c",
+        "sha256_after_prep": "e9ae68469f504c533f0a4783243e4c3d5b74d98626dded8b2ac3f8f82163180f"
+      },
+      {
+        "path": "ext/pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+        "sha256_after_prep": "0c526ddd7521e1b62d70b017dc51299c5b7ba9527f2b1d7eb817b670f2983e4c"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/pdo_pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: SQLSTATE[08006] [7] could not connect to server: Connection refused"
+      },
+      {
+        "path": "ext/pgsql/tests/ghsa-hrwm-9436-5mv3.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 228,
+    "file": "php-cve-2025-14177.patch",
+    "sha256": "e354c5f20aa8717c2bf9a378fcac112a44dcad166bdb598bc7a7e4db4ac48451",
+    "changed_paths": [
+      "b/ext/standard/image.c",
+      "b/ext/standard/tests/image/gh20584.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/image/gh20584.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/image.c",
+        "sha256_after_prep": "a644f9d9fc708fe0fb5d5af7c7adde52585e5597e3488b4ff63b5c5982fa8adf"
+      },
+      {
+        "path": "ext/standard/tests/image/gh20584.phpt",
+        "sha256_after_prep": "22b441acd318a085719c70b6512f5d9267b2b7400fba99af70f12124726fb3f2"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/image/gh20584.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 229,
+    "file": "php-cve-2025-14178.patch",
+    "sha256": "f803f8dfde521e4fdc9ad5ff32c7b56f67e4671b505af7a88dabeb789dacd16c",
+    "changed_paths": [
+      "b/ext/standard/array.c",
+      "b/ext/standard/tests/array/GHSA-h96m-rvf9-jgm2.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/array/GHSA-h96m-rvf9-jgm2.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/array.c",
+        "sha256_after_prep": "9932d14be0bfc08527d398587ce13112764292275326a71bf5fa6ded8005a354"
+      },
+      {
+        "path": "ext/standard/tests/array/GHSA-h96m-rvf9-jgm2.phpt",
+        "sha256_after_prep": "c8f89278e458777d5ff529aa43727e43ecece6595fc5d80d41b752d36e4d84f5"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/array/GHSA-h96m-rvf9-jgm2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 230,
+    "file": "php-ghsa-www2-q4fc-65wf.patch",
+    "sha256": "0b46edefdaffa90cb764817adfd08de9f49c93390e9d710de4a264fdf66a2030",
+    "changed_paths": [
+      "b/ext/standard/basic_functions.c",
+      "b/ext/standard/dns.c",
+      "b/ext/standard/dns_win32.c",
+      "b/ext/standard/tests/network/ghsa-www2-q4fc-65wf.phpt",
+      "b/ext/standard/tests/network/ip_x86_64.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/network/ghsa-www2-q4fc-65wf.phpt",
+      "b/ext/standard/tests/network/ip_x86_64.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/standard/basic_functions.c",
+        "sha256_after_prep": "6d29dfd3ee2be316120020e2e40892aa19820ed634b22022af6c01494fbf2ae0"
+      },
+      {
+        "path": "ext/standard/dns.c",
+        "sha256_after_prep": "fa3da185eb554214db08f831b36d77dde4a9d78653816e67c89c42bbc78c6bfd"
+      },
+      {
+        "path": "ext/standard/dns_win32.c",
+        "sha256_after_prep": "660a00d9919d75516103289bf62b03c3514e9fdede32c20210335e73969440af"
+      },
+      {
+        "path": "ext/standard/tests/network/ghsa-www2-q4fc-65wf.phpt",
+        "sha256_after_prep": "f58bba0a19798a75bcb6c6e011b5e521e3221f03c5c0daa9312fbed979d301bc"
+      },
+      {
+        "path": "ext/standard/tests/network/ip_x86_64.phpt",
+        "sha256_after_prep": "00906d9e94d704be0f019082b570c7f17f6629dec4fc2021f76e118fac55c1fc"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/network/ghsa-www2-q4fc-65wf.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/network/ip_x86_64.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 231,
+    "file": "php-cve-2026-6722.patch",
+    "sha256": "e2799be46d8ef0a3dda62ee97a231c6dab619fb6e535a2dd7d9ae1464ced9397",
+    "changed_paths": [
+      "b/ext/soap/php_encoding.c",
+      "b/ext/soap/tests/GHSA-85c2-q967-79q5.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/soap/tests/GHSA-85c2-q967-79q5.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/soap/php_encoding.c",
+        "sha256_after_prep": "8e827e8a4294e18255f02a3d1aa5b73e866a5e4480305e4ab18dbaaff169120b"
+      },
+      {
+        "path": "ext/soap/tests/GHSA-85c2-q967-79q5.phpt",
+        "sha256_after_prep": "f65ba4a342b8377e69802ab3be719e028b70a423a583ad5ea93c3bc7fe411220"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/soap/tests/GHSA-85c2-q967-79q5.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 232,
+    "file": "php-cve-2026-7261.patch",
+    "sha256": "7125ec7e6eb253679b80bd3548c3ee2feacecef62bdfd88ae87668de75dac10f",
+    "changed_paths": [
+      "b/ext/soap/soap.c",
+      "b/ext/soap/tests/GHSA-m33r-qmcv-p97q.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/soap/tests/GHSA-m33r-qmcv-p97q.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/soap/soap.c",
+        "sha256_after_prep": "9fcde9b45fcd4163f08c359e9dee438601793b24bb3a965c10a248100ef0c097"
+      },
+      {
+        "path": "ext/soap/tests/GHSA-m33r-qmcv-p97q.phpt",
+        "sha256_after_prep": "7d919806ab9559f9bb5acc8eda0c6f7d3ccdc346d99f36272a064fc71120703e"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/soap/tests/GHSA-m33r-qmcv-p97q.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 233,
+    "file": "php-cve-2026-7262.patch",
+    "sha256": "1c436735b6275360f5deaf8a9295d48313bd3da4da051a79372b41a16c31f9d6",
+    "changed_paths": [
+      "b/ext/soap/php_encoding.c",
+      "b/ext/soap/tests/GHSA-hmxp-6pc4-f3vv.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/soap/tests/GHSA-hmxp-6pc4-f3vv.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/soap/php_encoding.c",
+        "sha256_after_prep": "8e827e8a4294e18255f02a3d1aa5b73e866a5e4480305e4ab18dbaaff169120b"
+      },
+      {
+        "path": "ext/soap/tests/GHSA-hmxp-6pc4-f3vv.phpt",
+        "sha256_after_prep": "df7f0516be2c68a5368f1407ba4f9abe4e0acbeb2c7665a303cfdfa7709e46a8"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/soap/tests/GHSA-hmxp-6pc4-f3vv.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 234,
+    "file": "php-cve-2026-6735.patch",
+    "sha256": "57204edb4144ec1a43b951a759837007c81a58d9878913efdb2b78ebcf2a99f5",
+    "changed_paths": [
+      "b/sapi/fpm/fpm/fpm_status.c",
+      "b/sapi/fpm/tests/ghsa-7qg2-v9fj-4mwv-status-xss.phpt"
+    ],
+    "phpt_paths": [
+      "b/sapi/fpm/tests/ghsa-7qg2-v9fj-4mwv-status-xss.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "sapi/fpm/fpm/fpm_status.c",
+        "sha256_after_prep": "9f9cb69eb19bb894c47b9aad2d1295c34520a1fb7f95082caf90091c64f81528"
+      },
+      {
+        "path": "sapi/fpm/tests/ghsa-7qg2-v9fj-4mwv-status-xss.phpt",
+        "sha256_after_prep": "3a2f1cc10068c9212f647b8ff93028c7c0c32089066dc9f50b76d13ce7ff5b0f"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "sapi/fpm/tests/ghsa-7qg2-v9fj-4mwv-status-xss.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 235,
+    "file": "php-cve-2026-7568.patch",
+    "sha256": "02f43294ab41923fe24b0f867c16cb2cf11a88a02c32e98f03ca940549a49253",
+    "changed_paths": [
+      "b/ext/standard/metaphone.c",
+      "b/ext/standard/tests/GHSA-96wq-48vp-hh57.phpt",
+      "b/ext/standard/tests/GHSA-96wq-48vp-hh57.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/GHSA-96wq-48vp-hh57.phpt",
+      "b/ext/standard/tests/GHSA-96wq-48vp-hh57.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/standard/metaphone.c",
+        "sha256_after_prep": "a7705352ee7d05e9936e9ace5cf74b4a672750754f8aefa53c4f5c5f343e0862"
+      },
+      {
+        "path": "ext/standard/tests/GHSA-96wq-48vp-hh57.phpt",
+        "sha256_after_prep": "3db4274fd921e98895b9ca7e971c4a752d6b84b7fc4fb842f45f958bc7a67c67"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/standard/tests/GHSA-96wq-48vp-hh57.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: resource-heavy test"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 236,
+    "file": "php-cve-2026-7258.patch",
+    "sha256": "3d5d9b26129c3e24fdefeb81930661f6ec30db7578c4a0392077b4cd512c9d56",
+    "changed_paths": [
+      "b/Zend/zend_compile.c",
+      "b/Zend/zend_operators.c",
+      "b/Zend/zend_virtual_cwd.c",
+      "b/Zend/zend_virtual_cwd.h",
+      "b/ext/com_dotnet/com_extension.c",
+      "b/ext/date/lib/parse_date.c",
+      "b/ext/date/lib/parse_date.re",
+      "b/ext/date/lib/parse_iso_intervals.c",
+      "b/ext/date/lib/parse_iso_intervals.re",
+      "b/ext/date/lib/timelib.c",
+      "b/ext/filter/logical_filters.c",
+      "b/ext/ftp/ftp.c",
+      "b/ext/gd/libgd/gd_xbm.c",
+      "b/ext/imap/php_imap.c",
+      "b/ext/intl/locale/locale_methods.c",
+      "b/ext/mbstring/mbstring.c",
+      "b/ext/mbstring/php_mbregex.c",
+      "b/ext/pcre/php_pcre.c",
+      "b/ext/pdo/pdo.c",
+      "b/ext/pdo/pdo_sql_parser.re",
+      "b/ext/pdo/pdo_stmt.c",
+      "b/ext/standard/dl.c",
+      "b/ext/standard/file.c",
+      "b/ext/standard/filters.c",
+      "b/ext/standard/formatted_print.c",
+      "b/ext/standard/ftp_fopen_wrapper.c",
+      "b/ext/standard/html.c",
+      "b/ext/standard/math.c",
+      "b/ext/standard/metaphone.c",
+      "b/ext/standard/quot_print.c",
+      "b/ext/standard/scanf.c",
+      "b/ext/standard/soundex.c",
+      "b/ext/standard/string.c",
+      "b/ext/standard/strnatcmp.c",
+      "b/ext/standard/type.c",
+      "b/ext/standard/url.c",
+      "b/ext/standard/url_scanner_ex.re",
+      "b/ext/standard/versioning.c",
+      "b/main/SAPI.c",
+      "b/main/fopen_wrappers.c",
+      "b/main/php_ini.c",
+      "b/main/php_variables.c",
+      "b/main/rfc1867.c",
+      "b/main/snprintf.c",
+      "b/main/spprintf.c",
+      "b/main/streams/streams.c",
+      "b/main/streams/transports.c",
+      "b/sapi/cli/php_cli_server.c",
+      "b/sapi/fpm/fpm/fpm_conf.c",
+      "b/sapi/litespeed/lsapi_main.c",
+      "b/sapi/litespeed/lsapilib.c",
+      "b/sapi/phpdbg/phpdbg_cmd.c",
+      "b/sapi/phpdbg/phpdbg_prompt.c",
+      "b/sapi/phpdbg/phpdbg_utils.c",
+      "b/win32/sendmail.c",
+      "b/NEWS"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "Zend/zend_compile.c",
+        "sha256_after_prep": "53afd52cb25cbfbb2b9bf852a57a06f7dd2c1b1f4a1ffbab715ba712639dafe5"
+      },
+      {
+        "path": "Zend/zend_operators.c",
+        "sha256_after_prep": "2c399d21f128b990527ab4429a7b078a7fa6ef5039ebec4d514de5ec537092d0"
+      },
+      {
+        "path": "Zend/zend_virtual_cwd.c",
+        "sha256_after_prep": "f289544a1411679ac6c8a948da7e56e31c62edfcde3a8bcfd72ef9cd0ec67b01"
+      },
+      {
+        "path": "Zend/zend_virtual_cwd.h",
+        "sha256_after_prep": "571b00dd93d1e30c9feae3f7de17ea4d982034d4f3f833a426ff7ee207123677"
+      },
+      {
+        "path": "ext/com_dotnet/com_extension.c",
+        "sha256_after_prep": "3bf21a751e274461846542f00f7a49b2cc48e67de6f54f484a48fdaa5646d17b"
+      },
+      {
+        "path": "ext/date/lib/parse_date.c",
+        "sha256_after_prep": "d2df32b032f1f5242db75ea172b6bce932a77c13503e8c6a3d71faea2da01564"
+      },
+      {
+        "path": "ext/date/lib/parse_date.re",
+        "sha256_after_prep": "2aca478e5d92f6d9efcb816f94246aa197cd7eda9ec4d5c032c7c643a548ffa2"
+      },
+      {
+        "path": "ext/date/lib/parse_iso_intervals.c",
+        "sha256_after_prep": "e23abbf69028831aa328e70e2fe888fd11152e9e7e0b652e6717bb1e0e88b02b"
+      },
+      {
+        "path": "ext/date/lib/parse_iso_intervals.re",
+        "sha256_after_prep": "55764e58b6e75af9c0191efc75632eec7f455026e9a0921e60f1da61bd5cd989"
+      },
+      {
+        "path": "ext/date/lib/timelib.c",
+        "sha256_after_prep": "39f188c6e867741672cd8003b221e77e8d96573922f4bf935de014cb337c36af"
+      },
+      {
+        "path": "ext/filter/logical_filters.c",
+        "sha256_after_prep": "6e11fc0b0cc6945e86824e23e08804a55d509d730fa86a0ee29bd15ed60728d0"
+      },
+      {
+        "path": "ext/ftp/ftp.c",
+        "sha256_after_prep": "486ec0378804782394e5c4fa09eceb78386528436f59917a8405f5923b4aa2cc"
+      },
+      {
+        "path": "ext/gd/libgd/gd_xbm.c",
+        "sha256_after_prep": "7b5ba2880add6ce5e7ac2f82c367a50522629600ff492c7e550a102e76bd9e85"
+      },
+      {
+        "path": "ext/imap/php_imap.c",
+        "sha256_after_prep": "fa8daf25cf5732a7b05fb2e8c9534eff9fb69469bb489a92a88d6e8a95cd2ef4"
+      },
+      {
+        "path": "ext/intl/locale/locale_methods.c",
+        "sha256_after_prep": "5cb743620c66b4c2e3470105658346cf2e8a043ca191aa61f9b97909ecfbe0d3"
+      },
+      {
+        "path": "ext/mbstring/mbstring.c",
+        "sha256_after_prep": "0c4e9f2f10590f3c9322c4b65a8ad99075316a1ea97e610aa09b3b0a997b8460"
+      },
+      {
+        "path": "ext/mbstring/php_mbregex.c",
+        "sha256_after_prep": "f5efc58a5716f15db662cdada94da2ca4545aa630364e9728ed910c36d8e3b9d"
+      },
+      {
+        "path": "ext/pcre/php_pcre.c",
+        "sha256_after_prep": "3579a229497c694197aba987c8645cbb2ba4f5792fa7e76d2712625db2e87bbd"
+      },
+      {
+        "path": "ext/pdo/pdo.c",
+        "sha256_after_prep": "68d878ea4e5b3539393da8ccdf538789b3603ca02d9d4443cea60404324b88bf"
+      },
+      {
+        "path": "ext/pdo/pdo_sql_parser.re",
+        "sha256_after_prep": "002759f69bf8a989cb38d2e0d6bcbf741f788bdf59203eb1e2d9a403b67fb7ab"
+      },
+      {
+        "path": "ext/pdo/pdo_stmt.c",
+        "sha256_after_prep": "31a5e49d2d7eb1654f20c62d6d587484df0ef690eac77d48561813e078cae8d5"
+      },
+      {
+        "path": "ext/standard/dl.c",
+        "sha256_after_prep": "ce6db31fc9cfb10bc379f9074336b5a338bd5d368778babf16c3cc02d72b8b5f"
+      },
+      {
+        "path": "ext/standard/file.c",
+        "sha256_after_prep": "f0d22317107af3f748eff4e65a3e70a779d87779243cbbd09551c6d26d0c258b"
+      },
+      {
+        "path": "ext/standard/filters.c",
+        "sha256_after_prep": "1653a29040c3133efd8970c077e8255569917c11fabdff7bcb3e8257779dfb41"
+      },
+      {
+        "path": "ext/standard/formatted_print.c",
+        "sha256_after_prep": "58540040e5e04ee1b5a2c9aeb11e715848c462fb82edc3e74b6c0b8a12f98e51"
+      },
+      {
+        "path": "ext/standard/ftp_fopen_wrapper.c",
+        "sha256_after_prep": "b8dcb4cf4f5d436dd4569db79a5ab5aa446166019adfbb40536566ed34a51252"
+      },
+      {
+        "path": "ext/standard/html.c",
+        "sha256_after_prep": "44ffd0c99e792a0c0e7385c3e1b37bed704d0345259dfa0178b8800e4ac68674"
+      },
+      {
+        "path": "ext/standard/math.c",
+        "sha256_after_prep": "8e801609d7ebae2c9a256a7102e62c69e31f3b9c5ebcf3ccae4e42b35530e782"
+      },
+      {
+        "path": "ext/standard/metaphone.c",
+        "sha256_after_prep": "a7705352ee7d05e9936e9ace5cf74b4a672750754f8aefa53c4f5c5f343e0862"
+      },
+      {
+        "path": "ext/standard/quot_print.c",
+        "sha256_after_prep": "ea976d2b65c265e76f8dfff68186e375e6ef89904e04a67d5cdd49f572742905"
+      },
+      {
+        "path": "ext/standard/scanf.c",
+        "sha256_after_prep": "7f83551003988105d3c175f1056b94f1841e5325801be784324e635a7e9031e9"
+      },
+      {
+        "path": "ext/standard/soundex.c",
+        "sha256_after_prep": "a04c50eb4c4a1f986941cf7e0aca868ba11eb3150fdc6c7e9eb027a6a63a8be4"
+      },
+      {
+        "path": "ext/standard/string.c",
+        "sha256_after_prep": "45a4e6b1322210faeea307e1d2b5bc0dfd3162438ce4a74c385961a8f748da4f"
+      },
+      {
+        "path": "ext/standard/strnatcmp.c",
+        "sha256_after_prep": "05c2c4dac39bc193b356c1f0400f369fc7349e4ebd18885fb03d3bfd224501b2"
+      },
+      {
+        "path": "ext/standard/type.c",
+        "sha256_after_prep": "2a35a60328c32da81099296dbcd13ab9b35ea10f9c222166fedcb693fca03b06"
+      },
+      {
+        "path": "ext/standard/url.c",
+        "sha256_after_prep": "863292a266d1aa34048b06e8d80e6b010dccfba5605f2d7c2a1ced0b9d89130f"
+      },
+      {
+        "path": "ext/standard/url_scanner_ex.re",
+        "sha256_after_prep": "cc1338cac7563605164398f92fdf0ff6694cb7ed15551712624f63c14165c72b"
+      },
+      {
+        "path": "ext/standard/versioning.c",
+        "sha256_after_prep": "00470ac4a07d0ba559e65e83ddcacf04b43ad3b7b6b81310bcac4da55c345808"
+      },
+      {
+        "path": "main/SAPI.c",
+        "sha256_after_prep": "40b84cc421967d78b4962d7c6a0740b3f2a5f83e7210cd0de0146ce0d0ad6422"
+      },
+      {
+        "path": "main/fopen_wrappers.c",
+        "sha256_after_prep": "db8cc05fb7dcf61552c5008ce7fed65d51e89a35c98ed3984b98e0b4f86626bd"
+      },
+      {
+        "path": "main/php_ini.c",
+        "sha256_after_prep": "e506547ef317d6986f9c8ae2d2c0aef31d445c1c864025188546e5ab6d81ee5a"
+      },
+      {
+        "path": "main/php_variables.c",
+        "sha256_after_prep": "c1277c708fca74fadf55d0e29d1593ac46bde06aa3adee1aaecec2e9ce635adc"
+      },
+      {
+        "path": "main/rfc1867.c",
+        "sha256_after_prep": "2b9a47cb564dc067ee98666df4b8df8093752bed07bd4af04c6247a9b64374c1"
+      },
+      {
+        "path": "main/snprintf.c",
+        "sha256_after_prep": "8ac988037806e7447056a22c87cf2f9c289baa81c8627fedf00591beb3c3fce2"
+      },
+      {
+        "path": "main/spprintf.c",
+        "sha256_after_prep": "edbc8d6db96326f67c454609b94aa68c20573c3b7edd8006cb5b96417360b050"
+      },
+      {
+        "path": "main/streams/streams.c",
+        "sha256_after_prep": "ab5dcf20524cfabd8baccb273da51cdf0e28c30a959f46781eb3b2a416b49599"
+      },
+      {
+        "path": "main/streams/transports.c",
+        "sha256_after_prep": "d3a8c6711f2faba5e34515eb7e122c38a2d263973aa221206ec8cab414451430"
+      },
+      {
+        "path": "sapi/cli/php_cli_server.c",
+        "sha256_after_prep": "6231b96981d75c143ff743d53731d5a77990c0cae3ada52781f7ba4fffd99524"
+      },
+      {
+        "path": "sapi/fpm/fpm/fpm_conf.c",
+        "sha256_after_prep": "8409c04dd49bce79ccf80fdbe2af058fe50fe4a65f2bace6408879f1a8a72047"
+      },
+      {
+        "path": "sapi/litespeed/lsapi_main.c",
+        "sha256_after_prep": "c82fb72f79d21c59e73f8129960e65139561176bf403ff2c89eeb7db75599f65"
+      },
+      {
+        "path": "sapi/litespeed/lsapilib.c",
+        "sha256_after_prep": "e58a1f7b32a1eda1de0c32b3c4ddc0978ab8419b6926ea6fa85cef40b592e641"
+      },
+      {
+        "path": "sapi/phpdbg/phpdbg_cmd.c",
+        "sha256_after_prep": "8494e3672d8e5e910884142a5a0e757d4f0ad9b842d71cfe4167de308187d925"
+      },
+      {
+        "path": "sapi/phpdbg/phpdbg_prompt.c",
+        "sha256_after_prep": "32886c2c2b44999c8e6f509e443e6fc282970088259300a896684e023366778d"
+      },
+      {
+        "path": "sapi/phpdbg/phpdbg_utils.c",
+        "sha256_after_prep": "20b16fd4af08353f1d286fd79fab479c8d5e17dcc18969abc763aadfa75a1e6f"
+      },
+      {
+        "path": "win32/sendmail.c",
+        "sha256_after_prep": "7485af337b2e3951d2017e4d56c08bbbdf2b0fbf0796e4332c3daf77757dbbdf"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 237,
+    "file": "php-cve-2026-14355.patch",
+    "sha256": "069ec4199101b51d607988019c0eb1097a2ac68c8ed03467ca20772edb83c7db",
+    "changed_paths": [
+      "b/NEWS",
+      "b/ext/openssl/openssl.c",
+      "b/ext/openssl/tests/gh22186.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/openssl/tests/gh22186.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/openssl/openssl.c",
+        "sha256_after_prep": "63ccf26dacfd50eab86475d29679a59703226f169dcfb99f961b08b71009e6c9"
+      },
+      {
+        "path": "ext/openssl/tests/gh22186.phpt",
+        "sha256_after_prep": "df539a87c312d7335b6694d54a4fd1dec83a5ac0e88163cbb7f2a43506b7920f"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/openssl/tests/gh22186.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: aes-128-wrap-pad not usable on this OpenSSL build"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 238,
+    "file": "php-cve-2026-9672.patch",
+    "sha256": "83c69469342ab6673ac0dc577e9c9bc79bfcfc40818647fc3f403d4c259bdf70",
+    "changed_paths": [
+      "b/ext/gd/libgd/gd_gif_in.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/gd/libgd/gd_gif_in.c",
+        "sha256_after_prep": "22735c319267661884355425cc5126b5e96e44d328b13b967046b45e62c9b7fe"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 239,
+    "file": "php-cve-2026-17543.patch",
+    "sha256": "f4491294b301420af6a7056a80178e2947e0a8011c1c0c726fc8829acdc34d44",
+    "changed_paths": [
+      "b/ext/pgsql/pgsql.c",
+      "b/ext/pgsql/tests/10pg_convert_9.phpt",
+      "b/ext/pgsql/tests/10pg_convert_json_array.phpt",
+      "b/ext/pgsql/tests/12pg_insert_9.phpt",
+      "b/ext/pgsql/tests/14pg_update_9.phpt",
+      "b/ext/pgsql/tests/GHSA-7qpv-r5mr-78m4.phpt",
+      "b/ext/pgsql/tests/bug64609.phpt",
+      "b/ext/pgsql/tests/bug68638.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/pgsql/tests/10pg_convert_9.phpt",
+      "b/ext/pgsql/tests/10pg_convert_json_array.phpt",
+      "b/ext/pgsql/tests/12pg_insert_9.phpt",
+      "b/ext/pgsql/tests/14pg_update_9.phpt",
+      "b/ext/pgsql/tests/GHSA-7qpv-r5mr-78m4.phpt",
+      "b/ext/pgsql/tests/bug64609.phpt",
+      "b/ext/pgsql/tests/bug68638.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/pgsql/pgsql.c",
+        "sha256_after_prep": "e9ae68469f504c533f0a4783243e4c3d5b74d98626dded8b2ac3f8f82163180f"
+      },
+      {
+        "path": "ext/pgsql/tests/10pg_convert_9.phpt",
+        "sha256_after_prep": "ec70d64d17509020bc698c665be98aa6dcbe72cc1ea6433034a8623035a45ea2"
+      },
+      {
+        "path": "ext/pgsql/tests/10pg_convert_json_array.phpt",
+        "sha256_after_prep": "9bb6d812ad95d0f2a07c8bcfa1422839435381cd07ac7a11a541dd00c56b9d8b"
+      },
+      {
+        "path": "ext/pgsql/tests/12pg_insert_9.phpt",
+        "sha256_after_prep": "2a136e1245f785549ea9d56e2e81fd0768748068e2de618d050d2ff75573fa7c"
+      },
+      {
+        "path": "ext/pgsql/tests/14pg_update_9.phpt",
+        "sha256_after_prep": "60645657b83c3307a07fde5778feff3b7630da9311c9f6db2c59b08edf559a9e"
+      },
+      {
+        "path": "ext/pgsql/tests/GHSA-7qpv-r5mr-78m4.phpt",
+        "sha256_after_prep": "6a2a6b874ad044b2600b8f13ef317cb18193b2f04299035a537f7dd0a05172b3"
+      },
+      {
+        "path": "ext/pgsql/tests/bug64609.phpt",
+        "sha256_after_prep": "dafdb6d79e65561235f3f9e04db812ddfc3dbefcb4cebb560fc2b42ff9626591"
+      },
+      {
+        "path": "ext/pgsql/tests/bug68638.phpt",
+        "sha256_after_prep": "ce43ca726c823807bc07547e9c48f7ed75b8f63cb508ef7f35da3a299035921d"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/pgsql/tests/10pg_convert_9.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      },
+      {
+        "path": "ext/pgsql/tests/10pg_convert_json_array.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      },
+      {
+        "path": "ext/pgsql/tests/12pg_insert_9.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      },
+      {
+        "path": "ext/pgsql/tests/14pg_update_9.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      },
+      {
+        "path": "ext/pgsql/tests/GHSA-7qpv-r5mr-78m4.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      },
+      {
+        "path": "ext/pgsql/tests/bug64609.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      },
+      {
+        "path": "ext/pgsql/tests/bug68638.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: could not connect"
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 240,
+    "file": "php-cve-2026-7260.patch",
+    "sha256": "c69560684d9ca9d2dd0447d44da7b952235d581723281a1973b9c3d027a25e66",
+    "changed_paths": [
+      "b/ext/phar/util.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "ext/phar/util.c",
+        "sha256_after_prep": "cdd8a10dc11cfc7339f262722373d7e0117172504660d1c0187221d8ddd57ad4"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 241,
+    "file": "php-gh22643.patch",
+    "sha256": "d775bb817042818e686dce0cfb6d01259f62f55ec154d0be439b39b643fe5c41",
+    "changed_paths": [
+      "b/NEWS",
+      "b/ext/date/php_date.c",
+      "b/ext/date/tests/DatePeriod_double_constructor_call.phpt",
+      "b/NEWS"
+    ],
+    "phpt_paths": [
+      "b/ext/date/tests/DatePeriod_double_constructor_call.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "ext/date/php_date.c",
+        "sha256_after_prep": "c5f75de33274ae17d13e46457ef6b343d519e8750f80200276ba7dddb408e929"
+      },
+      {
+        "path": "ext/date/tests/DatePeriod_double_constructor_call.phpt",
+        "sha256_after_prep": "69915ddb47027a004625164f373033ca538e5721f79a8858aa3751e8e184f928"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/date/tests/DatePeriod_double_constructor_call.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 242,
+    "file": "php-from-8.2.34-to-7.4.patch",
+    "sha256": "9907a2ffc01dd7d735f6918b8af50bca80db5021e1aa787773877491d7c2c998",
+    "changed_paths": [
+      "b/ext/standard/filters.c",
+      "b/ext/standard/tests/filters/ghsa-88hq-2827-7pg6.phpt",
+      "b/main/fastcgi.c",
+      "b/sapi/fpm/tests/ghsa-62xp-839h-2637-ipv6-allowed-clients.phpt",
+      "b/sapi/fpm/tests/ghsa-62xp-839h-2637-v4mapped-allowed-clients.phpt",
+      "b/sapi/fpm/tests/logtool.inc",
+      "b/ext/openssl/tests/san_absent_cn_fallback.phpt",
+      "b/ext/openssl/tests/san_no_cn_fallback.phpt",
+      "b/ext/openssl/tests/san_peer_matching.phpt",
+      "b/ext/openssl/tests/san_srv_no_cn_fallback.phpt",
+      "b/ext/openssl/tests/san_uri_no_cn_fallback.phpt",
+      "b/ext/openssl/xp_ssl.c",
+      "b/ext/openssl/tests/GHSA-xr7j-rvgx-xq5p.phpt",
+      "b/ext/openssl/xp_ssl.c",
+      "b/ext/mysqli/tests/fake_server.inc",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-2-bytes.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-8-bytes.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-null-length.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-empty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-fast-auth.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-empty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-eof-short.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len-2-bytes.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-null.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-field-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-empty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-faulty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-premature.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-row-status.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-date.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-datetime.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-time.phpt",
+      "b/ext/mysqlnd/mysqlnd_ps.c",
+      "b/ext/mysqlnd/mysqlnd_ps_codec.c",
+      "b/ext/mysqlnd/mysqlnd_wireprotocol.c",
+      "b/ext/mysqlnd/mysqlnd_wireprotocol.h",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt",
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/bug67430.phpt",
+      "b/ext/standard/tests/http/gh11274.phpt",
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/bug61548.phpt",
+      "b/ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+      "b/ext/soap/php_encoding.c",
+      "b/ext/soap/php_soap.h",
+      "b/ext/soap/php_xml.c",
+      "b/ext/soap/soap.c",
+      "b/ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-chain.phpt",
+      "b/ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-cycle.phpt",
+      "b/ext/soap/tests/GHSA-rgrp-mwpx-f6rm.phpt",
+      "b/ext/soap/php_http.c",
+      "b/ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt",
+      "b/ext/phar/phar_internal.h",
+      "b/ext/phar/tar.c",
+      "b/ext/phar/tests/tar/GHSA-j3wh-g957-2m85-longlink.phpt",
+      "b/ext/phar/tests/tar/GHSA-j3wh-g957-2m85-size.phpt",
+      "b/ext/phar/tests/tar/GHSA-j3wh-g957-2m85-typeflag.phpt",
+      "b/Zend/zend_virtual_cwd.c",
+      "b/ext/standard/tests/file/ghsa-9f67-6fw4-hpfp-win32.phpt",
+      "b/win32/ioutil.c",
+      "b/win32/ioutil.h",
+      "b/ext/filter/sanitizing_filters.c",
+      "b/ext/filter/tests/filter_sanitize_encoded_0xff.phpt",
+      "b/ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt",
+      "b/NEWS",
+      "b/ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/http_empty_location_redirect.phpt",
+      "b/ext/standard/http_fopen_wrapper.c",
+      "b/ext/standard/tests/http/http_empty_location_redirect.phpt",
+      "b/ext/standard/tests/http/http_single_char_location_redirect.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/standard/tests/filters/ghsa-88hq-2827-7pg6.phpt",
+      "b/sapi/fpm/tests/ghsa-62xp-839h-2637-ipv6-allowed-clients.phpt",
+      "b/sapi/fpm/tests/ghsa-62xp-839h-2637-v4mapped-allowed-clients.phpt",
+      "b/ext/openssl/tests/san_absent_cn_fallback.phpt",
+      "b/ext/openssl/tests/san_no_cn_fallback.phpt",
+      "b/ext/openssl/tests/san_peer_matching.phpt",
+      "b/ext/openssl/tests/san_srv_no_cn_fallback.phpt",
+      "b/ext/openssl/tests/san_uri_no_cn_fallback.phpt",
+      "b/ext/openssl/tests/GHSA-xr7j-rvgx-xq5p.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-2-bytes.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-8-bytes.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-null-length.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-empty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-fast-auth.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-empty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-eof-short.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len-2-bytes.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-null.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-field-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-empty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-faulty.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-premature.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-row-status.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-date.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-datetime.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-time.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt",
+      "b/ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt",
+      "b/ext/standard/tests/http/bug67430.phpt",
+      "b/ext/standard/tests/http/gh11274.phpt",
+      "b/ext/standard/tests/http/bug61548.phpt",
+      "b/ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+      "b/ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-chain.phpt",
+      "b/ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-cycle.phpt",
+      "b/ext/soap/tests/GHSA-rgrp-mwpx-f6rm.phpt",
+      "b/ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt",
+      "b/ext/phar/tests/tar/GHSA-j3wh-g957-2m85-longlink.phpt",
+      "b/ext/phar/tests/tar/GHSA-j3wh-g957-2m85-size.phpt",
+      "b/ext/phar/tests/tar/GHSA-j3wh-g957-2m85-typeflag.phpt",
+      "b/ext/standard/tests/file/ghsa-9f67-6fw4-hpfp-win32.phpt",
+      "b/ext/filter/tests/filter_sanitize_encoded_0xff.phpt",
+      "b/ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt",
+      "b/ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+      "b/ext/standard/tests/http/http_empty_location_redirect.phpt",
+      "b/ext/standard/tests/http/http_empty_location_redirect.phpt",
+      "b/ext/standard/tests/http/http_single_char_location_redirect.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "NEWS",
+        "sha256_after_prep": "312d55bd227586fe749db2d03c8f62ce518ef029adca74d74603cbd0913b957e"
+      },
+      {
+        "path": "Zend/zend_virtual_cwd.c",
+        "sha256_after_prep": "f289544a1411679ac6c8a948da7e56e31c62edfcde3a8bcfd72ef9cd0ec67b01"
+      },
+      {
+        "path": "ext/filter/sanitizing_filters.c",
+        "sha256_after_prep": "ef14e3bcd354fcd9bb0e21c77b8590c247c466640e53a22f80a9c2ab80237d0a"
+      },
+      {
+        "path": "ext/filter/tests/filter_sanitize_encoded_0xff.phpt",
+        "sha256_after_prep": "76927e0f6871db5aa7dab0048e1c84f598f6e2ce2232a8555e0e9fc54d5b38b6"
+      },
+      {
+        "path": "ext/mysqli/tests/fake_server.inc",
+        "sha256_after_prep": "f9885b4687d126b4794d031126db4fbe2a11f1d87f1061888402c8466a396b02"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-2-bytes.phpt",
+        "sha256_after_prep": "a1534a4cf0c7e8cbd8df74d516f12330d185c8a4bd2cae82b4c6bd7da0a1ff81"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-8-bytes.phpt",
+        "sha256_after_prep": "dae0db5e108297d003ca29bbfb5b97fc837e18258c68922a93ed202ca43ce12b"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-null-length.phpt",
+        "sha256_after_prep": "3ebba73508b14ee8178ef1926780ebc5e75940353d926ccdb5f31738483c4e69"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt",
+        "sha256_after_prep": "94a4534388ed94e04b9e081b425e4cb06cd9bdb6f9bde512ead7193167b1dc96"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt",
+        "sha256_after_prep": "11c2f6fb93dbc3c69c8513faf44f718cb26c2089aa0768f5a957cad30e8bcecc"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt",
+        "sha256_after_prep": "cf4610bd638a677f14d2063ea837c7c5f0764c03905d112d39e1a9369790649c"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt",
+        "sha256_after_prep": "7c8a9a800b996e07b76bd59ae8821d5f8e1fd7f3be9e2d424046f493a6cda140"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt",
+        "sha256_after_prep": "a5ec6bed63e48e8690330be3d0317e102a73cf9679373e98ae7b100b639532c7"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-empty.phpt",
+        "sha256_after_prep": "745502b04ab1c51910173c0288cca225d768b0dffde3abbd4bfba798faa9f49a"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-fast-auth.phpt",
+        "sha256_after_prep": "8b0f256310cd232302517eeb8303901d515746cf5552addbe175a2a8892e123d"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-len.phpt",
+        "sha256_after_prep": "7a32db5839aa55c5bcc5672415db996ca0041cfd21d46008ec83a5eb9fcdbeae"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-switch-unterminated.phpt",
+        "sha256_after_prep": "439de5081e1adb0f91eccc060c9a1599319dd8a8d7550fd4e0aae1f76e14e25f"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-empty.phpt",
+        "sha256_after_prep": "a121bc94370e788bd95ec4e3f3c07b5dd97aab65f2964794e706b6bf1f495809"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-len.phpt",
+        "sha256_after_prep": "43d80146ad564a8fe227b1c14ffc6c46af2ea9a741c8ee6b5baafca0ea80972d"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt",
+        "sha256_after_prep": "8a12bf25c8d0a3fcb20f1732fe701924a37b23753c1316945609de0b831f161e"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt",
+        "sha256_after_prep": "530a2d4af6bc6bf2c53897e1450b9dc7618e3d85e6cc71cafa2e7bd5b7de210c"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt",
+        "sha256_after_prep": "7b34e1c29cc3a8b887a7966ebfc0d07870d568f1f1f36bf3ec5cce375e7f6f08"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt",
+        "sha256_after_prep": "f486866c0ccb9aa31d9c0508e62fcffc5539199002686a6971dbe9e558cc8283"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt",
+        "sha256_after_prep": "ea5643643c7761c6a6f369f1d78b8fbbd0eb9306710e12ec59ac98d427dca59a"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt",
+        "sha256_after_prep": "0421774d89fa150b45f201f93c29fd1eece99e795ac3ebb6ddeb15ad7f2a7acb"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt",
+        "sha256_after_prep": "57dbaf0cb39311f40f031d35436aa7ee5b4d0f7c437af30fddcbeebff326dc45"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt",
+        "sha256_after_prep": "477225ac0ba220a8cccc5dcb74c3856d1f5b0d5bdf7718534e350c6f1a7ccaad"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt",
+        "sha256_after_prep": "ef64b1f9979c0ca04278b5d764f775e5ada29d01b04e5f7749bf0042c640d1f1"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-eof-short.phpt",
+        "sha256_after_prep": "c976d5098d41d51816348102d35d59761e21481ead46054743a3e7c3281d1435"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len-2-bytes.phpt",
+        "sha256_after_prep": "24f50efb2c039880694ec2af56409227882246789b66472c57ee3a4f503805d1"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len.phpt",
+        "sha256_after_prep": "573d6a059ef39735031c07d12de7befbcdccf3e1bd7daf9fe590d0fd771a3452"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-null.phpt",
+        "sha256_after_prep": "ca926dbac7fd96bde0675872dd2d2daca7b4712032f9a2d528695d6ea8e467f7"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-field-len.phpt",
+        "sha256_after_prep": "7f6959224aafbb9b9067bc47a6602742d5aa718969895a02f1d1c5c327a00aa9"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-affected-rows.phpt",
+        "sha256_after_prep": "0cde02fa70f1f4a5950f8061b92dc31f8e504e0876b3f3f8f0879b290cd88688"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-len.phpt",
+        "sha256_after_prep": "f1ba8a5ee0f2d055bd5fc0e5e73d0f1cb78057b9a4da6e14b53fa732cd1aa383"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-empty.phpt",
+        "sha256_after_prep": "da55bd49cb1723a1ab383edf6b6374368cf4d91ab9c4d670bbef875441716865"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-len.phpt",
+        "sha256_after_prep": "f9c58f84a1420a883ede8c8495e104e7af28b82efa745ffae443b6ed5a93ba81"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-faulty.phpt",
+        "sha256_after_prep": "0a0186f7cd977e83917f9f34489da147df16c1648a7d240e825fe192d2fc8333"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-premature.phpt",
+        "sha256_after_prep": "335a9f00dc42573bb48427a01f3a664e4e8279a91a8d9bb9da749e70d2f749e3"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-row-status.phpt",
+        "sha256_after_prep": "eccc362d9ab0109250b7c56122cf2a54a818439ab72dec7a11aa80ea088fe9d7"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-date.phpt",
+        "sha256_after_prep": "f96aaa9d57e52024c28e568b02fb756f3f4d6283e68f9b4f009f64d9a82f7c6a"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-datetime.phpt",
+        "sha256_after_prep": "a9226c0c7601432a63eb1c8d89a59266b299ee6214d6f353b346445c5348b26c"
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-time.phpt",
+        "sha256_after_prep": "5b4e1c64d13f94474614dab8a8edbeebf7dd9369991b10485b5be5e8b2075115"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_ps.c",
+        "sha256_after_prep": "cd14dae02c66a4f077a5c926dcb9a3fe842cdab640d2385c5d2d6826babc02a6"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_ps_codec.c",
+        "sha256_after_prep": "019fb9035bd5500666ac119cde5586402994b092ce1047b8a62b8901ac135b6d"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_wireprotocol.c",
+        "sha256_after_prep": "0825615544741565c3db47705f6f35f9978029206c43417331f306fdb3e4ed23"
+      },
+      {
+        "path": "ext/mysqlnd/mysqlnd_wireprotocol.h",
+        "sha256_after_prep": "b670bfd895024f9f604e61768150850346abb3adcc5e28ae4c2cac122df8fe36"
+      },
+      {
+        "path": "ext/openssl/tests/GHSA-xr7j-rvgx-xq5p.phpt",
+        "sha256_after_prep": "a624fd14fe67201e2f6d2cd22fa3bafb3d208b8db02ff56703040ffb03d2d2a9"
+      },
+      {
+        "path": "ext/openssl/tests/san_absent_cn_fallback.phpt",
+        "sha256_after_prep": "526e80f35240f3aaacba8b2b046f3d85558a31c55795dba8f3bd9dbd5ab2e787"
+      },
+      {
+        "path": "ext/openssl/tests/san_no_cn_fallback.phpt",
+        "sha256_after_prep": "fff2ef3b106c55c6b8a54ccba7bdc3d344ba84b685105a4e55f4a10701c6af92"
+      },
+      {
+        "path": "ext/openssl/tests/san_peer_matching.phpt",
+        "sha256_after_prep": "7847f22a42da22b3ec864eede5298703906de4756602581190f1d15f9fff0394"
+      },
+      {
+        "path": "ext/openssl/tests/san_srv_no_cn_fallback.phpt",
+        "sha256_after_prep": "3e2b46089a08b18c251af7a575f75ec85d8c33c8837f8b77bb15365972e2acc4"
+      },
+      {
+        "path": "ext/openssl/tests/san_uri_no_cn_fallback.phpt",
+        "sha256_after_prep": "7a7e57ac6282407b5ba699258be479667db6b9bd050a13835da1c344d0c68675"
+      },
+      {
+        "path": "ext/openssl/xp_ssl.c",
+        "sha256_after_prep": "f0b23a15e4309a83e0803a0e49a93148f0f246336dfddd3a808fa73c4a13f02a"
+      },
+      {
+        "path": "ext/phar/phar_internal.h",
+        "sha256_after_prep": "4fc30586d343e7ed85cef65e850f954c301ff28fae7a4f50fbeeee977877c04e"
+      },
+      {
+        "path": "ext/phar/tar.c",
+        "sha256_after_prep": "abedd4b0ed01e19987576d832b7b7dd6bf211e97ffffbccc9f423326cbe6f5bf"
+      },
+      {
+        "path": "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-longlink.phpt",
+        "sha256_after_prep": "149adbb8ec89092867aeaba145f248a41de0d6b6e75784c492c61894109348ad"
+      },
+      {
+        "path": "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-size.phpt",
+        "sha256_after_prep": "1d22c00cc6ee443ce82f12e1eba88b87479a72eec3de563950e0eb8eb97ec412"
+      },
+      {
+        "path": "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-typeflag.phpt",
+        "sha256_after_prep": "562cdaca5e645011c34309cbfe40bcdcd45eb5995aa010d7226e673af8be7e17"
+      },
+      {
+        "path": "ext/soap/php_encoding.c",
+        "sha256_after_prep": "8e827e8a4294e18255f02a3d1aa5b73e866a5e4480305e4ab18dbaaff169120b"
+      },
+      {
+        "path": "ext/soap/php_http.c",
+        "sha256_after_prep": "fb350789b0761d11ce9312acb018b3d7fd019f01da43ca401061c9a76aea5ba2"
+      },
+      {
+        "path": "ext/soap/php_soap.h",
+        "sha256_after_prep": "2004475276693c7e1ff5ad692e3cee75e872bb312185cecf2ddcc16f463e3e03"
+      },
+      {
+        "path": "ext/soap/php_xml.c",
+        "sha256_after_prep": "aadc372179dbd4351659c04b687a112e7c71a91337a938ce139236e7b952c36b"
+      },
+      {
+        "path": "ext/soap/soap.c",
+        "sha256_after_prep": "9fcde9b45fcd4163f08c359e9dee438601793b24bb3a965c10a248100ef0c097"
+      },
+      {
+        "path": "ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-chain.phpt",
+        "sha256_after_prep": "c6b3de132c4da92aebdc0c3afd8abbe71a75f5f30935f247ae754a5cecac6ab4"
+      },
+      {
+        "path": "ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-cycle.phpt",
+        "sha256_after_prep": "51db340e84b0aaccfcb6d7df87745baf8bf072c75477ff07df8542db83e781f5"
+      },
+      {
+        "path": "ext/soap/tests/GHSA-rgrp-mwpx-f6rm.phpt",
+        "sha256_after_prep": "8a98c908e84dc2482a9bf6aab4133c9bb7bcba38c53e8288d5fc1bc6abebacfa"
+      },
+      {
+        "path": "ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt",
+        "sha256_after_prep": "aba6fc86efbb3b977b59305e5f7398dbcbf19e58b4e823bf285bd02fd680cb0a"
+      },
+      {
+        "path": "ext/standard/filters.c",
+        "sha256_after_prep": "1653a29040c3133efd8970c077e8255569917c11fabdff7bcb3e8257779dfb41"
+      },
+      {
+        "path": "ext/standard/http_fopen_wrapper.c",
+        "sha256_after_prep": "1052645e4f350be09f6ddcfa822d3842dbef5acd0af7dc96090b9c204ebbfbde"
+      },
+      {
+        "path": "ext/standard/tests/file/ghsa-9f67-6fw4-hpfp-win32.phpt",
+        "sha256_after_prep": "19175012547a424048d438a8776490e3a6c30db0b7dad4f3980de96b5003e9fd"
+      },
+      {
+        "path": "ext/standard/tests/filters/ghsa-88hq-2827-7pg6.phpt",
+        "sha256_after_prep": "c779ef3320ea6e4ba96d6468fd771398623251dce5e2e5735789ad899cccc1aa"
+      },
+      {
+        "path": "ext/standard/tests/http/bug61548.phpt",
+        "sha256_after_prep": "daf706e7b146cca56677be05ce005b5f7968a904879ed2e0d869d182b230ddb3"
+      },
+      {
+        "path": "ext/standard/tests/http/bug67430.phpt",
+        "sha256_after_prep": "8d6dc22865f311fbe9b60796f2ee7b80b0a2f4a9187f2d9a03132c4a3dec9622"
+      },
+      {
+        "path": "ext/standard/tests/http/gh11274.phpt",
+        "sha256_after_prep": "f5f618004ef2fcbcd928d84dbf5f7cd594cda8dda91536cd8f681d037af35034"
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+        "sha256_after_prep": "ae3cbfce8a79aac3d14f1a72135c83cf68f319a6f7f5a35c5a8556d9696f735a"
+      },
+      {
+        "path": "ext/standard/tests/http/http_empty_location_redirect.phpt",
+        "sha256_after_prep": "e5469d2045d56d7554ab46439c25d2ee6c17433a09a2db35da8c56c8402f76c2"
+      },
+      {
+        "path": "ext/standard/tests/http/http_single_char_location_redirect.phpt",
+        "sha256_after_prep": "8cf9ab04d7e0ea025e82e5d23aaa7265ae0a7b7040a9e36acc0abb16352f6cbd"
+      },
+      {
+        "path": "main/fastcgi.c",
+        "sha256_after_prep": "e064b413f001aca8a4f052d4545f612f4b8787ce58d314bc7b88cb6c51899e3e"
+      },
+      {
+        "path": "sapi/fpm/tests/ghsa-62xp-839h-2637-ipv6-allowed-clients.phpt",
+        "sha256_after_prep": "1d5a042f21ab30eaf6c350403d21627170cdddfa380f73513d7638ed44433fca"
+      },
+      {
+        "path": "sapi/fpm/tests/ghsa-62xp-839h-2637-v4mapped-allowed-clients.phpt",
+        "sha256_after_prep": "832bc81cc807027c9924b5567d461317a531e0e0f1b4468e65969cc4247dd951"
+      },
+      {
+        "path": "sapi/fpm/tests/logtool.inc",
+        "sha256_after_prep": "fb870fa4db7b6162751308b9b2ac2184104bf9ab18b528c9f768e32cb02daf99"
+      },
+      {
+        "path": "win32/ioutil.c",
+        "sha256_after_prep": "33f66fbb89ac585f8d9637d92a59c96136f2ef4c69e4020545dc7ee9bdf5e80e"
+      },
+      {
+        "path": "win32/ioutil.h",
+        "sha256_after_prep": "9e720c009b7018d910de75ec948856fb52deea41d50a8930ace186d4fd68288a"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/filter/tests/filter_sanitize_encoded_0xff.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-2-bytes.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-8-bytes.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-null-length.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-empty.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-fast-auth.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-switch-unterminated.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-empty.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-eof-short.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len-2-bytes.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-null.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-field-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-affected-rows.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-empty.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-len.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-faulty.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-premature.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-row-status.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-date.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-datetime.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-time.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/GHSA-xr7j-rvgx-xq5p.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/san_absent_cn_fallback.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/san_no_cn_fallback.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/san_peer_matching.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/san_srv_no_cn_fallback.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/openssl/tests/san_uri_no_cn_fallback.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-longlink.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-size.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-typeflag.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-chain.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-cycle.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/soap/tests/GHSA-rgrp-mwpx-f6rm.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/file/ghsa-9f67-6fw4-hpfp-win32.phpt",
+        "raw_status": "SKIP",
+        "detail": "reason: Windows only"
+      },
+      {
+        "path": "ext/standard/tests/filters/ghsa-88hq-2827-7pg6.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/bug61548.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/bug67430.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/gh11274.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/http_empty_location_redirect.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/standard/tests/http/http_single_char_location_redirect.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "sapi/fpm/tests/ghsa-62xp-839h-2637-ipv6-allowed-clients.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "sapi/fpm/tests/ghsa-62xp-839h-2637-v4mapped-allowed-clients.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 243,
+    "file": "php-7.4-cve-2026-109618.patch",
+    "sha256": "047a7050ea32086f6b356900cff54510bb1fafab3ca36f4dc30b824ae50f161a",
+    "changed_paths": [
+      "b/Zend/zend_API.h",
+      "b/Zend/zend_alloc.c",
+      "b/Zend/zend_alloc.h",
+      "b/Zend/zend_execute_API.c",
+      "b/Zend/zend_hash.c",
+      "b/Zend/zend_hash.h",
+      "b/Zend/zend_llist.c",
+      "b/Zend/zend_multiply.h",
+      "b/Zend/zend_strtod.c",
+      "b/Zend/zend_types.h",
+      "b/Zend/zend_vm_def.h",
+      "b/Zend/zend_vm_execute.h",
+      "b/ext/session/session.c",
+      "b/main/SAPI.c",
+      "b/main/main.c",
+      "b/main/php_variables.c",
+      "b/main/rfc1867.c"
+    ],
+    "phpt_paths": [],
+    "effective_files": [
+      {
+        "path": "Zend/zend_API.h",
+        "sha256_after_prep": "bfde2e3563e75e701c24a1af6a861c61cebd292cd7099df0fbb2731786854268"
+      },
+      {
+        "path": "Zend/zend_alloc.c",
+        "sha256_after_prep": "6080363e4be0a2d9d593423d64d45aeafddc9f573fb100d086e695e9d1552372"
+      },
+      {
+        "path": "Zend/zend_alloc.h",
+        "sha256_after_prep": "317f45525b1b5562bb572c26bea4bf7fc0ba70ffadcecda74e4b47356eb0ae3c"
+      },
+      {
+        "path": "Zend/zend_execute_API.c",
+        "sha256_after_prep": "2e32fb33328f28c5ee49a5a3a265f286780525cc2b7409acc6f9f320b2f99e8b"
+      },
+      {
+        "path": "Zend/zend_hash.c",
+        "sha256_after_prep": "ce9f3ae5e7490edc8ea8bac7740413c146595adad56f7de7af58c83648c5652b"
+      },
+      {
+        "path": "Zend/zend_hash.h",
+        "sha256_after_prep": "418da5ae2af4445f068341422db3591742ff62f745998691c19fe599a977c507"
+      },
+      {
+        "path": "Zend/zend_llist.c",
+        "sha256_after_prep": "0a0f41939dcb197cef3a49cdfff43a79275b5579fcda941533a6b202c04d1ba2"
+      },
+      {
+        "path": "Zend/zend_multiply.h",
+        "sha256_after_prep": "50219a2559d3f8bf32d87a325b8b01f041483a9eb77be0887f6bb49e790c89cb"
+      },
+      {
+        "path": "Zend/zend_strtod.c",
+        "sha256_after_prep": "8745b169a41892f69ae16452544e9cd9138bf73741f35b00070572b1d02c5f9a"
+      },
+      {
+        "path": "Zend/zend_types.h",
+        "sha256_after_prep": "6499fc2b3db59f7b4d744a5e83d5ab08970ed939c09d1cb6bdead09ba13bee25"
+      },
+      {
+        "path": "Zend/zend_vm_def.h",
+        "sha256_after_prep": "0da4245ef3e59119077d0219f8c1230adc52fe6af9f294488b36dfa5b3b7dbff"
+      },
+      {
+        "path": "Zend/zend_vm_execute.h",
+        "sha256_after_prep": "18b273036616f28a1540a110043ee8edf6f5ca935ff3a86cfac7a926b8171f94"
+      },
+      {
+        "path": "ext/session/session.c",
+        "sha256_after_prep": "76985d9e7577e71dac605ab1eea3213d20647f81e3dc5dacb666c842490afdcd"
+      },
+      {
+        "path": "main/SAPI.c",
+        "sha256_after_prep": "40b84cc421967d78b4962d7c6a0740b3f2a5f83e7210cd0de0146ce0d0ad6422"
+      },
+      {
+        "path": "main/main.c",
+        "sha256_after_prep": "d5d6aeb6aca1225ba6bdeb62dfa92219bbfb570542629f3d4c931a0d01c620b1"
+      },
+      {
+        "path": "main/php_variables.c",
+        "sha256_after_prep": "c1277c708fca74fadf55d0e29d1593ac46bde06aa3adee1aaecec2e9ce635adc"
+      },
+      {
+        "path": "main/rfc1867.c",
+        "sha256_after_prep": "2b9a47cb564dc067ee98666df4b8df8093752bed07bd4af04c6247a9b64374c1"
+      }
+    ],
+    "test_dispositions": [],
+    "active_on_el7": true
+  },
+  {
+    "patch": 300,
+    "file": "php-7.0.10-datetests.patch",
+    "sha256": "ca95c78c11d3ab81d2f71f850bf50676dd25b6413370ab0d3862d6e7025ccd0f",
+    "changed_paths": [
+      "b/ext/date/tests/bug66985.phpt",
+      "./ext/date/tests/strtotime3-64bit.phpt",
+      "./ext/date/tests/bug33414-2.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/date/tests/bug66985.phpt",
+      "./ext/date/tests/strtotime3-64bit.phpt",
+      "./ext/date/tests/bug33414-2.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "./ext/date/tests/bug33414-2.phpt",
+        "sha256_after_prep": "00fe4a24a7694814a8428d6da01ac6735f12965d57e16e7b0c3858b9521b9d67"
+      },
+      {
+        "path": "./ext/date/tests/strtotime3-64bit.phpt",
+        "sha256_after_prep": "6e9c161e956ae9ee3be4e1c779b257968641c121ed0381550edceeb3803af99e"
+      },
+      {
+        "path": "ext/date/tests/bug66985.phpt",
+        "sha256_after_prep": "cc85667cd1ac2473bfefd4cedf19b8f97f8a6e35f33cb201c1575e4b28c4e007"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/date/tests/bug33414-2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/date/tests/strtotime3-64bit.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/date/tests/bug66985.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 301,
+    "file": "php-7.4.33-tests.patch",
+    "sha256": "fafcb49e1adc88b8795d0e95f71fa0893ef25ded68de93e1b3faccd527ae59ed",
+    "changed_paths": [
+      "b/Zend/tests/bug74093.phpt"
+    ],
+    "phpt_paths": [
+      "b/Zend/tests/bug74093.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "Zend/tests/bug74093.phpt",
+        "sha256_after_prep": "435a9ef1a30eb34ec4cf67dceab56ead1afedd0a8a552481f598b347227dbee8"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "Zend/tests/bug74093.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 302,
+    "file": "php-7.4.33-zlib-tests.patch",
+    "sha256": "1678f6f5de4c7b317c18a76871babaf6556bd74af729cb3aaa569f9c2b5a2f9d",
+    "changed_paths": [
+      "b/ext/zlib/tests/bug48725_2.phpt",
+      "b/ext/zlib/tests/bug71417.phpt",
+      "b/ext/zlib/tests/gzcompress_basic1.phpt",
+      "b/ext/zlib/tests/gzcompress_variation1.phpt",
+      "b/ext/zlib/tests/gzdeflate_basic1.phpt",
+      "b/ext/zlib/tests/gzdeflate_variation1.phpt",
+      "b/ext/zlib/tests/gzencode_basic1.phpt",
+      "b/ext/zlib/tests/gzencode_variation1.phpt",
+      "b/ext/zlib/tests/gzinflate-bug42663.phpt",
+      "b/ext/zlib/tests/zlib_filter_deflate.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/zlib/tests/bug48725_2.phpt",
+      "b/ext/zlib/tests/bug71417.phpt",
+      "b/ext/zlib/tests/gzcompress_basic1.phpt",
+      "b/ext/zlib/tests/gzcompress_variation1.phpt",
+      "b/ext/zlib/tests/gzdeflate_basic1.phpt",
+      "b/ext/zlib/tests/gzdeflate_variation1.phpt",
+      "b/ext/zlib/tests/gzencode_basic1.phpt",
+      "b/ext/zlib/tests/gzencode_variation1.phpt",
+      "b/ext/zlib/tests/gzinflate-bug42663.phpt",
+      "b/ext/zlib/tests/zlib_filter_deflate.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/zlib/tests/bug48725_2.phpt",
+        "sha256_after_prep": "a89b1308db3dda1463b3e8e39eea6d9092722f89d17bae6e8c3e320bb6a5f17c"
+      },
+      {
+        "path": "ext/zlib/tests/bug71417.phpt",
+        "sha256_after_prep": "efc400c6d351884c6c38d6bf677a44292e42a7369fb639598b3c3b7fdbc4181b"
+      },
+      {
+        "path": "ext/zlib/tests/gzcompress_basic1.phpt",
+        "sha256_after_prep": "aa18440c37d579a76514865fead67128c269a07c654941a3fb21ee2dde4a85dc"
+      },
+      {
+        "path": "ext/zlib/tests/gzcompress_variation1.phpt",
+        "sha256_after_prep": "0dcd0349f4fa913007772e3bd77e1ff1b8094e8c1885faa231fcbb576dd9bf99"
+      },
+      {
+        "path": "ext/zlib/tests/gzdeflate_basic1.phpt",
+        "sha256_after_prep": "a66dab36e7312dd15bc91ce847ee3f4ce95130f326c22057c43e3df47ce63a0e"
+      },
+      {
+        "path": "ext/zlib/tests/gzdeflate_variation1.phpt",
+        "sha256_after_prep": "9e1178f38f0637b4ec10f66c0e84f1ae2919c9c6a7be65668d00407fc6ad85dd"
+      },
+      {
+        "path": "ext/zlib/tests/gzencode_basic1.phpt",
+        "sha256_after_prep": "ba81ca5065e426a7541700160efb1374fcad5b16188592cb1a0999fbe83e7a05"
+      },
+      {
+        "path": "ext/zlib/tests/gzencode_variation1.phpt",
+        "sha256_after_prep": "9ffbb69719ed882458731bc4fcc16703f0f5f6eb64e4bb2cb60176df2ca64096"
+      },
+      {
+        "path": "ext/zlib/tests/gzinflate-bug42663.phpt",
+        "sha256_after_prep": "f3d053fe254655e63a2e71ce8a4b584b597769e8a58a0070fa94c2ba02107ad9"
+      },
+      {
+        "path": "ext/zlib/tests/zlib_filter_deflate.phpt",
+        "sha256_after_prep": "1bd23f78590e7effc54e673e7c0933102c0946b788e352d93e7c0e764babf784"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/zlib/tests/bug48725_2.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/bug71417.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzcompress_basic1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzcompress_variation1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzdeflate_basic1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzdeflate_variation1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzencode_basic1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzencode_variation1.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/gzinflate-bug42663.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      },
+      {
+        "path": "ext/zlib/tests/zlib_filter_deflate.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  },
+  {
+    "patch": 303,
+    "file": "php-7.4.33-pcretests.patch",
+    "sha256": "ccca9c2a1fad160c4978f73fe9ba04f86da16c0006c7444e6901389836ae8f46",
+    "changed_paths": [
+      "b/ext/pcre/tests/bug75457.phpt",
+      "b/ext/pcre/tests/bug75457.phpt"
+    ],
+    "phpt_paths": [
+      "b/ext/pcre/tests/bug75457.phpt",
+      "b/ext/pcre/tests/bug75457.phpt"
+    ],
+    "effective_files": [
+      {
+        "path": "ext/pcre/tests/bug75457.phpt",
+        "sha256_after_prep": "08609442858d259d226c9cbfe94e5348b9f9fc335aa89d299398d1f7f4c02269"
+      }
+    ],
+    "test_dispositions": [
+      {
+        "path": "ext/pcre/tests/bug75457.phpt",
+        "raw_status": "PASS",
+        "detail": ""
+      }
+    ],
+    "active_on_el7": true
+  }
+]

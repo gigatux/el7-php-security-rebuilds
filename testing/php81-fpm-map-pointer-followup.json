@@ -1,0 +1,19 @@
+{
+  "test": "sapi/fpm/tests/gh8646.phpt",
+  "test_sha256": "5675ba72fecf0240d7a2c9fce065e23fc211cdf115440ac079507d5f04eb8411",
+  "test_body_unchanged_from_upstream_archive": true,
+  "result": "PASS",
+  "pass": 1,
+  "skip": 0,
+  "fail": 0,
+  "runner_exit": 0,
+  "requests": 10,
+  "invariant": "class map-pointer value stable across FPM requests",
+  "core": "installed signed PHP81 8.1.34-6.1.gigatux20261023.el7.remi",
+  "signed_manifest_sha256": "b831aaa5c3c3c9d0954f046c4bab4b69eefff4b373dbae79ed6f776c92247d9c",
+  "fixture": "rootless network-none; 2 CPUs/4GiB/256 PIDs; test-only module already built, loaded inside FPM; no module shipping or product/expectation changes",
+  "test_module_sha256": "9af800816ccafbca5469b549cef75b52a7dd1cd6795a905576b0f56136c2bb73",
+  "opcache_enable": true,
+  "opcache_validate_timestamps": true,
+  "historical_supplemental_skip_retained": true
+}

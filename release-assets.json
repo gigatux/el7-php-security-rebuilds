@@ -1,269 +1,269 @@
 [
   {
-    "name": "php74-php-process-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-process-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 90904,
-    "sha256": "8c9e1052ce2dab3ce789bb9003af6f1abdae069e127002675eb6b574d5aa237f"
+    "bytes": 95404,
+    "sha256": "76d27b189e419a51e550909ceb8e2b615488b0be7ed929f2e481a701d9690a23"
   },
   {
-    "name": "php74-php-pdo-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-pdo-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 130964,
-    "sha256": "7b46544f79119d4fee85289c157275f640796a3e1fae36690226ff1a4517f7cd"
+    "bytes": 135496,
+    "sha256": "33d4890ae69c984e52c6328623963356170915543b8af0c09102c43ee553a139"
   },
   {
-    "name": "php74-php-mysqlnd-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-mysqlnd-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 197924,
-    "sha256": "5ded71eb57a61d7d50a50f5fa9a494d5ede630b38730cf024d0fc47bd68e4c40"
+    "bytes": 203100,
+    "sha256": "fa3a1f524f63a3badd6e81ba36906c5f540d43cee83875388925e2586ee84c01"
   },
   {
-    "name": "php74-php-opcache-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-opcache-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 272572,
-    "sha256": "33a877fecfba227b08161a80348171635626533ed6f5ba0f7783ad627a789856"
+    "bytes": 277064,
+    "sha256": "cd307dfaf75ca46b856bf2361775f9fa2cfdc4c34f8dd575c1287fb7febc8824"
   },
   {
-    "name": "php74-php-json-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-json-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 82884,
-    "sha256": "4341291ed386d918de9924b523338027775eb7dfd601d2e919d48164ec7c2736"
+    "bytes": 87368,
+    "sha256": "b074eeeb75b1bc7f7681e792e875bc3b2005f4052177df70d3ca1ef5b127b5e8"
   },
   {
-    "name": "php74-php-devel-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-devel-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 781244,
-    "sha256": "3e7195f41fd05252ff9a644af0002e31b48518b58cc1c68f140254cab69a6293"
+    "bytes": 785888,
+    "sha256": "5103a49d96b4272edc6f9055307086afebaf10c627f292d153d997f9e7fd76b7"
   },
   {
-    "name": "php74-php-gd-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-gd-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 93072,
-    "sha256": "b50617cad54b42c18b42c6c9ead6041598f7d3bca417c232903908434a324c15"
+    "bytes": 97460,
+    "sha256": "edbc47229fe24569b9d907c210bbc9c4332f6b47a29bd56f583f697f6bfc4589"
   },
   {
-    "name": "php74-php-fpm-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-fpm-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 1796136,
-    "sha256": "85df3a812aef9aa60444b4149ac693eae605274af232162d97e81991a39c14da"
+    "bytes": 1803388,
+    "sha256": "e1212cc8b52650e3322e9cb8b27a7c3a41a523be72682252199e3de71b086d67"
   },
   {
-    "name": "php74-php-gmp-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-gmp-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 84792,
-    "sha256": "278cc5086398392e48a21b2255abdb3ed463c45e84fde793dc399b0d921ebd63"
+    "bytes": 89280,
+    "sha256": "e28e90643ae96221dc1157e21209f2e5c8173a79753e34fbf5d93bdb7963d104"
   },
   {
-    "name": "php74-php-common-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-common-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 711132,
-    "sha256": "c26867eeecc4e2b645fc09fb429bbf21a2be45707969c329c6681de3c460ce62"
+    "bytes": 717788,
+    "sha256": "b8b3fbe218754d9def3a94febde87d85a91084d9ceead9ca1bea7ac126f386d3"
   },
   {
-    "name": "php74-php-xml-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-xml-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 178104,
-    "sha256": "c9a6d5c183283f6a0e6d972b1644f507472ada60e3370110318d07c36d5d1186"
+    "bytes": 182540,
+    "sha256": "df04bead9be90c25ae7fcf021b2221ebabdff125c5059a26b838cd6b362b55d1"
   },
   {
-    "name": "php74-php-xmlrpc-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-xmlrpc-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 98300,
-    "sha256": "5702e3cdca5df152abcac426de46c976fd4f98378adc06bb2fb11ee507499e3b"
+    "bytes": 102796,
+    "sha256": "b44c74395672e5e113e90b7dbd3c065e271fc79b950952ccdd2c87b187fe3785"
   },
   {
-    "name": "php74-php-intl-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-intl-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 198432,
-    "sha256": "df8a83e56a304fa66f461e85ab475d0bf869171e7a8a0a600ace254e86893e3f"
+    "bytes": 202884,
+    "sha256": "4934c21062f08c3327c9b88166979fc6cf2cab90163f85faa926cd31cb81abce"
   },
   {
-    "name": "php74-php-soap-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-soap-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 184344,
-    "sha256": "e1c184580cbd6e1e9f468cdab0e705b4be09dbb84fcd075990793233ff1ff165"
+    "bytes": 189088,
+    "sha256": "163e89a6751b7a4fbdb074d34422cea612fa4ba8875de65caff3a51baf99fec5"
   },
   {
-    "name": "php74-php-mbstring-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-mbstring-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 495072,
-    "sha256": "9a8757c44ea58f88b38355f31fc293cc60af4ee7d056c90ccc05276ef8d856d0"
+    "bytes": 499584,
+    "sha256": "5af96f30e9c6a2bbe1317e17d5d3e820116232b8ae1a38313bd9abc5c5d69a4e"
   },
   {
-    "name": "php74-php-cli-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-cli-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 3439720,
-    "sha256": "81fb8e9644cf80b9257e2e8fd7c1b68026a1d7d65b1b792fce65958657140643"
+    "bytes": 3449484,
+    "sha256": "04c199e0826d2594735ca5f4663a3093ceaf001eb5bc31c79531de1c4a8d0127"
   },
   {
-    "name": "php74-php-bcmath-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-bcmath-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 88900,
-    "sha256": "3edd56569c6b793365bdfc35374faee49554c7d5ad16bf4b4b2d5cfa0501558f"
+    "bytes": 93392,
+    "sha256": "6f251447ea906897b5135e8482b4d9652cd58da3377dfb6e0c432a820ba72ab5"
   },
   {
-    "name": "php74-php-imap-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-imap-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 95564,
-    "sha256": "97c10f374322e997858c018c875fa07f9abf9cbbf89e89e064c524626e0c9caa"
+    "bytes": 100052,
+    "sha256": "04a8b27f4e69e8a19dd875e21a6a6055cea23ff4e5cfec5d5d110f12a9babf67"
   },
   {
-    "name": "php74-php-tidy-7.4.33-15.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php74-php-tidy-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php74",
     "kind": "binary",
-    "bytes": 81388,
-    "sha256": "b9b0adc996c28c12353aaaa577789c61f38d2dba0728a84c9db64616b97ec887"
+    "bytes": 85864,
+    "sha256": "042c3c82f20ce8f6223c37942f064aff2b16b5c41da9054ecbc119a44b1f7cfb"
   },
   {
-    "name": "php74-php-7.4.33-15.1.gigatux20261021.el7.remi.src.rpm",
+    "name": "php74-php-7.4.33-31.1.gigatux20261023.el7.remi.src.rpm",
     "family": "php74",
     "kind": "source",
-    "bytes": 10682638,
-    "sha256": "4278aef9fb01899968edaa81e67e9af9558552e6fddf338da17ecae7e44b3444"
+    "bytes": 10837651,
+    "sha256": "c798d217b7dd78225ed2ec80d544e01b68e3985d8ef6c90354d74ace47ac820f"
   },
   {
-    "name": "php81-php-cli-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-cli-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 3948600,
-    "sha256": "bc4240d2a78d363138dd484254dfd0db30e0ad2325807e44f839a1a8fbfbf01e"
+    "bytes": 3956020,
+    "sha256": "40b5513f90e420c54b283653d8822847d7c3e09f1f3c80d3f4a4afdec2cc6374"
   },
   {
-    "name": "php81-php-xml-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-xml-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 194148,
-    "sha256": "50be92f68e7710ba07b30842dcac902aa36cc802422ff7d4ebca860fa29b5d10"
+    "bytes": 196944,
+    "sha256": "4d329da6e9ce4a88bfed38d0a13640016bb15848f82623702f44160dcdc2d593"
   },
   {
-    "name": "php81-php-bcmath-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-bcmath-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 94924,
-    "sha256": "52b11666e8e30ed6379b7192bd14455d5679e09dd33fbf3c30a351d98c0044ca"
+    "bytes": 97784,
+    "sha256": "5f292379d57d4bb8a2fcc9ab11362e5382f6f3085c464066f57d9c3f11410f9b"
   },
   {
-    "name": "php81-php-tidy-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-tidy-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 87916,
-    "sha256": "9c657395b897b61e096721175dc420d5885f77a266f1d5203012fe1567635d10"
+    "bytes": 90792,
+    "sha256": "b145a55e873306356cc45466cb2eacb17162985b8e1293b83369b17c7113e4f0"
   },
   {
-    "name": "php81-php-imap-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-imap-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 102524,
-    "sha256": "8223cbb8ae6f10c7d7a5c820fac4863f8fe96c428df665e0f018911c8c175124"
+    "bytes": 105520,
+    "sha256": "d8b42d65a7782a236a95182b998e56b0c6c80d39f650ee932af518f3b091e41b"
   },
   {
-    "name": "php81-php-mysqlnd-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-mysqlnd-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 198052,
-    "sha256": "3da070fc94d37f550c7ef24ebb812e91915e6a868d56208cb269525cb1cc5a14"
+    "bytes": 201856,
+    "sha256": "1f81e8a5f2554adf8317a8abdc36ea92d97ff0f9834f3b8b32743644e87d4393"
   },
   {
-    "name": "php81-php-gd-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-gd-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 99700,
-    "sha256": "e499e04b1a8b4d61236f53fceacbe34ca287cbe28b47e0be8f899a7b19611b94"
+    "bytes": 102572,
+    "sha256": "ea448523b2dac926a6c4578d355b8d14a343cd73d632b2632476b83909ad1f7d"
   },
   {
-    "name": "php81-php-fpm-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-fpm-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 2048864,
-    "sha256": "9405af740575bb0c87472047580ea518b64adf23e7c4cf2577db50c7ec8d17ed"
+    "bytes": 2053640,
+    "sha256": "5ca899b8cafe266584d93144f910c5a58410b293dfbaed23978d09145db13da5"
   },
   {
-    "name": "php81-php-soap-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-soap-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 195744,
-    "sha256": "c137574edb0299e2cee9b295ec475089b3fdc620e0c769f7913fbb8d1a70d1d1"
+    "bytes": 198900,
+    "sha256": "ac24fadd3126e95c9d6a2c927388ddb6ba753c77b1a4009df2d50bef25be47e0"
   },
   {
-    "name": "php81-php-pdo-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-pdo-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 141404,
-    "sha256": "75da52e4978aff36a1eee98b34a2f4e3bbaea42af81c454ab57942ab0ddca74f"
+    "bytes": 144296,
+    "sha256": "8561db18f9748b210b901837c1c65d0e267aeff0465cc9f6396c9cef6ddb6400"
   },
   {
-    "name": "php81-php-gmp-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-gmp-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 92680,
-    "sha256": "a878f6bc2853a564904b6f6c2e8814b149227687eb31e354e24516145ba7f2fe"
+    "bytes": 95548,
+    "sha256": "73af769c300b46ba1366fa42f005919da666de06b796bdcd7743d26fc9946287"
   },
   {
-    "name": "php81-php-mbstring-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-mbstring-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 500360,
-    "sha256": "46ab2b064e349579bf9fe5934cc2b0f66c4367c31be355c863f80649ef43f048"
+    "bytes": 503232,
+    "sha256": "0fc01b415c9bcc63275805462d492d0042e88959f31f96ce9c7ee0b6232ade04"
   },
   {
-    "name": "php81-php-process-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-process-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 97888,
-    "sha256": "db24caac124198b3c61455390366c5ac1aa0d126855ab0ee5a327677037abc74"
+    "bytes": 100768,
+    "sha256": "4f53074704cd172fc7e09d53358d8099ecc40fea39649d86a6636b961f99bae2"
   },
   {
-    "name": "php81-php-opcache-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-opcache-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 417992,
-    "sha256": "8c63bbb8f369c5620d6b8ebbcef9c897c881f0178f5c69ed721ec7af8d505cae"
+    "bytes": 421052,
+    "sha256": "ab78f31b449504e0fde0783babdc728e92f61b83a81822d531e1547fd6f6fc2c"
   },
   {
-    "name": "php81-php-common-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-common-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 745336,
-    "sha256": "d852c8135e5ad3963bc852dc81ce7b8ad4f91c2709b1fe4634348d8c2476d752"
+    "bytes": 751336,
+    "sha256": "b964bb82d67f7473a98315756120ff5df5e9347d053b19faac58e0ce5cc20143"
   },
   {
-    "name": "php81-php-devel-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-devel-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 862888,
-    "sha256": "52312118c737036f67cc7a0797fd339bd9530ae0f7bd4b513e53ac995673c44d"
+    "bytes": 866260,
+    "sha256": "27966638ec9366e7831e8595ca6de639ea29d36fd1f58afbde0cb8d5627e26ac"
   },
   {
-    "name": "php81-php-intl-8.1.29-1.1.gigatux20261021.el7.remi.x86_64.rpm",
+    "name": "php81-php-intl-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm",
     "family": "php81",
     "kind": "binary",
-    "bytes": 202268,
-    "sha256": "7a8d5477ede0be369405fb55dcbdfd81dbee42bd1f19e806492239caf39a1faa"
+    "bytes": 205176,
+    "sha256": "f099f686070766233adde402a6ddc52e47660695ca6378778efe422fe3ce40bf"
   },
   {
-    "name": "php81-php-8.1.29-1.1.gigatux20261021.el7.remi.src.rpm",
+    "name": "php81-php-8.1.34-6.1.gigatux20261023.el7.remi.src.rpm",
     "family": "php81",
     "kind": "source",
-    "bytes": 12042163,
-    "sha256": "9517d37532e4c1df987af98de5fade5562d01e20cace9d04418e064ef687531a"
+    "bytes": 12200312,
+    "sha256": "c830130121a7e0756573a500fded4055c61593b92b5564437fef8f97ad5fa6c7"
   },
   {
     "name": "php82-php-cli-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm",

@@ -49,15 +49,10 @@
 
 %global mysql_sock %(mysql_config --socket  2>/dev/null || echo /var/lib/mysql/mysql.sock)
 
-%ifarch aarch64
-%global oraclever 19.22
-%global oraclelib 19.1
-%global oracledir 19.22
-%else
-%global oraclever 21.13
-%global oraclelib 21.1
-%global oracledir 21
-%endif
+%global oraclever 23.26.3
+%global oraclemax 24
+%global oraclelib 23.1
+%global oracledir 23
 
 # Build for LiteSpeed Web Server (LSAPI), you can disable using --without tests
 %bcond_without        lsws
@@ -75,7 +70,11 @@
 %bcond_with           zip
 # Optional extensions; to disable: pass "--without xxx" etc to rpmbuild/mock.
 %bcond_without        imap
+%if 0%{?rhel} > 10
+%bcond_with           firebird
+%else
 %bcond_without        firebird
+%endif
 %bcond_without        freetds
 %bcond_without        tidy
 %bcond_without        sqlite3
@@ -129,12 +128,12 @@
 #global gh_date      20210809
 %global gh_owner     php
 %global gh_project   php-src
-%global upver        8.1.29
+%global upver        8.1.34
 
 Summary: PHP scripting language for creating dynamic web sites
 Name:    %{?scl_prefix}php
 Version: %{upver}%{?rcver:~%{rcver}}%{?gh_date:.%{gh_date}}
-Release: 1.1.gigatux20261021%{?dist}
+Release: 6.1.gigatux20261023%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
 # TSRM is licensed under BSD
@@ -175,10 +174,8 @@ Patch1: php-7.4.0-httpd.patch
 Patch5: php-7.2.0-includedir.patch
 Patch6: php-8.0.0-embed.patch
 Patch8: php-8.1.0-libdb.patch
-# For libxml 2.12 from 8.1
-Patch9: php-8.1.27-libxml212.patch
-# RHEL backports
-Patch10: php-7.0.7-curl.patch
+# Fix for bash 5.3 (Fedora 43)
+Patch13: php-7.4.33-bash53.patch
 
 # Functional changes
 # Use system nikic/php-parser
@@ -201,14 +198,35 @@ Patch91: php-7.2.0-oci8conf.patch
 # Upstream fixes (100+)
 
 # Security fixes (200+)
+Patch200: php-cve-2025-14179.patch
+Patch201: php-cve-2026-6722.patch
+Patch202: php-cve-2026-7261.patch
+Patch203: php-cve-2026-7262.patch
+Patch204: php-cve-2026-6735.patch
+Patch205: php-cve-2026-7259.patch
+Patch206: php-cve-2026-7568.patch
+Patch207: php-cve-2026-7258.patch
+# From 8.2.32
+Patch208: php-cve-2026-14355.patch
+# From 8.2.33
+Patch209: php-cve-2026-9672.patch
+Patch210: php-cve-2026-17543.patch
+Patch211: php-cve-2026-7260.patch
+Patch212: php-gh22643.patch
+# One cumulative patch per version
+Patch213: php-from-8.2.34-to-8.1.patch
+# Minimal mitigation
+Patch214: php-8.1-cve-2026-109618.patch
 
 # Fixes for tests (300+)
 # Factory is droped from system tzdata
 Patch300: php-7.4.0-datetests.patch
+# for zlib-ng
 Patch301: php-8.1.27-zlib-tests.patch
+# for pcre2 10.45
+Patch302: php-8.1.32-pcretests.patch
 
 # WIP
-Patch990: php81-emergency.patch
 
 BuildRequires: gnupg2
 BuildRequires: bzip2-devel
@@ -246,6 +264,9 @@ BuildRequires: libtool
 BuildRequires: libtool-ltdl-devel
 %if %{with dtrace}
 BuildRequires: %{?dtsprefix}systemtap-sdt-devel
+%if 0%{?fedora} >= 41
+BuildRequires: %{?dtsprefix}systemtap-sdt-dtrace
+%endif
 %endif
 %if 0%{?gh_date}
 BuildRequires: bison
@@ -639,14 +660,7 @@ License.
 Summary:        A module for PHP applications that use OCI8 databases
 # All files licensed under PHP version 3.01
 License:        PHP
-%ifarch aarch64
-BuildRequires:  oracle-instantclient%{oraclever}-devel
-# Should requires libclntsh.so.19.1()(aarch-64), but it's not provided by Oracle RPM.
-Requires:       libclntsh.so.%{oraclelib}
-AutoReq:        0
-%else
-BuildRequires:  oracle-instantclient-devel >= %{oraclever}
-%endif
+BuildRequires: (oracle-instantclient-devel >= %{oraclever} with oracle-instantclient-devel < %{oraclemax})
 Requires:       %{?scl_prefix}php-pdo%{?_isa} = %{version}-%{release}
 Provides:       %{?scl_prefix}php_database
 Provides:       %{?scl_prefix}php-pdo_oci
@@ -734,7 +748,11 @@ License: PHP and BSD
 %endif
 Requires: %{?scl_prefix}php-common%{?_isa} = %{version}-%{release}
 %if %{with libgd}
+%if 0%{?rhel}
+BuildRequires: gd3php-devel >= 2.3.3
+%else
 BuildRequires: pkgconfig(gdlib) >= 2.3.3
+%endif
 %else
 # Required to build the bundled GD library
 BuildRequires: pkgconfig(zlib)
@@ -966,10 +984,7 @@ in pure PHP.
 %patch -P5 -p1 -b .includedir
 %patch -P6 -p1 -b .embed
 %patch -P8 -p1 -b .libdb
-%patch -P9 -p1 -b .libxml212
-%if 0%{?rhel} == 7
-%patch -P10 -p1 -b .curltls
-%endif
+%patch -P13 -p1 -b .bash53
 
 %patch -P41 -p1 -b .syslib
 %if %{with tzdata}
@@ -986,13 +1001,28 @@ sed -e 's/php-devel/%{?scl_prefix}php-devel/' -i scripts/phpize.in
 # upstream patches
 
 # security patches
+%patch -P200 -p1 -b .cve14179
+%patch -P201 -p1 -b .cve6722
+%patch -P202 -p1 -b .cve7261
+%patch -P203 -p1 -b .cve7262
+%patch -P204 -p1 -b .cve6735
+%patch -P205 -p1 -b .cve7259
+%patch -P206 -p1 -b .cve7268
+%patch -P207 -p1 -b .cve7258
+%patch -P208 -p1 -b .gh22187
+%patch -P209 -p1 -b .cve9672
+%patch -P210 -p1 -b .cve17543
+%patch -P211 -p1 -b .cve7260
+%patch -P212 -p1 -b .gh22643
+%patch -P213 -p1 -b .8234
+%patch -P214 -p1 -b .cve109618
 
 # Fixes for tests
 %patch -P300 -p1 -b .datetests
 %patch -P301 -p1 -b .zlibng
+%patch -P302 -p1 -b .pcretests
 
 # WIP patch
-%patch -P990 -p1 -b .emergency20261021
 
 # Prevent %%doc confusion over LICENSE files
 cp Zend/LICENSE ZEND_LICENSE
@@ -1037,6 +1067,11 @@ rm ext/zlib/tests/004-mb.phpt
 # failed when systemd is enabled
 rm sapi/fpm/tests/gh8885-stderr-fd-reload-usr1.phpt
 rm sapi/fpm/tests/gh8885-stderr-fd-reload-usr2.phpt
+# Outdated cert
+rm ext/openssl/tests/openssl_x509_parse_basic.phpt
+rm ext/openssl/tests/bug74341.phpt
+rm ext/openssl/tests/sni_server.phpt
+rm ext/openssl/tests/sni_server_key_cert.phpt
 
 # Safety check for API version change.
 pver=$(sed -n '/#define PHP_VERSION /{s/.* "//;s/".*$//;p}' main/php_version.h)
@@ -1373,7 +1408,10 @@ export NO_INTERACTION=1 REPORT_EXIT_STATUS=1 MALLOC_CHECK_=2
 export SKIP_ONLINE_TESTS=1
 export SKIP_IO_CAPTURE_TESTS=1
 unset TZ LANG LC_ALL
-if ! make test TESTS=-j4; then
+test_status=0
+make test TESTS=-j4 || test_status=$?
+echo "UPSTREAM_TEST_EXIT=$test_status"
+if [ "$test_status" -ne 0 ]; then
   set +x
   for f in $(find .. -name \*.diff -type f -print); do
     if ! grep -q XFAIL "${f/.diff/.phpt}"
@@ -1711,6 +1749,19 @@ fi
 %endif
 
 
+%posttrans common
+cat << EOF
+=====================================================================
+
+  WARNING : PHP 8.1 have reached its "End of Life" in
+  December 2025. Even, if this package includes some of
+  the important security fixes, backported from 8.2, the
+  UPGRADE to a maintained version is very strongly RECOMMENDED.
+
+=====================================================================
+EOF
+
+
 %{!?_licensedir:%global license %%doc}
 
 %files
@@ -1868,9 +1919,87 @@ fi
 
 
 %changelog
-* Wed Oct 21 2026 GigaTux emergency rebuild <ops@gigatux.com> - 8.1.29-1.1.gigatux20261021
-- Local emergency build for CVE-2026-109618 and CVE-2026-109619.
-- Preserve original Remi EL7 recipe and runtime ABI; not Remi-signed.
+* Wed Oct 21 2026 Remi Collet <remi@remirepo.net> - 8.1.34-6
+- Mitigation fix Avoid state corruption via bailout
+  CVE-2026-109618, CVE-2026-109619
+
+* Thu Oct  1 2026 Remi Collet <remi@remirepo.net> - 8.1.34-5
+- Fix FILTER_SANITIZE_ENCODED does not encode 0xFF
+- Fix IPv6 ACL bypass in FastCGI listen.allowed_clients due to partial address comparison
+  CVE-2026-91768
+- Fixed Various packet overreads in mysqlnd wire protocol
+  CVE-2025-1218
+- Fix TLS hostname verification falls back to CN after SAN mismatch
+  CVE-2026-91769
+- Fix Heap buffer overflow in php_openssl_matches_wildcard_name() on crafted server certificate wildcard CN
+  CVE-2026-91767
+- Fix Integer overflow in phar_tar_number() allowing TAR archive entry injection
+  CVE-2026-6103
+- Fix Unbounded recursion in server-side cleanup_xml_node()
+  CVE-2026-91765
+- Fix Integer overflow to buffer overflow in SOAP HTTP parsing
+  CVE-2025-14181
+- Fix Out-of-bounds read in convert.* stream filters when line-break-chars contains NUL
+  CVE-2026-92842
+- Fix Cross-origin credential leak in HTTP stream wrapper redirects
+  CVE-2026-91766
+- Fix Out-of-bounds read in the HTTP stream wrapper when following a redirect with an empty Location header
+  CVE-2026-93682
+
+* Thu Jul 30 2026 Remi Collet <remi@remirepo.net> - 8.1.34-4
+- Fix leak on double DatePeriod::__construct() call
+- Fixed SQL injection via E'...' backslash breakout
+  CVE-2026-17543
+- Fixed GHSA-vc5h-9ppw-p5f3 Crash via recursive symlinks
+  CVE-2026-7260
+
+* Wed Jul  1 2026 Remi Collet <remi@remirepo.net> - 8.1.34-3
+- Fix Memory corruption (zend_mm_heap corrupted) in openssl_encrypt with AES-WRAP-PAD
+  CVE-2026-14355
+
+* Thu May  7 2026 Remi Collet <remi@remirepo.net> - 8.1.34-2
+- Fix XSS within status endpoint
+  CVE-2026-6735
+- Fix Null pointer dereference in php_mb_check_encoding() via mb_ereg_search_init()
+  CVE-2026-7259
+- Fix SQL injection via NUL bytes in quoted strings
+  CVE-2025-14179
+- Fix Stale SOAP_GLOBAL(ref_map) pointer with Apache Map
+  CVE-2026-6722
+- Fix Use-after-free after header parsing failure with SOAP_PERSISTENCE_SESSION
+  CVE-2026-7261
+- Fix Broken Apache map value NULL check
+  CVE-2026-7262
+- Fix Signed integer overflow of char array offset
+  CVE-2026-7568
+- Fix Consistently pass unsigned char to ctype.h functions
+  CVE-2026-7258
+
+* Wed Dec 17 2025 Remi Collet <remi@remirepo.net> - 8.1.34-1
+- Update to 8.1.34 - http://www.php.net/releases/8_1_34.php
+
+* Thu Aug 28 2025 Remi Collet <remi@remirepo.net> - 8.1.33-2
+- rebuild using gd3php on EL-10
+
+* Wed Jul  2 2025 Remi Collet <remi@remirepo.net> - 8.1.33-1
+- Update to 8.1.33 - http://www.php.net/releases/8_1_33.php
+
+* Wed Mar 12 2025 Remi Collet <remi@remirepo.net> - 8.1.32-1
+- Update to 8.1.32 - http://www.php.net/releases/8_1_32.php
+- use oracle client library version 23.7 on x86_64 and arm64
+
+* Thu Feb 13 2025 Remi Collet <remi@remirepo.net> - 8.1.31-2
+- backport fix for ICU 74+
+
+* Wed Nov 20 2024 Remi Collet <remi@remirepo.net> - 8.1.31-1
+- Update to 8.1.31 - http://www.php.net/releases/8_1_31.php
+
+* Fri Sep 27 2024 Remi Collet <remi@remirepo.net> - 8.1.30-1
+- Update to 8.1.30 - http://www.php.net/releases/8_1_30.php
+- use ICU 74.2
+
+* Wed Jul 31 2024 Remi Collet <remi@remirepo.net> - 8.1.29-2
+- use oracle client library version 23.5 on x86_64
 
 * Wed Jun  5 2024 Remi Collet <remi@remirepo.net> - 8.1.29-1
 - Update to 8.1.29 - http://www.php.net/releases/8_1_29.php

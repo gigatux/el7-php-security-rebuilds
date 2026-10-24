@@ -1,0 +1,83 @@
+------------------------------------------
+2026 key used for Fedora 44-45
+------------------------------------------
+pub   ed25519 2026-01-05 [SC]
+      2E375FE24EDFF0F2E0D8E165ED5B58C5BEFA00E2
+uid          [  ultime ] Remi's RPM repository 2026 (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   cv25519 2026-01-05 [E]
+------------------------------------------
+2025 key used for Fedora 42-43
+------------------------------------------
+pub   rsa4096 2025-01-16 [SC]
+      83833E4687A4AA03B6AC94F2061566968F1F4B2D
+uid          [  ultime ] Remi's RPM repository 2025 (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2025-01-16 [E]
+------------------------------------------
+2024 key used for Fedora 40-41
+------------------------------------------
+pub   rsa4096 2024-01-09 [SC]
+      CF1DF0057CE85DFF5B2F2A37C2FD3B2C2A0948E4
+uid          [  ultime ] Remi's RPM repository 2024 (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2024-01-09 [E]
+------------------------------------------
+2023 key used for Fedora 38-39
+------------------------------------------
+pub   rsa4096 2023-01-05 [SC]
+      50A5E157DFE548EC7C05E9D8D5933DAB6DEFD35E
+uid          [  ultime ] Remi's RPM repository (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2023-01-05 [E]
+------------------------------------------
+2022 key used for Fedora 36-37
+------------------------------------------
+pub   rsa4096 2022-02-10 [SC]
+      8451 60D2 3149 DAD5 04F0  A32D 83C0 639E 1FEF 0014
+uid          [ inconnue] Remi's RPM repository (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2022-02-10 [E]
+------------------------------------------
+2021 key used for Fedora 34-35 and EL-9
+------------------------------------------
+pub   rsa4096 2021-01-04 [SC]
+      B1AB F71E 14C9 D748 97E1  98A8 B195 27F1 478F 8947
+uid          [  ultime ] Remi's RPM repository (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2021-01-04 [E]
+------------------------------------------
+2020 key used for Fedora 32-33
+------------------------------------------
+pub   rsa4096 2020-02-17 [SC]
+      34C1 0BDB CC6F 1B25 2E50  BA1A 0714 919E 4C21 A808
+uid          [  ultime ] Remi's RPM repository (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2020-02-17 [E]
+
+------------------------------------------
+2019 key used for Fedora 30-31
+------------------------------------------
+pub   rsa4096 2019-03-01 [SC]
+      5F13 6145 BF10 369B 7685  D8DE 5036 66CC BBAE 6F1B
+uid          [  ultime ] Remi's RPM repository (https://rpms.remirepo.net/) <remi@remirepo.net>
+sub   rsa4096 2019-03-01 [E]
+
+------------------------------------------
+2018 key used for Fedora 28-29 and EL-8
+------------------------------------------
+pub   rsa4096 2018-01-12 [SC]
+      6B38 FEA7 231F 87F5 2B9C  A9D8 5550 9759 5F11 735A
+uid          [  ultime ] Remi's RPM repository <remi@remirepo.net>
+sub   rsa4096 2018-01-12 [E]
+
+------------------------------------------
+2017 key used for Fedora 26-27
+------------------------------------------
+pub   rsa4096 2017-03-06 [SC]
+      44E8 9CD5 B233 62C2 24CE  5A5D E080 F29F 0364 B949
+uid          [  ultime ] Remi's RPM repository <remi@remirepo.net>
+sub   rsa4096 2017-03-06 [E]
+
+------------------------------------------
+OLD key used for EL-6 and EL-7
+------------------------------------------
+pub   dsa1024 2005-04-21 [SC]
+      1EE0 4CCE 88A4 AE4A A29A  5DF5 004E 6F47 00F9 7F56
+uid          [  ultime ] Remi Collet <RPMS@FamilleCollet.com>
+sub   elg1024 2005-04-21 [E]
+
+------------------------------------------

@@ -1,0 +1,1666 @@
+{
+  "tests/basic/GHSA-9pqp-7h25-4f32.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "Zend/tests/GHSA-wm6j-2649-pv75.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/date/tests/DatePeriod_double_constructor_call.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/date/tests/bug33414-2.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/date/tests/bug66985.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/GHSA-xr7j-rvgx-xq5p.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/date/tests/strtotime3-64bit.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/dom/tests/DOMDocument_loadXML_error1_gte2_12.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: libxml2 test variant for version >= 2.12"
+  },
+  "ext/dom/tests/DOMDocument_loadXML_error2_gte2_12.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: libxml2 test variant for version >= 2.12"
+  },
+  "ext/dom/tests/DOMDocument_load_error1_gte2_12.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: libxml2 test variant for version >= 2.12"
+  },
+  "ext/dom/tests/DOMDocument_load_error2_gte2_12.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: libxml2 test variant for version >= 2.12"
+  },
+  "ext/openssl/tests/bug25614.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/dom/tests/DOMDocument_saveHTMLFile_formatOutput_gte_2_13.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: see https://gitlab.gnome.org/GNOME/libxml2/-/issues/756"
+  },
+  "ext/dom/tests/DOMDocument_saveHTML_basic_gte_2_13.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: see https://gitlab.gnome.org/GNOME/libxml2/-/issues/756"
+  },
+  "ext/openssl/tests/bug28382.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug36732.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug37820.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/dom/tests/ghsa-p3x9-6h7p-cgfc_003.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug38255.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/filter/tests/filter_sanitize_encoded_0xff.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug38261.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/ldap/tests/GHSA-g665-fm4p-vhff-1.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: only for 32-bit"
+  },
+  "ext/ldap/tests/GHSA-g665-fm4p-vhff-2.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: only for 32-bit"
+  },
+  "ext/openssl/tests/bug39217.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-auth-message.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug41033.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug41353.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-def.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-filename.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug46127.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-query-len-overflow.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug47828.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-bit.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug48182.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-date.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug50293.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-datetime.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug50713.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-double.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug52093.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug54060.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug54061.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-float.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-int.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug54992.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug55259.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-no-space.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug55646.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug60632.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug61124.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-string.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug61930.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-h35g-vwh6-m678-stmt-row-time.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug62890.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-2-bytes.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug64802.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-8-bytes.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows-null-length.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug65538_001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-affected-rows.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug65538_002.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: online test"
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id-no-space.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-last-insert-id.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug65538_003.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug65698.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-packet-warning-count.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-auth-switch-unterminated.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug65729.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug66501.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-empty.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug67403.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-fast-auth.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug68265.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-cached-sha2-switch-unterminated.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug68879.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug68912.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-empty.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug68920.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-chg-user-switch-unterminated.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-eof-warning-count.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug69215.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet-string.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-packet.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug70438.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug71475.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-greet-scramble-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug71917.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-affected-rows.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug72165.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-last-insert-id.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-message-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug72333.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug72336.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-ok-packet-warning-count.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug72362.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-eof-short.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug73072.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug73478.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len-2-bytes.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug73711.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug73833.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-query-row-field-null.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74022.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74022_2.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74099.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-field-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-affected-rows.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74159.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74402.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-rset-header-upsert-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74651.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74720_0.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74720_1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-empty.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74798.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug74903.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-sha256-pk-len.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug76296.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug76705.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-faulty.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-field-len-premature.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug77390.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-response-row-status.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug78391.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug79145.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug79589.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: online test"
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-date.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug79881.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug80747.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: OpenSSL >= v1.1.0 required"
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-datetime.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/ghsa-r6x9-5r99-36j7-stmt-row-short-length-time.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/bug81713.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/mysqli/tests/protocol_query_row_fetch_data.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/capture_peer_cert_001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/check_default_conf_path.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: windows only test"
+  },
+  "ext/openssl/tests/cve-2013-6420.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/cve2013_4073.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/ecc.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/gh12489.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/gh22186.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: aes-128-wrap-pad not usable on this OpenSSL build"
+  },
+  "ext/mysqli/tests/protocol_stmt_row_fetch_data.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pcre/tests/bug75457.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/gh9339.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pdo_dblib/tests/GHSA-5hqh-c84r-qjcv.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: for 32bit platforms only"
+  },
+  "ext/openssl/tests/openssl_cms_decrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pdo_firebird/tests/ghsa-w476-322c-wpvm.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: : PDO_FIREBIRD_TEST_DSN must be set"
+  },
+  "ext/openssl/tests/openssl_cms_decrypt_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pdo_pgsql/tests/ghsa-8xr5-qppj-gvwj.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: SQLSTATE[08006] [7] could not connect to server: Connection refused"
+  },
+  "ext/pdo_pgsql/tests/ghsa-hrwm-9436-5mv3.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: SQLSTATE[08006] [7] could not connect to server: Connection refused"
+  },
+  "ext/openssl/tests/openssl_cms_encrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pgsql/tests/10pg_convert_9.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/openssl/tests/openssl_cms_encrypt_der.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pgsql/tests/10pg_convert_json_array.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/pgsql/tests/12pg_insert_9.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/pgsql/tests/14pg_update_9.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/openssl/tests/openssl_cms_encrypt_pem.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pgsql/tests/GHSA-7qpv-r5mr-78m4.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/openssl/tests/openssl_cms_read_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/pgsql/tests/bug64609.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/pgsql/tests/bug68638.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/pgsql/tests/ghsa-hrwm-9436-5mv3.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: could not connect"
+  },
+  "ext/openssl/tests/openssl_cms_sign_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_cms_sign_der.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-longlink.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_cms_sign_verify_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_cms_sign_verify_detached.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-size.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_cms_sign_verify_nodetached_pem.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/phar/tests/tar/GHSA-j3wh-g957-2m85-typeflag.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_cms_verify_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/GHSA-85c2-q967-79q5.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/GHSA-hmxp-6pc4-f3vv.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/GHSA-m33r-qmcv-p97q.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_cms_verify_der.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_csr_export_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-chain.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_csr_export_to_file_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/GHSA-rgrp-mwpx-f6rm-href-cycle.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_csr_get_public_key_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_csr_get_subject_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/GHSA-rgrp-mwpx-f6rm.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_csr_new_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_csr_sign_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_decrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_decrypt_ccm.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_decrypt_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_decrypt_gcm.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_decrypt_ocb.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: : aes-128-ocb not available"
+  },
+  "ext/openssl/tests/openssl_dh_compute_key.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_digest_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_encrypt_ccm.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_encrypt_crash.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_encrypt_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_encrypt_gcm.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_encrypt_ocb.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: : aes-128-ocb not available"
+  },
+  "ext/openssl/tests/openssl_error_string_basic.phpt": {
+    "raw_status": "FAIL",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_error_string_basic_openssl3.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: For OpenSSL >= 3.0"
+  },
+  "ext/openssl/tests/openssl_free_key.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_get_cert_locations_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_get_cipher_methods.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_get_md_methods.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_open_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pbkdf2_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_peer_fingerprint_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs12_export_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs12_export_to_file_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs12_export_to_file_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs12_read_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs7_decrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs7_decrypt_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs7_encrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs7_read_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs7_sign_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkcs7_verify_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkey_derive-dh.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkey_derive-ecdh.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkey_export_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkey_get_details_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkey_new_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_pkey_new_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_private_decrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_private_encrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_public_decrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_public_encrypt_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_random_pseudo_bytes_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_random_pseudo_bytes_error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_seal_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_sign_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_spki_export_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_spki_export_challenge_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_spki_new_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_spki_verify_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_verify_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_check_private_key_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_checkpurpose_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_export_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_export_to_file_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_fingerprint_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_free_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_read_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/openssl_x509_verify.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/peer_verification.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/san_absent_cn_fallback.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/san_ipv6_peer_matching.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/san_no_cn_fallback.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/san_peer_matching.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/san_srv_no_cn_fallback.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/san_uri_no_cn_fallback.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/session_meta_capture.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/session_meta_capture_tlsv13.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: OpenSSL v1.1.1 required"
+  },
+  "ext/openssl/tests/stream_crypto_flags_001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/stream_crypto_flags_002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/stream_crypto_flags_003.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/stream_crypto_flags_004.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/stream_security_level.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: OpenSSL >= v1.1.0 required"
+  },
+  "ext/openssl/tests/stream_server_reneg_limit.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: couldn't locate openssl binary"
+  },
+  "ext/openssl/tests/stream_verify_peer_name_001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/stream_verify_peer_name_002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/stream_verify_peer_name_003.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/streams_crypto_method.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/tls_min_v1.0_max_v1.1_wrapper.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/tls_wrapper.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: OpenSSL v1.1.1 required"
+  },
+  "ext/openssl/tests/tls_wrapper_with_tls_v1.3.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: OpenSSL v1.1.1 required"
+  },
+  "ext/openssl/tests/tlsv1.0_wrapper.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/tlsv1.1_wrapper.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/tlsv1.2_wrapper.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/openssl/tests/tlsv1.3_wrapper.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: OpenSSL v1.1.1 required"
+  },
+  "ext/standard/tests/general_functions/phpinfo.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/bug61548.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-52jp-hrpf-2jff-002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-c5f2-jwm7-mmq2.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-hgf5-96fm-v528-001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-hgf5-96fm-v528-002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-hgf5-96fm-v528-003.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-pcmh-g36c-qc44-002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-001.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-002.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-003.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-004.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/ghsa-v8xr-gpvj-cx9g-005.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/http_empty_location_redirect.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/http/http_single_char_location_redirect.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/image/gh20584.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/network/ghsa-3cr5-j632-f35r.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/network/ghsa-www2-q4fc-65wf.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/streams/ghsa-3cr5-j632-f35r.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/xml/tests/toffset_bounds.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zend_test/tests/observer_bug81430_2.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: Required extension missing: zend_test"
+  },
+  "ext/zend_test/tests/observer_bug81435.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: Required extension missing: zend_test"
+  },
+  "ext/zend_test/tests/observer_error_01.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: Required extension missing: zend_test"
+  },
+  "ext/zlib/tests/bug48725_2.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/bug71417.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzcompress_basic1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzcompress_variation1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzdeflate_basic1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzdeflate_variation1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzencode_basic1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzencode_variation1.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/gzinflate-bug42663.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/zlib/tests/zlib_filter_deflate.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/cli/tests/ghsa-4w77-75f9-2c8w.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/soap_qname_crash.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/GHSA-96wq-48vp-hh57.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: resource-heavy test"
+  },
+  "ext/standard/tests/array/GHSA-h96m-rvf9-jgm2.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/file/ghsa-9f67-6fw4-hpfp-win32.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: Windows only"
+  },
+  "ext/standard/tests/filters/ghsa-88hq-2827-7pg6.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/standard/tests/filters/ghsa-r977-prxv-hc43.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/status-listen.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/status-basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-uds-numeric-ugid.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: not running as root"
+  },
+  "sapi/fpm/tests/socket-uds-numeric-ugid-nonroot.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-uds-basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-uds-acl.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-ipv6-basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-ipv6-any.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-ipv4-fallback.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-ipv4-basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-ipv4-allowed-clients.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/socket-invalid-allowed-clients.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/reload-uses-sigkill-as-last-measure.phpt": {
+    "raw_status": "FAIL",
+    "detail": ""
+  },
+  "sapi/fpm/tests/proc-user-ignored.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/proc-no-start-server.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/proc-idle-timeout.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: resource heavy test"
+  },
+  "sapi/fpm/tests/pool-prefix.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/pool-apparmor-basic.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: ERROR:  unknown entry 'apparmor_hat'"
+  },
+  "sapi/fpm/tests/pm-max-spawn-rate-run.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/pm-max-spawn-rate-config.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/php-admin-doc-root.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/main-version.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/main-global-prefix.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-dwp-limit-1000-msg-2000.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-dwd-limit-8000-msg-4096.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-dwd-limit-1050-msg-2900.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-dwd-limit-1050-msg-2048.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-realloc-buffer.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-start.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-msg-flush-split-sep-pos-end.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-msg-flush-split-real.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-msg-flush-split-fallback.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-limit-1500-msg-3300.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwp-limit-1024-msg-120.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwd-multiple-msgs.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwd-multiple-msgs-stdout-stderr.phpt": {
+    "raw_status": "WARN",
+    "detail": "(warn: XFAIL section but test passes)"
+  },
+  "sapi/fpm/tests/log-bwd-msg-with-nl.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwd-limit-8000-msg-4096.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwd-limit-64-too-low-error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwd-limit-1050-msg-2900.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bwd-limit-1050-msg-2048.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bm-limit-2048-msg-4000.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bm-limit-1024-msg-80.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/log-bm-in-shutdown-fn.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/ghsa-7qg2-v9fj-4mwv-status-xss.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/ghsa-62xp-839h-2637-v4mapped-allowed-clients.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/ghsa-62xp-839h-2637-ipv6-allowed-clients.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/ghsa-54hq-v5wp-fqgv-max-file-uploads.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/ghsa-54hq-v5wp-fqgv-max-body-parts-default.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/ghsa-54hq-v5wp-fqgv-max-body-parts-custom.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/gh9981-fastcgi-error-header-reset.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/gh9921-php-value-ext-mod-handlers.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: dl_test extension not present in extension_dir"
+  },
+  "sapi/fpm/tests/gh9754-daemonized-stderr-close.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/gh8646.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: Required extension missing: zend_test"
+  },
+  "sapi/fpm/tests/gh12621.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/gh12232-php-value-extension.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: dl_test extension not present in extension_dir"
+  },
+  "sapi/fpm/tests/getallheaders.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fpm_get_status_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-pp-sn-strip-invalid.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-pp-sn-strip-encoded.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-pp-sn-strip-basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-handler-without-docroot.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-handler-with-query.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-handler-with-pi.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-handler-uds.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-balancer-real.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-pif-apache-balancer-legacy.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-custom-without-sf-with-pt.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-custom-without-pi-without-pt.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-custom-without-pi-with-pt.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-custom-with-pi-without-pt.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-custom-with-pi-with-pt.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-custom-with-pi-with-pt-pd.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fcgi-env-nopif-apache-handler-with-pi-with-pt-pd.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/fastcgi_finish_request_basic.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug80849-fpm.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug80024-socket-reduced-inherit.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug78599-path-info-underflow.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug78323.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug77934-reload-process-control.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug77780-header-sent-error.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug77023-pm-dynamic-blocking-sigquit.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: resource heavy test"
+  },
+  "sapi/fpm/tests/bug76601-reload-child-signals.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug75212-php-value-in-user-ini.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug74083-concurrent-reload.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug73342-nonblocking-stdio.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug72573-http-proxy.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug72185-fcgi-empty-frame.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug69625-no-script-filename.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68458-pm-no-start-server.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68442-signal-reload.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68428-ipv6-allowed-clients.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68423-multi-pool-all-pms.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68421-ipv6-access-log.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68420-ipv4-all-addresses.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68391-conf-include-order.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68381-log-level-warning.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug68207-fastcgi-error-header-sent.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "sapi/fpm/tests/bug64539-status-json-encoding.phpt": {
+    "raw_status": "PASS",
+    "detail": ""
+  },
+  "ext/soap/tests/bugs/GHSA-cj93-vc83-wgqv.phpt": {
+    "raw_status": "SKIP",
+    "detail": "reason: SOAP resource-heavy test"
+  }
+}

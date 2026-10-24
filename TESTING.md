@@ -1,42 +1,73 @@
-# Testing and known dispositions
+# Testing and explicit limits
 
-Original vendor `%check` specs mask the test runner's non-zero status. A successful
-RPM build therefore does **not** mean every PHPT passed. Recorded full-suite
-results, with no failure suppressed from these counts:
+Internal candidate evidence, not production or publication acceptance. Full
+vendor PHPT runs are **not all green**; both actual runners returned exit 2,
+although both complete RPM builds returned 0.
 
-| Family | Total | PASS | SKIP | XFAIL | FAIL | WARN |
+| Changed family | Total | PASS | SKIP | XFAIL | FAIL | WARN |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 7.4 | 15796 | 9127 | 6624 | 33 | 11 | 1 |
-| 8.1 | 17628 | 10291 | 7315 | 8 | 13 | 1 |
-| 8.2 | 18781 | 10990 | 7782 | 6 | 2 | 1 |
-| 8.3 SCL | 19650 | 11532 | 8097 | 7 | 13 | 1 |
-| 8.3 system | 19650 | 11532 | 8097 | 7 | 13 | 1 |
+| PHP74 | 15901 | 9157 | 6701 | 33 | 9 | 1 |
+| PHP81 | 17740 | 10322 | 7397 | 8 | 12 | 1 |
 
-7.4 failures comprise eight intentional upload-progress changes, two expired
-SNI leaf fixtures and the deliberate OOM newline. Fresh SNI fixtures keep peer
-verification and the real clock; adjusted newline-only expectations give three
-targeted passes. 8.1 failures similarly include deliberate disabled upload
-progress and hard OOM/output-buffer/Fiber shutdown behaviour, plus expired SNI
-fixtures. Five targeted follow-ups and three separately compiled observer tests
-pass; no observer test extension is shipped or installed for users.
+Original failures remain counted. PHP74 has eight intentionally disabled
+upload-progress fixtures and one hard-OOM newline difference. PHP81 has eight
+upload-progress fixtures, three hard-OOM/output-buffer/Fiber expectations, and
+one EL7 OpenSSL error-code expectation. Separate unchanged-body focused fixtures
+confirm the intended hard-exit output (PHP74 1/1; PHP81 3/3). Independent OOM
+checks prove neither unsafe shutdown/output callback nor continued execution.
+PHP81's OpenSSL failure reproduces on unchanged 8.1.29 with a byte-identical diff:
+expected 04099079, EL7 returns 040A1079 for OAEP decoding failure. No crypto or
+original expectation was changed. WARN is an upstream XFAIL test that passed;
+it is not silently recategorised.
 
-8.2's two failures are the older timezone spelling and EL7 OpenSSL error-code
-expectations, reproduced on the old-binary baseline. Four targeted checks pass,
-including IPv4/IPv6 SAN paths. 8.3's 13 failures comprise ten timezone-spelling
-expectations, one EL7 OpenSSL error-code expectation, one multicast default
-interface assumption under network isolation and one locale expectation. Fifteen
-targeted checks pass for each family with bounded fixture-only adjustments.
-The printed GH14930 diff is a documented upstream XFAIL, not an extra failure.
-No OS tzdata, crypto operation, security response or ABI was changed to green a
-test. WARN results are retained, not recategorised as passes.
+Additional all-built-extension/current-security/TLS/FPM runs:
 
-Disposable-container checks covered exact 19/17/18/18/13 core closures with
-existing external extension fixtures, signature enforcement, module loading,
-RPM verification, FPM normal/fatal/OOM worker recovery, sessions and uploads,
-and exact rollback/forward transactions including `rpm --test`. System PHP also
-passed Apache/mod_php recovery checks after fixing an isolated test-fixture
-module-loading problem. FFI payload checks cover parser directives and libc
-`strlen`. Raw environment/operational logs are not public release assets.
+| Family | Total | PASS | SKIP | FAIL | WARN |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| PHP74 | 387 | 343 | 41 | 2 | 1 |
+| PHP81 | 416 | 366 | 47 | 2 | 1 |
 
-This evidence is bounded, not an assertion of all-green upstream suites or
-universal customer-application compatibility. Test locally before deployment.
+Their resource-heavy SOAP tests pass separately with appropriate bounded memory
+(PHP74 QName 1/1 under 10 GiB; PHP81 large-response 1/1 under 8 GiB). The general
+PHP74 run's SOAP child hit its 3 GiB limit; the original test itself is unchanged.
+The second failure in each suite is an FPM reload test requiring pcntl inside
+FPM: this packaging deliberately supplies pcntl only in CLI. Its CLI skip-check
+does not establish FPM capability. No pcntl was added to shipped FPM merely to
+green that test; ordinary/concurrent reload tests and FPM recovery passed.
+PHP81's other supplemental failure is the unchanged-baseline OpenSSL case above.
+
+Both families pass the actual upstream IPv6 ACL security test: a localhost `::1`
+client is accepted against `::1` and rejected against `::dead:beef`, with the
+explicit rejection log checked. The IPv4-mapped companion also passes. Array,
+redirect, TLS CN/SAN/wildcard and stream regressions have individual outcomes in
+the inventory. Platform-only, unavailable database service, later-library-only
+and absent test-tool skips are disclosed, not called passes.
+
+Test-only modules built unprivileged against installed signed candidates pass
+PHP74's three DOM/SimpleXML/XMLReader entity-loader tests and PHP81's three
+observer regressions. These test modules are not shipped or installed for users.
+
+A separate unchanged PHP81 `sapi/fpm/tests/gh8646.phpt` follow-up passes 1/1,
+exit 0, with the already-built test-only zend_test loaded inside the actual
+installed signed-candidate FPM and OPcache enabled. Ten requests retain a stable
+class map-pointer value. The historical supplemental SKIP remains unchanged;
+the three CLI observer tests are not represented as this FPM invariant check.
+
+Each signed family passed exact old → new → old → new native RPM previews and
+transactions (19/17 companions), preserving deliberately changed configuration,
+INI order, external modules and unrelated installed packages. Imagick PNG,
+mcrypt encryption/decryption, ZipArchive, XMLRPC, PDO SQLite, DOM, mbstring and
+ICU operations were exercised at each state. FPM normal/fatal/OOM replacement,
+sessions and ordinary multipart uploads passed, while upload progress remained
+disabled even when enabled in the fixture INI. No mixed companion EVRs occurred.
+
+Native EL7 verifies every candidate signature. Source RPM contents match exact
+final inputs (84 PHP74 members, 49 PHP81). Both source RPMs have legacy
+`ARCH=x86_64` with `SOURCEPACKAGE=1`, matching the old source format. Both CLI
+ELFs require at most GLIBC 2.15, within EL7 2.17; no new host library requirement.
+
+Carried families retain the original published test evidence only; their bytes
+were not rebuilt or their full suites rerun. Existing verifier unit tests and
+90-RPM content/native-signature checks are recorded separately. Rootless fixtures
+do not establish systemd boot, production workload or InterWorx/Apache integration.
+The installation procedure remains an explicit acceptance boundary.

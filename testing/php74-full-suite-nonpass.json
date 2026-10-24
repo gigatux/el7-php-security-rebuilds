@@ -1,0 +1,4854 @@
+{
+  "actual_runner_exit": 2,
+  "printed_individual_nonpass_results": [
+    {
+      "status": "SKIP",
+      "title": "phpt EXTENSIONS directive with shared module",
+      "path": "tests/run-test/bug75042.phpt",
+      "detail": "reason: openssl is built static"
+    },
+    {
+      "status": "SKIP",
+      "title": "Shift_JIS request",
+      "path": "tests/basic/029.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Error message handling (with ZendOpcache)",
+      "path": "tests/run-test/test005.phpt",
+      "detail": "reason: Zend Opcache is not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Req #60524 (Specify temporary directory)",
+      "path": "tests/basic/req60524-win.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "GHSA-9pqp-7h25-4f32",
+      "path": "tests/basic/GHSA-9pqp-7h25-4f32.phpt",
+      "detail": "reason: php-cgi not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Error message handling (with ZendOpcache)",
+      "path": "tests/run-test/test008a.phpt",
+      "detail": "reason: Zend Opcache is not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Timeout within function",
+      "path": "tests/basic/timeout_variation_1.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Timeout within shutdown function, variation",
+      "path": "tests/basic/timeout_variation_10.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Timeout within array_map",
+      "path": "tests/basic/timeout_variation_2.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Timeout within call_user_func",
+      "path": "tests/basic/timeout_variation_4.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #12647 (Locale settings affecting float parsing)",
+      "path": "tests/lang/034.phpt",
+      "detail": "reason: Can't find german locale"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #30638 (localeconv returns wrong LC_NUMERIC settings) (ok to fail on MacOS X)",
+      "path": "tests/lang/bug30638.phpt",
+      "detail": "reason: setlocale() failed"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #38579 (include_once() may include the same file twice)",
+      "path": "tests/lang/bug38579.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "FAIL",
+      "title": "Bug #45392 (ob_start()/ob_end_clean() and memory_limit)",
+      "path": "tests/lang/bug45392.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Test PHP_INT_MIN, PHP_INT_MAX and PHP_INT_SIZE (32-bit)",
+      "path": "tests/lang/constants/PHP_INT_32bit.phpt",
+      "detail": "reason: this test is for 32-bit platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test === operator : max int 32bit range",
+      "path": "tests/lang/operators/operator_identical_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test <= operator : max int 32bit range",
+      "path": "tests/lang/operators/operator_lt_or_equal_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test != operator : max int 32bit range",
+      "path": "tests/lang/operators/operator_notequals_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test !== operator : max int 32bit range",
+      "path": "tests/lang/operators/operator_notidentical_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test == operator : max int 32bit range",
+      "path": "tests/lang/operators/operator_equals_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test >= operator : max int 32bit range",
+      "path": "tests/lang/operators/operator_gt_or_equal_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Timeout within shutdown function",
+      "path": "tests/basic/timeout_variation_9.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on older Windows versions with redirected STDOUT",
+      "path": "tests/output/sapi_windows_vt100_support_winko_out.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on older Windows versions with redirected STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winko_err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on newer Windows versions with redirected STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winok_err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on newer Windows versions with redirected STDIN/STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winok_in-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on newer Windows versions with redirected STDIN/STDOUT/STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winok_in-out-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on newer Windows versions with redirected STDIN/STDOUT",
+      "path": "tests/output/sapi_windows_vt100_support_winok_in-out.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on newer Windows versions with redirected STDOUT/STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winok_out-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on older Windows versions with redirected STDIN/STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winko_in-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on older Windows versions with redirected STDIN/STDOUT/STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winko_in-out-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on newer Windows versions with redirected STDOUT",
+      "path": "tests/output/sapi_windows_vt100_support_winok_out.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on older Windows versions with redirected STDIN/STDOUT",
+      "path": "tests/output/sapi_windows_vt100_support_winko_in-out.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stream_isatty with redirected STDERR",
+      "path": "tests/output/stream_isatty_err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sapi_windows_vt100_support on older Windows versions with redirected STDOUT/STDERR",
+      "path": "tests/output/sapi_windows_vt100_support_winko_out-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stream_isatty with redirected STDIN/STDERR",
+      "path": "tests/output/stream_isatty_in-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stream_isatty with redirected STDIN/STDOUT/STDERR",
+      "path": "tests/output/stream_isatty_in-out-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stream_isatty with redirected STDIN/STDOUT",
+      "path": "tests/output/stream_isatty_in-out.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stream_isatty with redirected STDOUT/STDERR",
+      "path": "tests/output/stream_isatty_out-err.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stream_isatty with redirected STDOUT",
+      "path": "tests/output/stream_isatty_out.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Inconsistencies when accessing protected members",
+      "path": "Zend/tests/access_modifiers_008.phpt",
+      "detail": "XFAIL REASON: Discussion: http://marc.info/?l=php-internals&m=120221184420957&w=2"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Inconsistencies when accessing protected members - 2",
+      "path": "Zend/tests/access_modifiers_009.phpt",
+      "detail": "XFAIL REASON: Discussion: http://marc.info/?l=php-internals&m=120221184420957&w=2"
+    },
+    {
+      "status": "SKIP",
+      "title": "testing binary literals",
+      "path": "Zend/tests/binary-32bit.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Test open_basedir configuration",
+      "path": "tests/security/open_basedir_linkinfo.phpt",
+      "detail": "XFAIL REASON: BUG: open_basedir cannot delete symlink to prohibited file. See also"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test open_basedir configuration",
+      "path": "tests/security/open_basedir_parse_ini_file.phpt",
+      "detail": "reason: Windows only variation"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test open_basedir configuration",
+      "path": "tests/security/open_basedir_realpath.phpt",
+      "detail": "reason: only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #34199 (if($obj)/if(!$obj) inconsistency because of cast handler)",
+      "path": "Zend/tests/bug34199.phpt",
+      "detail": "reason: SimpleXML extension required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #34617 (zend_deactivate: objects_store used after zend_objects_store_destroy is called)",
+      "path": "Zend/tests/bug34617.phpt",
+      "detail": "reason: the xml extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #43918 (Segmentation fault in garbage collector)",
+      "path": "Zend/tests/bug43918.phpt",
+      "detail": "reason: SimpleXML extension required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #46701 (Creating associative array with long values in the key fails on 32bit linux)",
+      "path": "Zend/tests/bug46701.phpt",
+      "detail": "reason: this test is for 32bit platforms only"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #48770 (call_user_func_array() fails to call parent from inheriting class)",
+      "path": "Zend/tests/bug48770.phpt",
+      "detail": "XFAIL REASON: See Bug #48770"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #48770 (call_user_func_array() fails to call parent from inheriting class)",
+      "path": "Zend/tests/bug48770_2.phpt",
+      "detail": "XFAIL REASON: See Bug #48770"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #48770 (call_user_func_array() fails to call parent from inheriting class)",
+      "path": "Zend/tests/bug48770_3.phpt",
+      "detail": "XFAIL REASON: See Bug #48770"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #62097: fix for bug #54547 is wrong for 32-bit machines",
+      "path": "Zend/tests/bug62097.phpt",
+      "detail": "reason: for system with 32-bit wide longs only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69092 (Declare Encoding Compile Check Wrong)",
+      "path": "Zend/tests/bug69092.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #70173 (ZVAL_COPY_VALUE_EX broken for 32bit Solaris Sparc)",
+      "path": "Zend/tests/bug70173.phpt",
+      "detail": "reason: this test is for 32bit platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #71428.2: inheritance of ye olde dynamic interfaces",
+      "path": "Zend/tests/bug71428.2.phpt",
+      "detail": "reason: PDO is not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #70914 zend_throw_or_error() format string vulnerability",
+      "path": "Zend/tests/bug70914.phpt",
+      "detail": "reason: pdo_sqlite required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #71930 (_zval_dtor_func: Assertion `(arr)->gc.refcount <= 1' failed)",
+      "path": "Zend/tests/bug71930.phpt",
+      "detail": "reason: Require a resource which is able to hold a callbck"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #77494 (Disabling class causes segfault on member access)",
+      "path": "Zend/tests/bug77494.phpt",
+      "detail": "reason: curl extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78335: Static properties containing cycles report as leak (internal class variant)",
+      "path": "Zend/tests/bug78335_2.phpt",
+      "detail": "reason: requires zend-test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #79919 (Stack use-after-scope in define())",
+      "path": "Zend/tests/bug79919.phpt",
+      "detail": "reason: simplexml extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "comparing different variables (greater than)",
+      "path": "Zend/tests/compare_003.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "comparing different variables (less than)",
+      "path": "Zend/tests/compare_004.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "comparing different variables for equality",
+      "path": "Zend/tests/compare_001.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "comparing different variables (greater or equal than)",
+      "path": "Zend/tests/compare_005.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "comparing different variables for identity",
+      "path": "Zend/tests/compare_002.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "comparing different variables (smaller or equal than)",
+      "path": "Zend/tests/compare_006.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing declare statement with several type values",
+      "path": "Zend/tests/declare_002.phpt",
+      "detail": "reason: Requires ext/mbstring"
+    },
+    {
+      "status": "SKIP",
+      "title": "decrementing different variables",
+      "path": "Zend/tests/decrement_001.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "double to string conversion tests",
+      "path": "Zend/tests/double_to_string.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing declare statement with several type values",
+      "path": "Zend/tests/declare_001.phpt",
+      "detail": "reason: Requires ext/mbstring"
+    },
+    {
+      "status": "SKIP",
+      "title": "zend_dval_to_lval preserves low bits  (32 bit long)",
+      "path": "Zend/tests/dval_to_lval_32.phpt",
+      "detail": "reason: for machines with 32-bit longs"
+    },
+    {
+      "status": "SKIP",
+      "title": "GC 039: Garbage created by replacing argument send by reference",
+      "path": "Zend/tests/gc_039.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "incrementing different variables",
+      "path": "Zend/tests/increment_001.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Inherit internal static property into userland class",
+      "path": "Zend/tests/inherit_internal_static.phpt",
+      "detail": "reason: requires zend-test"
+    },
+    {
+      "status": "SKIP",
+      "title": "testing integer overflow (32bit)",
+      "path": "Zend/tests/hex_overflow_32bit.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "testing integer overflow (32bit)",
+      "path": "Zend/tests/int_overflow_32bit.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "testing integer underflow (32bit)",
+      "path": "Zend/tests/int_underflow_32bit.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Zend Multibyte and ShiftJIS",
+      "path": "Zend/tests/multibyte/multibyte_encoding_001.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Zend Multibyte and UTF-8 BOM",
+      "path": "Zend/tests/multibyte/multibyte_encoding_002.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Zend Multibyte and UTF-16 BOM",
+      "path": "Zend/tests/multibyte/multibyte_encoding_003.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "test for mbstring script_encoding for flex unsafe encoding (Shift_JIS)",
+      "path": "Zend/tests/multibyte/multibyte_encoding_004.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "encoding conversion from script encoding into internal encoding",
+      "path": "Zend/tests/multibyte/multibyte_encoding_005.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Initial value of static var in method depends on the include time of the class definition",
+      "path": "Zend/tests/method_static_var.phpt",
+      "detail": "XFAIL REASON: Maybe not a bug"
+    },
+    {
+      "status": "SKIP",
+      "title": "Crash with Big5",
+      "path": "Zend/tests/multibyte/bug68665.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "086: bracketed namespace with encoding",
+      "path": "Zend/tests/ns_086.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Return type for internal functions 2",
+      "path": "Zend/tests/return_types/internal_functions002.phpt",
+      "detail": "reason: zend-test extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Return type for internal functions 3: Void return type",
+      "path": "Zend/tests/return_types/internal_functions003.phpt",
+      "detail": "reason: zend-test extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Overloaded function 001",
+      "path": "Zend/tests/overloaded_func_001.phpt",
+      "detail": "reason: zend-test extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Overloaded function 002",
+      "path": "Zend/tests/overloaded_func_002.phpt",
+      "detail": "reason: zend-test extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Leak in JMP_SET",
+      "path": "Zend/tests/temporary_cleaning_014.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Return type for internal functions",
+      "path": "Zend/tests/return_types/internal_functions001.phpt",
+      "detail": "reason: zend-test extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "$this re-assign in mb_parse_str()",
+      "path": "Zend/tests/this_in_mb_parse_str.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69579 (Internal trait double-free)",
+      "path": "Zend/tests/traits/bug69579.phpt",
+      "detail": "reason: zend-test extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Return scalar type basics",
+      "path": "Zend/tests/type_declarations/scalar_return_basic.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Scalar type strict mode",
+      "path": "Zend/tests/type_declarations/scalar_strict.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strict declaration being first operation only 006",
+      "path": "Zend/tests/type_declarations/scalar_strict_declaration_placement_006.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strict declaration being first operation only 007",
+      "path": "Zend/tests/type_declarations/scalar_strict_declaration_placement_007.phpt",
+      "detail": "reason: Requires mbstring extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Typed properties in internal classes",
+      "path": "Zend/tests/type_declarations/typed_properties_095.phpt",
+      "detail": "reason: requires zend-test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Zend signed multiply 32-bit",
+      "path": "Zend/tests/zend_signed_multiply-32bit.phpt",
+      "detail": "reason: Running on 64-bit target"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::add() -- fall type2 type3",
+      "path": "ext/date/tests/DateTime_add-fall-type2-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::add() -- fall type3 type2",
+      "path": "ext/date/tests/DateTime_add-fall-type3-type2.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::add() -- fall type3 type3",
+      "path": "ext/date/tests/DateTime_add-fall-type3-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::diff() -- fall type2 type3",
+      "path": "ext/date/tests/DateTime_diff-fall-type2-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::diff() -- fall type3 type2",
+      "path": "ext/date/tests/DateTime_diff-fall-type3-type2.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::diff() -- fall type3 type3",
+      "path": "ext/date/tests/DateTime_diff-fall-type3-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::add() -- spring type2 type3",
+      "path": "ext/date/tests/DateTime_add-spring-type2-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "SKIP",
+      "title": "strftime() and gmstrftime() tests",
+      "path": "ext/date/tests/009_win32.phpt",
+      "detail": "reason: only windows test."
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::add() -- spring type3 type2",
+      "path": "ext/date/tests/DateTime_add-spring-type3-type2.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::diff() -- spring type2 type3",
+      "path": "ext/date/tests/DateTime_diff-spring-type2-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::diff() -- spring type3 type2",
+      "path": "ext/date/tests/DateTime_diff-spring-type3-type2.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::add() -- spring type3 type3",
+      "path": "ext/date/tests/DateTime_add-spring-type3-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::diff() -- spring type3 type3",
+      "path": "ext/date/tests/DateTime_diff-spring-type3-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::sub() -- spring type2 type3",
+      "path": "ext/date/tests/DateTime_sub-spring-type2-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::sub() -- spring type3 type2",
+      "path": "ext/date/tests/DateTime_sub-spring-type3-type2.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::sub() -- spring type3 type3",
+      "path": "ext/date/tests/DateTime_sub-spring-type3-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::sub() -- fall type2 type3",
+      "path": "ext/date/tests/DateTime_sub-fall-type2-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::sub() -- fall type3 type2",
+      "path": "ext/date/tests/DateTime_sub-fall-type3-type2.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "XFAIL",
+      "title": "DateTime::sub() -- fall type3 type3",
+      "path": "ext/date/tests/DateTime_sub-fall-type3-type3.phpt",
+      "detail": "XFAIL REASON: Various bugs exist"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #41523 (strtotime('0000-00-00 00:00:00') is parsed as 1999-11-30) (32 bit)",
+      "path": "ext/date/tests/bug41523.phpt",
+      "detail": "reason: 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #36988 (mktime freezes on long numbers)",
+      "path": "ext/date/tests/bug36988.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #52062 (large timestamps with DateTime::getTimestamp and DateTime::setTimestamp) (32 bit)",
+      "path": "ext/date/tests/bug52062.phpt",
+      "detail": "reason: 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #53437 DateInterval unserialize bad data, 32 bit",
+      "path": "ext/date/tests/bug53437_var3.phpt",
+      "detail": "reason: 32 bit only"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #52480 (Incorrect difference using DateInterval)",
+      "path": "ext/date/tests/bug52480.phpt",
+      "detail": "XFAIL REASON: See https://bugs.php.net/bug.php?id=52480"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test bug #65184 strftime() returns insufficient-length string under multibyte locales",
+      "path": "ext/date/tests/bug65184.phpt",
+      "detail": "reason: Test is valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test date_sunrise() function : usage variation -  Passing high positive and negative float values to time argument.",
+      "path": "ext/date/tests/date_sunrise_variation9.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test date_sunset() function : usage variation - Passing high positive and negative float values to time argument.",
+      "path": "ext/date/tests/date_sunset_variation9.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test idate() function : usage variation - Passing higher positive and negetive float values to timestamp.",
+      "path": "ext/date/tests/idate_variation3.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gmdate() function : usage variation - Passing high positive and negetive float values to timestamp.",
+      "path": "ext/date/tests/gmdate_variation14.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test localtime() function : usage variation - Passing higher positive and negetive float values to timestamp.",
+      "path": "ext/date/tests/localtime_variation3.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test getdate() function : usage variation - Passing high positive and negative float values to timestamp.",
+      "path": "ext/date/tests/getdate_variation7.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "mktime() [3] (32-bit)",
+      "path": "ext/date/tests/mktime-3.phpt",
+      "detail": "reason: 32-bit only"
+    },
+    {
+      "status": "XFAIL",
+      "title": "RFC: DateTime and Daylight Saving Time Transitions (zone type 3, bd2)",
+      "path": "ext/date/tests/rfc-datetime_and_daylight_saving_time-type3-bd2.phpt",
+      "detail": "XFAIL REASON: Still not quite right"
+    },
+    {
+      "status": "XFAIL",
+      "title": "RFC: DateTime and Daylight Saving Time Transitions (zone type 3, fs)",
+      "path": "ext/date/tests/rfc-datetime_and_daylight_saving_time-type3-fs.phpt",
+      "detail": "XFAIL REASON: Still not quite right"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strftime() function : usage variation - Checking large positive and negative float values to timestamp.",
+      "path": "ext/date/tests/strftime_variation23.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "strtotime() and mysql timestamps (32 bit)",
+      "path": "ext/date/tests/strtotime-mysql.phpt",
+      "detail": "reason: 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "strtotime() function (32 bit)",
+      "path": "ext/date/tests/strtotime3.phpt",
+      "detail": "reason: 32-bit only"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #42718 (unsafe_raw filter not applied when configured as default filter)",
+      "path": "ext/filter/tests/bug42718.phpt",
+      "detail": "XFAIL REASON: FILTER_UNSAFE_RAW not applied when configured as default filter, even with flags"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #67167: filter_var(null,FILTER_VALIDATE_BOOLEAN,FILTER_NULL_ON_FAILURE) returns null",
+      "path": "ext/filter/tests/bug67167.02.phpt",
+      "detail": "XFAIL REASON: Requires php_zval_filter to not use convert_to_string for all filters."
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #67296 (filter_input doesn't validate variables)",
+      "path": "ext/filter/tests/bug49184.phpt",
+      "detail": "XFAIL REASON: See Bug #49184"
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_disable_entity_loader()",
+      "path": "ext/libxml/tests/libxml_disable_entity_loader.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_disable_entity_loader()",
+      "path": "ext/libxml/tests/libxml_disable_entity_loader_2.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_set_external_entity_loader() basic test",
+      "path": "ext/libxml/tests/libxml_set_external_entity_loader_basic.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_set_external_entity_loader() error: bad arguments",
+      "path": "ext/libxml/tests/libxml_set_external_entity_loader_error1.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_set_external_entity_loader() variation: resolve externals and entities",
+      "path": "ext/libxml/tests/libxml_set_external_entity_loader_variation1.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_set_external_entity_loader() variation: restore original handler; returning NULL",
+      "path": "ext/libxml/tests/libxml_set_external_entity_loader_variation2.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_get_errors()",
+      "path": "ext/libxml/tests/002.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_use_internal_errors() memory leaks",
+      "path": "ext/libxml/tests/003.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "libxml_set_streams_context()",
+      "path": "ext/libxml/tests/004.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #42112 (deleting a node produces memory corruption)",
+      "path": "ext/libxml/tests/bug42112.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #51903 (simplexml_load_file() doesn't use HTTP headers)",
+      "path": "ext/libxml/tests/bug51903.phpt",
+      "detail": "reason: simplexml extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54138 - DOMNode::getLineNo() doesn't return line number higher than 65535",
+      "path": "ext/libxml/tests/bug54138.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54138 - DOMNode::getLineNo() doesn't return line number higher than 65535",
+      "path": "ext/libxml/tests/bug54138_1.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54138 - DOMNode::getLineNo() doesn't return line number higher than 65535",
+      "path": "ext/libxml/tests/bug54138_2.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54440: libxml extension ignores default context",
+      "path": "ext/libxml/tests/bug54440.phpt",
+      "detail": "reason: simplexml required for this test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #61367: open_basedir bypass in libxml RSHUTDOWN: read test",
+      "path": "ext/libxml/tests/bug61367-read.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #61367: open_basedir bypass in libxml RSHUTDOWN: read test",
+      "path": "ext/libxml/tests/bug61367-read_2.phpt",
+      "detail": "reason: dom extension not availableskip For libxml2 >= 2.9.12 only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #61367: open_basedir bypass in libxml RSHUTDOWN: write test",
+      "path": "ext/libxml/tests/bug61367-write.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69753 - libXMLError::file contains invalid URI",
+      "path": "ext/libxml/tests/bug69753-mb.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69753 - libXMLError::file contains invalid URI",
+      "path": "ext/libxml/tests/bug69753.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #76777 (first parameter of libxml_set_external_entity_loader callback undefined)",
+      "path": "ext/libxml/tests/bug76777.phpt",
+      "detail": "reason: dom extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #79191 (Error in SoapClient ctor disables DOMDocument::save())",
+      "path": "ext/libxml/tests/bug79191.phpt",
+      "detail": "reason: soap extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78272: calling preg_match() before pcntl_fork() will freeze child process",
+      "path": "ext/pcre/tests/bug78272.phpt",
+      "detail": "reason: pcntl extension required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #79241: Segmentation fault on preg_match()",
+      "path": "ext/pcre/tests/bug79241.phpt",
+      "detail": "reason: json extension missing"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #72463 mail fails with invalid argument",
+      "path": "ext/pcre/tests/bug72463_2.phpt",
+      "detail": "reason: windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #76850 Exit code mangled by set locale/preg_match",
+      "path": "ext/pcre/tests/bug76850.phpt",
+      "detail": "reason: need the current locale to be other than C"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionExtension::getDependencies()",
+      "path": "ext/reflection/tests/016.phpt",
+      "detail": "reason: xml extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionClass::getExtensionName() method - basic test for getExtensionName() method",
+      "path": "ext/reflection/tests/ReflectionClass_getExtensionName_basic.phpt",
+      "detail": "reason: - dom extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionClass::getExtension() method - basic test for getExtension() method",
+      "path": "ext/reflection/tests/ReflectionClass_getExtension_basic.phpt",
+      "detail": "reason: - dom extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #65538: SSL context \"cafile\" disallows URL stream wrappers",
+      "path": "ext/openssl/tests/bug65538_002.phpt",
+      "detail": "reason: online test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing ReflectionClass::isCloneable()",
+      "path": "ext/reflection/tests/ReflectionClass_isCloneable_001.phpt",
+      "detail": "reason: SimpleXML and XMLWriter is required for this test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #65538: SSL context \"cafile\" supports phar wrapper",
+      "path": "ext/openssl/tests/bug65538_003.phpt",
+      "detail": "reason: phar not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionExtension::getClassNames() method on an extension with no classes",
+      "path": "ext/reflection/tests/ReflectionExtension_getClassNames_variation1.phpt",
+      "detail": "reason: Requires 'ctype' extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionExtension::getDependencies() method on an extension with a required and conflicting dependency",
+      "path": "ext/reflection/tests/ReflectionExtension_getDependencies_basic.phpt",
+      "detail": "reason: no dom extension"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ReflectionZendExtension class",
+      "path": "ext/reflection/tests/ReflectionZendExtension.phpt",
+      "detail": "reason: Zend OPcache extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ReflectionZendExtension class erros",
+      "path": "ext/reflection/tests/ReflectionZendExtension_error.phpt",
+      "detail": "reason: Zend OPcache extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionMethod::getDocComment() uses left over doc comment from previous scanner run",
+      "path": "ext/reflection/tests/bug64936.phpt",
+      "detail": "reason: tokenizer extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "ReflectionProperty::get/setValue() on internal static property",
+      "path": "ext/reflection/tests/internal_static_property.phpt",
+      "detail": "reason: zend_test extension required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Changing LC_CTYPE back to C",
+      "path": "ext/pcre/tests/ctype_back_to_c.phpt",
+      "detail": "reason: requires de_DE locale"
+    },
+    {
+      "status": "SKIP",
+      "title": "SPL: DirectoryIterator test getGroup",
+      "path": "ext/spl/tests/DirectoryIterator_getGroup_basic.phpt",
+      "detail": "reason: Cannot run test as root."
+    },
+    {
+      "status": "SKIP",
+      "title": "Localized match",
+      "path": "ext/pcre/tests/locales.phpt",
+      "detail": "reason: pt locale not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "SPL: DirectoryIterator test getOwner",
+      "path": "ext/spl/tests/DirectoryIterator_getOwner_basic.phpt",
+      "detail": "reason: Cannot run test as root."
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #80747: Providing RSA key size < 512 generates key that crash PHP",
+      "path": "ext/openssl/tests/bug80747.phpt",
+      "detail": "reason: OpenSSL >= v1.1.0 required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Check for default OpenSSL config path on Windows",
+      "path": "ext/openssl/tests/check_default_conf_path.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "GH-22186 (Heap buffer overflow in openssl_encrypt with AES-WRAP-PAD)",
+      "path": "ext/openssl/tests/gh22186.phpt",
+      "detail": "reason: aes-128-wrap-pad not usable on this OpenSSL build"
+    },
+    {
+      "status": "XFAIL",
+      "title": "updateTimestamp never called when session data is empty",
+      "path": "ext/session/tests/bug71162.phpt",
+      "detail": "XFAIL REASON: Current session module is designed to write empty session always. In addition, current session module only supports SessionHandlerInterface only from PHP 7.0."
+    },
+    {
+      "status": "SKIP",
+      "title": "openssl_decrypt() with OCB cipher algorithm tests",
+      "path": "ext/openssl/tests/openssl_decrypt_ocb.phpt",
+      "detail": "reason: : aes-128-ocb not available"
+    },
+    {
+      "status": "XFAIL",
+      "title": "Bug #73529 session_decode() silently fails on wrong input",
+      "path": "ext/session/tests/bug73529.phpt",
+      "detail": "XFAIL REASON: session_decode() does not return proper status."
+    },
+    {
+      "status": "SKIP",
+      "title": "openssl_encrypt() with OCB cipher algorithm tests",
+      "path": "ext/openssl/tests/openssl_encrypt_ocb.phpt",
+      "detail": "reason: : aes-128-ocb not available"
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867",
+      "path": "ext/session/tests/rfc1867.phpt",
+      "detail": ""
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867",
+      "path": "ext/session/tests/rfc1867_inter.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54971 (Wrong result when using iterator_to_array with use_keys on true)",
+      "path": "ext/spl/tests/bug54971.phpt",
+      "detail": "reason: this test needs --enable-dom"
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867 sid cookie",
+      "path": "ext/session/tests/rfc1867_sid_cookie.phpt",
+      "detail": ""
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867 sid get",
+      "path": "ext/session/tests/rfc1867_sid_get.phpt",
+      "detail": ""
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867 sid get 2",
+      "path": "ext/session/tests/rfc1867_sid_get_2.phpt",
+      "detail": ""
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867 sid cookie",
+      "path": "ext/session/tests/rfc1867_sid_invalid.phpt",
+      "detail": ""
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867 sid only cookie",
+      "path": "ext/session/tests/rfc1867_sid_only_cookie.phpt",
+      "detail": ""
+    },
+    {
+      "status": "FAIL",
+      "title": "session rfc1867 sid post",
+      "path": "ext/session/tests/rfc1867_sid_post.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "SPL: Problem with casting to string (no glob version)",
+      "path": "ext/spl/tests/dit_001_noglob.phpt",
+      "detail": "reason: GLOB_ERR defined"
+    },
+    {
+      "status": "SKIP",
+      "title": "SPL: IteratorIterator and SimpleXMlElement",
+      "path": "ext/spl/tests/iterator_006.phpt",
+      "detail": "reason: SimpleXML required"
+    },
+    {
+      "status": "SKIP",
+      "title": "GHSA-96wq-48vp-hh57: signed integer overflow of char array offset",
+      "path": "ext/standard/tests/GHSA-96wq-48vp-hh57.phpt",
+      "detail": "reason: resource-heavy test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test array_keys() function (variation - 2)",
+      "path": "ext/standard/tests/array/array_keys_variation_002.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test array_slice() function : usage variations - Pass different data types as $offset arg",
+      "path": "ext/standard/tests/array/array_slice_variation2.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test array_values() function (variation)",
+      "path": "ext/standard/tests/array/array_values_variation.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Capture SSL session meta array in stream context for TLSv1.3",
+      "path": "ext/openssl/tests/session_meta_capture_tlsv13.phpt",
+      "detail": "reason: OpenSSL v1.1.1 required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #35014 (array_product() always returns 0) (32bit)",
+      "path": "ext/standard/tests/array/bug35014.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #41121 (range() overflow handling for large numbers on 32bit machines)",
+      "path": "ext/standard/tests/array/bug41121.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test end() function",
+      "path": "ext/standard/tests/array/end.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test natcasesort() function : usage variations - different numeric types",
+      "path": "ext/standard/tests/array/natcasesort_variation3.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Sort with SORT_LOCALE_STRING",
+      "path": "ext/standard/tests/array/locale_sort.phpt",
+      "detail": "reason: setlocale() failed"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test range() function (variation-2)",
+      "path": "ext/standard/tests/array/range_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rsort() function : usage variations - numeric values",
+      "path": "ext/standard/tests/array/rsort_variation3.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "get_object_vars() fast/slow-path discrepancies",
+      "path": "ext/standard/tests/class_object/get_object_vars_variation_004.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Test chdir() function : error conditions - Non-existent directory",
+      "path": "ext/standard/tests/dir/chdir_error2-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test chdir() function : usage variations - relative paths",
+      "path": "ext/standard/tests/dir/chdir_variation2-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test closedir() function : basic functionality",
+      "path": "ext/standard/tests/dir/closedir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test closedir() function : error conditions - Pass incorrect number of arguments",
+      "path": "ext/standard/tests/dir/closedir_error-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test closedir() function : usage variations - close directory handle twice",
+      "path": "ext/standard/tests/dir/closedir_variation2-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test dir() function : basic functionality",
+      "path": "ext/standard/tests/dir/dir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #72625 realpath() fails on very long argument.",
+      "path": "ext/standard/tests/dir/bug72625.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78220 (Can't access OneDrive folder)",
+      "path": "ext/standard/tests/dir/bug78220.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73971 Filename got limited to MAX_PATH on Win32 when scan directory",
+      "path": "ext/standard/tests/dir/dir_bug73971.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Fix #80960 (opendir() warning wrong info when failed on Windows)",
+      "path": "ext/standard/tests/dir/bug80960.phpt",
+      "detail": "reason: for Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test dir() function : usage variations - operate on previously opened directory",
+      "path": "ext/standard/tests/dir/dir_variation4-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test chdir() function : basic functionality",
+      "path": "ext/standard/tests/dir/chdir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readdir() function : basic functionality",
+      "path": "ext/standard/tests/dir/readdir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readdir() function : usage variations - empty directories",
+      "path": "ext/standard/tests/dir/readdir_variation2-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readdir() function : usage variations - sub-directories",
+      "path": "ext/standard/tests/dir/readdir_variation3-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readdir() function : usage variations - different file names",
+      "path": "ext/standard/tests/dir/readdir_variation4-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test that the Directory extension constants are correctly defined.",
+      "path": "ext/standard/tests/directory/directory_constants-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "File type functions",
+      "path": "ext/standard/tests/file/001-win32-mb.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test getcwd() function : basic functionality",
+      "path": "ext/standard/tests/dir/getcwd_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test opendir() function : basic functionality",
+      "path": "ext/standard/tests/dir/opendir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "File type functions",
+      "path": "ext/standard/tests/file/001-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readdir() function : usage variations - operate on previously opened directory",
+      "path": "ext/standard/tests/dir/readdir_variation6-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test opendir() function : usage variations - open a directory twice",
+      "path": "ext/standard/tests/dir/opendir_variation3-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rewinddir() function : basic functionality",
+      "path": "ext/standard/tests/dir/rewinddir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test opendir() function : usage variations - different relative paths",
+      "path": "ext/standard/tests/dir/opendir_variation4-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rewinddir() function : usage variations - operate on a closed directory",
+      "path": "ext/standard/tests/dir/rewinddir_variation2-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test scandir() function : basic functionality",
+      "path": "ext/standard/tests/dir/scandir_basic-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test opendir() function : usage variations - Different wildcards",
+      "path": "ext/standard/tests/dir/opendir_variation6-win32.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test scandir() function : usage variations - different sorting constants",
+      "path": "ext/standard/tests/dir/scandir_variation10-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test scandir() function : usage variations - diff data types as $context arg",
+      "path": "ext/standard/tests/dir/scandir_variation3-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test scandir() function : usage variations - different relative paths",
+      "path": "ext/standard/tests/dir/scandir_variation4-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test scandir() function : usage variations - different file names",
+      "path": "ext/standard/tests/dir/scandir_variation8-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test scandir() function : usage variations - different ints as $sorting_order arg",
+      "path": "ext/standard/tests/dir/scandir_variation9-win32-mb.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "security_level setting to prohibit cert",
+      "path": "ext/openssl/tests/stream_security_level.phpt",
+      "detail": "reason: OpenSSL >= v1.1.0 required"
+    },
+    {
+      "status": "SKIP",
+      "title": "TLS server rate-limits client-initiated renegotiation",
+      "path": "ext/openssl/tests/stream_server_reneg_limit.phpt",
+      "detail": "reason: couldn't locate openssl binary"
+    },
+    {
+      "status": "SKIP",
+      "title": "basename",
+      "path": "ext/standard/tests/file/basename-win32.phpt",
+      "detail": "reason: Windows only basename tests"
+    },
+    {
+      "status": "SKIP",
+      "title": "basename() basic functionality",
+      "path": "ext/standard/tests/file/basename_basic-win32.phpt",
+      "detail": "reason: Windows only basename tests"
+    },
+    {
+      "status": "SKIP",
+      "title": "basename bug #66395",
+      "path": "ext/standard/tests/file/basename_bug66395-win32.phpt",
+      "detail": "reason: Windows only basename tests"
+    },
+    {
+      "status": "SKIP",
+      "title": "basename bug #66395 check drive traversing and NTFS streams",
+      "path": "ext/standard/tests/file/basename_bug66395_variation2-win32.phpt",
+      "detail": "reason: Windows only basename tests"
+    },
+    {
+      "status": "SKIP",
+      "title": "basename() with various inputs",
+      "path": "ext/standard/tests/file/basename_variation1-win32.phpt",
+      "detail": "reason: Windows only basename tests"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing basename() with various values for the suffix parameter",
+      "path": "ext/standard/tests/file/basename_variation2-win32.phpt",
+      "detail": "reason: Windows only basename tests"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #41874 (Separate STDOUT and STDERR in exec functions)",
+      "path": "ext/standard/tests/file/bug41874_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #41874 (Separate STDOUT and STDERR in exec functions)",
+      "path": "ext/standard/tests/file/bug41874_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #43008 (php://filter uris ignore url encoded filternames and can't handle slashes)",
+      "path": "ext/standard/tests/file/bug43008.phpt",
+      "detail": "reason: iconv extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #41655 (open_basedir bypass via glob()) 1/2",
+      "path": "ext/standard/tests/file/bug41655_1-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "tls stream wrapper",
+      "path": "ext/openssl/tests/tls_wrapper.phpt",
+      "detail": "reason: OpenSSL v1.1.1 required"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #41874 (Separate STDOUT and STDERR in exec functions)",
+      "path": "ext/standard/tests/file/bug41874.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #41874 (Separate STDOUT and STDERR in exec functions)",
+      "path": "ext/standard/tests/file/bug41874_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "tls stream wrapper when TLS 1.3 available",
+      "path": "ext/openssl/tests/tls_wrapper_with_tls_v1.3.phpt",
+      "detail": "reason: OpenSSL v1.1.1 required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #47517 test registry virtualization disabled",
+      "path": "ext/standard/tests/file/bug47517.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #47767 (include_once does not resolve windows symlinks or junctions)",
+      "path": "ext/standard/tests/file/bug47767.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "proc_open with PTY closes incorrect file descriptor",
+      "path": "ext/standard/tests/file/bug69442.phpt",
+      "detail": "reason: PTY pseudo terminals are not supported"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #52820 (writes to fopencookie FILE* not committed when seeking the stream)",
+      "path": "ext/standard/tests/file/bug52820.phpt",
+      "detail": "reason: only for debug builds"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #53241 (stream casting that relies on fdopen/fopencookie fails with 'xb' mode)",
+      "path": "ext/standard/tests/file/bug53241.phpt",
+      "detail": "reason: curl extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #72035 php-cgi.exe fails to run scripts relative to drive root",
+      "path": "ext/standard/tests/file/bug72035.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #77552 Unintialized php_stream_statbuf in stat functions",
+      "path": "ext/standard/tests/file/bug77552.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78241 (touch() does not handle dates after 2038 in PHP 64-bit)",
+      "path": "ext/standard/tests/file/bug78241.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78386 (fstat mode has unexpected value on PHP 7.4)",
+      "path": "ext/standard/tests/file/bug78386.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - dir as source",
+      "path": "ext/standard/tests/file/copy_variation12-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "tlsv1.3 stream wrapper",
+      "path": "ext/openssl/tests/tlsv1.3_wrapper.phpt",
+      "detail": "reason: OpenSSL v1.1.1 required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - copy data file across dirs",
+      "path": "ext/standard/tests/file/copy_variation16-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fflush() function: usage variations - files in different modes",
+      "path": "ext/standard/tests/file/fflush_variation1-win32-mb.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fflush() function: usage variations - files in different modes",
+      "path": "ext/standard/tests/file/fflush_variation1-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - destination file names(special chars)",
+      "path": "ext/standard/tests/file/copy_variation2-win32-mb.phpt",
+      "detail": "reason: only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - destination file names(special chars)",
+      "path": "ext/standard/tests/file/copy_variation2-win32.phpt",
+      "detail": "reason: only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - destination file names(white spaces)",
+      "path": "ext/standard/tests/file/copy_variation3-win32.phpt",
+      "detail": "reason: only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - destination file names(case sensitive)",
+      "path": "ext/standard/tests/file/copy_variation5-win32.phpt",
+      "detail": "reason: only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test copy() function: usage variations - copy empty file across dirs",
+      "path": "ext/standard/tests/file/copy_variation6-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test dirname() function : basic functionality",
+      "path": "ext/standard/tests/file/dirname_basic-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test dirname() function : regression with path normalization",
+      "path": "ext/standard/tests/file/dirname_no_path_normalization-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test disk_free_space and its alias diskfreespace() functions : error conditions",
+      "path": "ext/standard/tests/file/disk_free_space_error-win32.phpt",
+      "detail": "reason: Valid only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fileatime(), filemtime(), filectime() & touch() functions : usage variation",
+      "path": "ext/standard/tests/file/005_variation-win32.phpt",
+      "detail": "reason: Windows-only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test disk_total_space() function : error conditions",
+      "path": "ext/standard/tests/file/disk_total_space_error-win32.phpt",
+      "detail": "reason: Valid only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fileatime(), filemtime(), filectime() & touch() functions : usage variation",
+      "path": "ext/standard/tests/file/005_variation2-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgetss() function : Basic functionality - read/write modes",
+      "path": "ext/standard/tests/file/fgetss_basic2-win32-mb.phpt",
+      "detail": "reason: .. only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgetss() function : Basic functionality - read/write modes",
+      "path": "ext/standard/tests/file/fgetss_basic2-win32.phpt",
+      "detail": "reason: .. only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgetss() function : usage variations - write only modes",
+      "path": "ext/standard/tests/file/fgetss_variation1-win32.phpt",
+      "detail": "reason: .. only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgetss() function : usage variations - read/write modes",
+      "path": "ext/standard/tests/file/fgetss_variation3-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgetss() function : usage variations - read/write modes, file pointer at EOF",
+      "path": "ext/standard/tests/file/fgetss_variation5-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen and fclose() functions - usage variations - \"wt\" mode",
+      "path": "ext/standard/tests/file/007_variation11-win32-mb.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen and fclose() functions - usage variations - \"wt\" mode",
+      "path": "ext/standard/tests/file/007_variation11-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen and fclose() functions - usage variations - \"w+t\" mode",
+      "path": "ext/standard/tests/file/007_variation12-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen and fclose() functions - usage variations - \"at\" mode",
+      "path": "ext/standard/tests/file/007_variation13-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test file_get_contents() function : variation - various absolute and relative paths",
+      "path": "ext/standard/tests/file/file_get_contents_variation7-win32-mb.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test file_get_contents() function : variation - various absolute and relative paths",
+      "path": "ext/standard/tests/file/file_get_contents_variation7-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test file_get_contents() function : variation - obscure filenames",
+      "path": "ext/standard/tests/file/file_get_contents_variation8-win32.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgets() function : usage variations - seek n read",
+      "path": "ext/standard/tests/file/fgets_variation4-win32-mb.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgets() function : usage variations - seek n read",
+      "path": "ext/standard/tests/file/fgets_variation4-win32.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fgets() function : usage variations - read when file pointer at EOF",
+      "path": "ext/standard/tests/file/fgets_variation6-win32.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test file_put_contents() function : usage variation - various absolute and relative paths",
+      "path": "ext/standard/tests/file/file_put_contents_variation7-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test file_put_contents() function : usage variation - obscure filenames",
+      "path": "ext/standard/tests/file/file_put_contents_variation8-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "file() with various paths",
+      "path": "ext/standard/tests/file/file_variation5-win32-mb.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "file() with various paths",
+      "path": "ext/standard/tests/file/file_variation5-win32.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filesize() function: usage variations - size of files",
+      "path": "ext/standard/tests/file/filesize_variation1-win32-mb.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filesize() function: usage variations - size of files",
+      "path": "ext/standard/tests/file/filesize_variation1-win32.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test file() function : variation - various absolute and relative paths",
+      "path": "ext/standard/tests/file/file_variation8-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() function : variation: file uri, no use include path",
+      "path": "ext/standard/tests/file/fopen_variation14-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() function : variation: file uri, use include path = true",
+      "path": "ext/standard/tests/file/fopen_variation15-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filesize() function: usage variations - size of dir/subdir",
+      "path": "ext/standard/tests/file/filesize_variation2-win32.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filesize() function: usage variations - file size after truncate",
+      "path": "ext/standard/tests/file/filesize_variation3-win32.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filesize() function: usage variations - file mode & holes in file",
+      "path": "ext/standard/tests/file/filesize_variation4-win32.phpt",
+      "detail": "reason: only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filetype() function: Variations",
+      "path": "ext/standard/tests/file/filetype_variation.phpt",
+      "detail": "reason: no posix_mkfifo()"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test filetype() function: Check block device",
+      "path": "ext/standard/tests/file/filetype_variation3.phpt",
+      "detail": "reason: /dev/ram0 not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() function : variation: interesting paths, no use include path",
+      "path": "ext/standard/tests/file/fopen_variation10-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() function : variation: interesting paths, use include path = true",
+      "path": "ext/standard/tests/file/fopen_variation11-win32.phpt",
+      "detail": "reason: Run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fread() function : usage variations - read beyond file size, read/write mode",
+      "path": "ext/standard/tests/file/fread_variation3-win32-mb.phpt",
+      "detail": "reason: ...only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fread() function : usage variations - read beyond file size, read/write mode",
+      "path": "ext/standard/tests/file/fread_variation3-win32.phpt",
+      "detail": "reason: ...only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - float formats with integer values",
+      "path": "ext/standard/tests/file/fscanf_variation9.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - integer formats with float values",
+      "path": "ext/standard/tests/file/fscanf_variation3.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fseek(), ftell() & rewind() functions : basic functionality - all w and x modes",
+      "path": "ext/standard/tests/file/fseek_ftell_rewind_basic2-win32-mb.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fseek(), ftell() & rewind() functions : basic functionality - all w and x modes",
+      "path": "ext/standard/tests/file/fseek_ftell_rewind_basic2-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - hexa formats with integer values",
+      "path": "ext/standard/tests/file/fscanf_variation33.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - hexa formats with float values",
+      "path": "ext/standard/tests/file/fscanf_variation34.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fseek(), ftell() & rewind() functions : usage variations - all w and x modes, default whence",
+      "path": "ext/standard/tests/file/fseek_ftell_rewind_variation2-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fseek(), ftell() & rewind() functions : usage variations - all w and x modes, SEEK_SET",
+      "path": "ext/standard/tests/file/fseek_ftell_rewind_variation4-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - unsigned int formats with integer values",
+      "path": "ext/standard/tests/file/fscanf_variation39.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fseek(), ftell() & rewind() functions : usage variations - all w & x modes, SEEK_CUR",
+      "path": "ext/standard/tests/file/fseek_ftell_rewind_variation6-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - unsigned formats with float values",
+      "path": "ext/standard/tests/file/fscanf_variation40.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fseek(), ftell() & rewind() functions : usage variations - all w and x modes, SEEK_END",
+      "path": "ext/standard/tests/file/fseek_ftell_rewind_variation8-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate filesize to zero",
+      "path": "ext/standard/tests/file/ftruncate_variation1-win32-mb.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate filesize to zero",
+      "path": "ext/standard/tests/file/ftruncate_variation1-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate file to current size",
+      "path": "ext/standard/tests/file/ftruncate_variation2-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate file to half size",
+      "path": "ext/standard/tests/file/ftruncate_variation3-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fscanf() function: usage variations - tracking file pointer while reading",
+      "path": "ext/standard/tests/file/fscanf_variation55.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate file to negative size",
+      "path": "ext/standard/tests/file/ftruncate_variation4-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test glob() function: ensure no platform difference, variation 4",
+      "path": "ext/standard/tests/file/glob_variation6.phpt",
+      "detail": "reason: only valid on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate file to bigger size",
+      "path": "ext/standard/tests/file/ftruncate_variation5-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate file to smaller size",
+      "path": "ext/standard/tests/file/ftruncate_variation6-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test lchgrp() function : basic functionality",
+      "path": "ext/standard/tests/file/lchgrp_basic.phpt",
+      "detail": "reason: no posix_getgid()"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test lchown() function : basic functionality",
+      "path": "ext/standard/tests/file/lchown_basic.phpt",
+      "detail": "reason: no posix_getuid()"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ftruncate() function : usage variations - truncate when file pointer at EOF",
+      "path": "ext/standard/tests/file/ftruncate_variation7-win32.phpt",
+      "detail": "reason: .. only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test lchown() function : error functionality",
+      "path": "ext/standard/tests/file/lchown_error.phpt",
+      "detail": "reason: no posix_getuid()"
+    },
+    {
+      "status": "SKIP",
+      "title": "link not working properly on Windows",
+      "path": "ext/standard/tests/file/link_win32.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_executable() function: basic functionality",
+      "path": "ext/standard/tests/file/is_executable_basic-win32-mb.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_executable() function: basic functionality",
+      "path": "ext/standard/tests/file/is_executable_basic-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fwrite() function : basic functionality",
+      "path": "ext/standard/tests/file/fwrite_basic-win32-mb.phpt",
+      "detail": "reason: ...Valid for Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fwrite() function : basic functionality",
+      "path": "ext/standard/tests/file/fwrite_basic-win32.phpt",
+      "detail": "reason: ...Valid for Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fwrite() function : usage variations - r, rb & rt modes",
+      "path": "ext/standard/tests/file/fwrite_variation1-win32-mb.phpt",
+      "detail": "reason: ...Not valid for Linux"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fwrite() function : usage variations - r+, r+b & r+t modes",
+      "path": "ext/standard/tests/file/fwrite_variation2-win32.phpt",
+      "detail": "reason: ...Not valid for Linux"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fwrite() function : usage variations - a, ab, at, a+, a+b & a+t mode",
+      "path": "ext/standard/tests/file/fwrite_variation3-win32.phpt",
+      "detail": "reason: ...Not valid for Linux"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fwrite() function : usage variations - x, xb, xt, x+, x+b & x+t modes",
+      "path": "ext/standard/tests/file/fwrite_variation4-win32.phpt",
+      "detail": "reason: ...Not valid for Linux"
+    },
+    {
+      "status": "SKIP",
+      "title": "GHSA-9f67-6fw4-hpfp: Windows reserved device names are rejected in filesystem paths",
+      "path": "ext/standard/tests/file/ghsa-9f67-6fw4-hpfp-win32.phpt",
+      "detail": "reason: Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_readable() function: basic functionality",
+      "path": "ext/standard/tests/file/is_readable_basic-win32-mb.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_readable() function: basic functionality",
+      "path": "ext/standard/tests/file/is_readable_basic-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test glob() function: error condition - pattern too long.",
+      "path": "ext/standard/tests/file/glob_error_002-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test glob() function: usage variations",
+      "path": "ext/standard/tests/file/glob_variation-win32-mb.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test glob() function: usage variations",
+      "path": "ext/standard/tests/file/glob_variation-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "recursive mkdir() tests",
+      "path": "ext/standard/tests/file/mkdir-004.phpt",
+      "detail": "reason: for root only"
+    },
+    {
+      "status": "SKIP",
+      "title": "recursive mkdir() tests",
+      "path": "ext/standard/tests/file/mkdir-005.phpt",
+      "detail": "reason: for root only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir() and rmdir() functions: usage variations",
+      "path": "ext/standard/tests/file/mkdir_rmdir_variation-win32-mb.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir() and rmdir() functions: usage variations",
+      "path": "ext/standard/tests/file/mkdir_rmdir_variation-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test popen() and pclose function: basic functionality",
+      "path": "ext/standard/tests/file/popen_pclose_basic-win32-mb.phpt",
+      "detail": "reason: Not Valid for Linux"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test popen() and pclose function: basic functionality",
+      "path": "ext/standard/tests/file/popen_pclose_basic-win32.phpt",
+      "detail": "reason: Not Valid for Linux"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test popen() and pclose function: error conditions",
+      "path": "ext/standard/tests/file/popen_pclose_error-sunos.phpt",
+      "detail": "reason: Only valid for Sun Solaris"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir() function : variation: various valid and invalid paths",
+      "path": "ext/standard/tests/file/mkdir_variation5-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readfile() function: basic functionality",
+      "path": "ext/standard/tests/file/readfile_basic-win32.phpt",
+      "detail": "reason: .. only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readfile() function : variation - various invalid paths",
+      "path": "ext/standard/tests/file/readfile_variation10-win32.phpt",
+      "detail": "reason: run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test parse_ini_file() function : variation - various absolute and relative paths",
+      "path": "ext/standard/tests/file/parse_ini_file_variation6-win32-mb.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test parse_ini_file() function : variation - various absolute and relative paths",
+      "path": "ext/standard/tests/file/parse_ini_file_variation6-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test pathinfo() function: basic functionality",
+      "path": "ext/standard/tests/file/pathinfo_basic1-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test pathinfo() function: basic functionality",
+      "path": "ext/standard/tests/file/pathinfo_basic2-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readfile() function : variation",
+      "path": "ext/standard/tests/file/readfile_variation8-win32-mb.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readfile() function : variation",
+      "path": "ext/standard/tests/file/readfile_variation8-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readlink() and realpath functions: basic functionality - diff. path notation for files",
+      "path": "ext/standard/tests/file/readlink_realpath_basic2-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readlink() and realpath() functions: error conditions",
+      "path": "ext/standard/tests/file/readlink_realpath_error-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test realpath() function: basic functionality",
+      "path": "ext/standard/tests/file/realpath_basic-win32.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readlink() and realpath() functions: usage variation - linkname/filename stored in object(Bug #42038)",
+      "path": "ext/standard/tests/file/readlink_realpath_variation1-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readlink() and realpath() functions: usage variation - linkname/filename stored in array(Bug #42038)",
+      "path": "ext/standard/tests/file/readlink_realpath_variation2-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "realpath_cache_size() and realpath_cache_get()",
+      "path": "ext/standard/tests/file/realpath_cache_win32.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test realpath() function: error conditions",
+      "path": "ext/standard/tests/file/realpath_error-win32.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test realpath() function: usage variation",
+      "path": "ext/standard/tests/file/realpath_variation-win32-mb.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test realpath() function: usage variation",
+      "path": "ext/standard/tests/file/realpath_variation-win32.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test realpath() function: basic functionality",
+      "path": "ext/standard/tests/file/realpath_basic-win32-mb.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function : variation - various invalid paths",
+      "path": "ext/standard/tests/file/rename_variation13-win32.phpt",
+      "detail": "reason: run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: usage variations",
+      "path": "ext/standard/tests/file/rename_variation-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: usage variations",
+      "path": "ext/standard/tests/file/rename_variation1-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() function: basic functionality",
+      "path": "ext/standard/tests/file/stat_basic-win32-mb.phpt",
+      "detail": "reason: .. valid only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() function: basic functionality",
+      "path": "ext/standard/tests/file/stat_basic-win32.phpt",
+      "detail": "reason: .. valid only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() function: error conditions",
+      "path": "ext/standard/tests/file/stat_error-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function : variation - various relative, absolute paths",
+      "path": "ext/standard/tests/file/rename_variation11-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - effects of rename()",
+      "path": "ext/standard/tests/file/stat_variation1-win32-mb.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function : variation - various relative, absolute paths",
+      "path": "ext/standard/tests/file/rename_variation12-win32.phpt",
+      "detail": "reason: ..  for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - effects of rename()",
+      "path": "ext/standard/tests/file/stat_variation1-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - effects of writing to file",
+      "path": "ext/standard/tests/file/stat_variation2-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - effects of creating/deleting the dir/file",
+      "path": "ext/standard/tests/file/stat_variation3-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: usage variations",
+      "path": "ext/standard/tests/file/rename_variation2-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - effects of is_dir() & is_file()",
+      "path": "ext/standard/tests/file/stat_variation4-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - file opened in read/write mode",
+      "path": "ext/standard/tests/file/stat_variation5-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: usage variations",
+      "path": "ext/standard/tests/file/rename_variation3-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - changing permissions of dir/file",
+      "path": "ext/standard/tests/file/stat_variation6-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - names of dir/file stored in objects",
+      "path": "ext/standard/tests/file/stat_variation7-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stat() functions: usage variations - effects of truncate()",
+      "path": "ext/standard/tests/file/stat_variation8-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Unexposed/leaked stream encloses another stream",
+      "path": "ext/standard/tests/file/stream_enclosed.phpt",
+      "detail": "reason: only debug builds"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: usage variations-6",
+      "path": "ext/standard/tests/file/rename_variation6-win32.phpt",
+      "detail": "reason: ..  for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: usage variations-8",
+      "path": "ext/standard/tests/file/rename_variation7-win32.phpt",
+      "detail": "reason: .. for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() function: variation",
+      "path": "ext/standard/tests/file/rename_variation8-win32.phpt",
+      "detail": "reason: ..  for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rmdir() function : variation: various valid and invalid paths",
+      "path": "ext/standard/tests/file/rmdir_variation3-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - obscure prefixes",
+      "path": "ext/standard/tests/file/tempnam_variation3-win32.phpt",
+      "detail": "reason: run only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - invalid/non-existing dir",
+      "path": "ext/standard/tests/file/tempnam_variation7-win32.phpt",
+      "detail": "reason: Only run on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test touch() function : variation: various valid and invalid paths",
+      "path": "ext/standard/tests/file/touch_variation6-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing unlink() function : error conditions",
+      "path": "ext/standard/tests/file/unlink_error-win32-mb.phpt",
+      "detail": "reason: .. only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing unlink() function : error conditions",
+      "path": "ext/standard/tests/file/unlink_error-win32.phpt",
+      "detail": "reason: .. only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - creating files",
+      "path": "ext/standard/tests/file/tempnam_variation1-win32-mb.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - creating files",
+      "path": "ext/standard/tests/file/tempnam_variation1-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test unlink() function : usage variations - unlinking file in a directory",
+      "path": "ext/standard/tests/file/unlink_variation1-win32-mb.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test unlink() function : usage variations - unlinking file in a directory",
+      "path": "ext/standard/tests/file/unlink_variation1-win32.phpt",
+      "detail": "reason: only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - various absolute and relative paths",
+      "path": "ext/standard/tests/file/tempnam_variation2-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test unlink() function : variation: various valid and invalid paths",
+      "path": "ext/standard/tests/file/unlink_variation8-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - existing file",
+      "path": "ext/standard/tests/file/tempnam_variation5-win32.phpt",
+      "detail": "reason: Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - Using previous unique filename",
+      "path": "ext/standard/tests/file/tempnam_variation6-win32.phpt",
+      "detail": "reason: Windows Only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test unlink() function : variation: various valid and invalid paths",
+      "path": "ext/standard/tests/file/unlink_variation9-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test tempnam() function: usage variations - various absolute and relative paths",
+      "path": "ext/standard/tests/file/tempnam_variation8-win32.phpt",
+      "detail": "reason: Only valid for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test touch() function : basic functionality",
+      "path": "ext/standard/tests/file/touch_basic-win32-mb.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test touch() function : basic functionality",
+      "path": "ext/standard/tests/file/touch_basic-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #81223 (flock() only locks first byte of file)",
+      "path": "ext/standard/tests/file/bug81223.phpt",
+      "detail": "reason: for Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #44859 (incorrect result with NTFS ACL permissions, is_writable)",
+      "path": "ext/standard/tests/file/windows_acls/bug44859.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #44859 (incorrect result with NTFS ACL permissions, is_readable)",
+      "path": "ext/standard/tests/file/windows_acls/bug44859_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #44859 (incorrect result with NTFS ACL permissions, is_executable)",
+      "path": "ext/standard/tests/file/windows_acls/bug44859_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "bug #44859 (incorrect result with NTFS ACL permissions, is_readable)",
+      "path": "ext/standard/tests/file/windows_acls/bug44859_4.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug#48746 - Junction not working properly",
+      "path": "ext/standard/tests/file/windows_links/bug48746.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "chmod() basic functionality",
+      "path": "ext/standard/tests/file/chmod_basic-win32-mb.phpt",
+      "detail": "reason: Windows only chmod test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug#48746 - Junction not working properly",
+      "path": "ext/standard/tests/file/windows_links/bug48746_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "chmod() basic functionality",
+      "path": "ext/standard/tests/file/chmod_basic-win32.phpt",
+      "detail": "reason: Windows only chmod test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug#48746 - Junction not working properly",
+      "path": "ext/standard/tests/file/windows_links/bug48746_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug#48746 - Junction not working properly",
+      "path": "ext/standard/tests/file/windows_links/bug48746_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73962 bug with symlink related to cyrillic directory",
+      "path": "ext/standard/tests/file/windows_links/bug73962.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #76335 \"link(): Bad file descriptor\" with non-ASCII path",
+      "path": "ext/standard/tests/file/windows_links/bug76335.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readlink bc behaviour on Windows",
+      "path": "ext/standard/tests/file/windows_links/readlink_compat.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54028 Directory::read() cannot handle non-unicode chars properly",
+      "path": "ext/standard/tests/file/windows_mb_path/bug54028.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54028 realpath(\".\") return false",
+      "path": "ext/standard/tests/file/windows_mb_path/bug54028_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "chmod() with various paths",
+      "path": "ext/standard/tests/file/chmod_variation2-win32-mb.phpt",
+      "detail": "reason: Windows only chmod test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #54977 UTF-8 files and folder are not shown",
+      "path": "ext/standard/tests/file/windows_mb_path/bug54977.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "chmod() with various paths",
+      "path": "ext/standard/tests/file/chmod_variation2-win32.phpt",
+      "detail": "reason: Windows only chmod test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #61315 stat() fails with specific DBCS characters",
+      "path": "ext/standard/tests/file/windows_mb_path/bug61315.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "PHP can not read or write file correctly if file name have special char like \u0161",
+      "path": "ext/standard/tests/file/windows_mb_path/bug64506.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #64699 is_dir() is inaccurate result on Windows with japanese locale.",
+      "path": "ext/standard/tests/file/windows_mb_path/bug64699.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #70903 scandir wrongly interprets the Turkish \"\u0131\" character",
+      "path": "ext/standard/tests/file/windows_mb_path/bug70903.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #71509 Zip problem with swedish letters in filename.",
+      "path": "ext/standard/tests/file/windows_mb_path/bug71509.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "chroot()",
+      "path": "ext/standard/tests/file/chroot_001.phpt",
+      "detail": "reason: for root only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #74923 Crash when crawling through network share",
+      "path": "ext/standard/tests/file/windows_mb_path/bug74923.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75063 Many filesystem-related functions do not work with multibyte file names, cp1251",
+      "path": "ext/standard/tests/file/windows_mb_path/bug75063_cp1251.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75063 Many filesystem-related functions do not work with multibyte file names, UTF-8",
+      "path": "ext/standard/tests/file/windows_mb_path/bug75063_utf8.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "RecursiveDirectoryIterator with dir path long or of edge case length",
+      "path": "ext/standard/tests/file/windows_mb_path/recursive_it.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading big5 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_big5_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir big5 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_big5_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write big5 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_big5_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading big5 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_big5_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir big5 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_big5_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write big5 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_big5_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading UTF-8 path with cp1250 specific symbols",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1250_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir UTF-8 path with cp1250 specific symbols",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1250_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading CP1251 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write to UTF-8 path with cp1250 specific symbols",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1250_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir CP1251 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write CP1251 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading CP1251 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir CP1251 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write CP1251 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading CP1251 with zend.multibyte",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_zend_multibyte_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir UTF-8 path with cp1250 specific symbols",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1250_to_utf8_4.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write to UTF-8 path with cp1250 specific symbols",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1250_to_utf8_5.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading UTF-8 path with cp1250 specific symbols",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1250_to_utf8_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1256 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1256_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1256 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1256_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir CP1251 with zend.multibyte",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_zend_multibyte_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1256 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1256_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write CP1251 with zend.multibyte",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1251_zend_multibyte_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1256 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1256_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "cp1252 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1256 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1256_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1252 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1256 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1256_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1252 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Thai cp874 basic test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp874_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1252 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Thai cp874 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp874_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1252 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_to_utf8_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1252 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_to_utf8_4.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1252 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1252_to_utf8_5.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1253 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1253_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1253 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1253_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Thai UTF-8 basic test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp874_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Thai UTF-8 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp874_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp932 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp932",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write to cp932 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1253",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1253_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "cp932 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp932 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp932 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp932 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp932_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp936 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp936_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1253 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1253_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1253 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1253_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1253 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1253_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1254 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp936 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp936_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1254 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp936 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp936_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1254 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp936 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp936_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "cp1254 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1254 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp936 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp936_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1254 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp936 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp936_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1254 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test chdir()/getcwd() with a dir for multibyte filenames",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cwd_mb_names.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "cp1254 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1254_to_utf8_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading eucjp to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_eucjp_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1255 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1255_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir eucjp to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_eucjp_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write eucjp to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_eucjp_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1255 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1255_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading Kartuli UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_kartuli_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1255 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1255_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir Kartuli UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_kartuli_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mkdir/rmdir cp1255 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1255_to_utf8_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write Kartuli UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_kartuli_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for write cp1255 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1255_to_utf8_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fopen() for reading cp1255 to UTF-8 path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_cp1255_to_utf8_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic long path test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_0.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic long path test with file I/O",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_1.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic long path test with file I/O, multibyte path and realpath() check",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_2.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #30730 Filename path length limit broken on NTFS volume, using rename",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_bug30730.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #70943 fopen() can't open a file if path is 259 characters long",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_bug70943.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #71103 file_exists and is_readable fail silently",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_bug71103.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Kartuli UTF-8 cmd test",
+      "path": "ext/standard/tests/file/windows_mb_path/test_kartuli_utf8_3.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Mkdir with path length < 260 and > 248 has be a long path",
+      "path": "ext/standard/tests/file/windows_mb_path/test_long_path_mkdir.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test readdir() with a dir for multibyte filenames",
+      "path": "ext/standard/tests/file/windows_mb_path/test_readdir_mb_names.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test rename() with a dir for multibyte filenames",
+      "path": "ext/standard/tests/file/windows_mb_path/test_rename_mb_names.phpt",
+      "detail": "reason: windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test touch() function : variation: various valid and invalid paths",
+      "path": "ext/standard/tests/file/touch_variation5-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "user defined error handler + set_error_handling(EH_THROW)",
+      "path": "ext/standard/tests/general_functions/bug44295-win.phpt",
+      "detail": "reason: Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69646 OS command injection vulnerability in escapeshellarg()",
+      "path": "ext/standard/tests/general_functions/bug69646.phpt",
+      "detail": "reason: .. Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #77638 (var_export'ing certain class instances segfaults)",
+      "path": "ext/standard/tests/general_functions/bug77638_1.phpt",
+      "detail": "reason: com_dotnet extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #77638 (var_export'ing certain class instances segfaults)",
+      "path": "ext/standard/tests/general_functions/bug77638_2.phpt",
+      "detail": "reason: ffi extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78569 (proc_open() may require extra quoting)",
+      "path": "ext/standard/tests/general_functions/bug78569.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test escapeshellarg() function: basic test with UTF-8 strings",
+      "path": "ext/standard/tests/general_functions/escapeshellarg_basic-win32-mb.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test escapeshellarg() function: basic test",
+      "path": "ext/standard/tests/general_functions/escapeshellarg_basic-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test escapeshellarg() function : usage variations - different data types as $arg arg",
+      "path": "ext/standard/tests/general_functions/escapeshellarg_variation1-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test escapeshellcmd() functionality on Windows",
+      "path": "ext/standard/tests/general_functions/escapeshellcmd-win32.phpt",
+      "detail": "reason: ...Valid for Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variatoins",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation2.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation3.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation4.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation5.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation6.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_callable() function : usage variations - undefined functions",
+      "path": "ext/standard/tests/general_functions/is_callable_variation1.phpt",
+      "detail": "reason: requires ext/json"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gettype() & settype() functions : usage variations",
+      "path": "ext/standard/tests/general_functions/gettype_settype_variation8.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_float() & it's FALIASes: is_double() & is_real() functions",
+      "path": "ext/standard/tests/general_functions/is_float.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test is_int() & it's FALIASes: is_long() & is_integer() functions",
+      "path": "ext/standard/tests/general_functions/is_int.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "proc_nice() basic behaviour",
+      "path": "ext/standard/tests/general_functions/proc_nice_basic-win.phpt",
+      "detail": "reason: : Only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test intval() function",
+      "path": "ext/standard/tests/general_functions/intval.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test function proc_nice() by substituting argument 1 with int values.",
+      "path": "ext/standard/tests/general_functions/proc_nice_variation5.phpt",
+      "detail": "reason: . posix_geteuid not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #70096 (Repeated iptcembed() adds superfluous FF bytes)",
+      "path": "ext/standard/tests/image/bug70096.phpt",
+      "detail": "reason: gd extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69115 crash in mail (plus indirect pcre test)",
+      "path": "ext/standard/tests/mail/bug69115.phpt",
+      "detail": "reason: Windows only test, as in Unix builds it sends an email"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #72964 (White space not unfolded for CC/Bcc headers)",
+      "path": "ext/standard/tests/mail/bug72964.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #72964 (White space not unfolded for CC/Bcc headers)",
+      "path": "ext/standard/tests/mail/bug80706.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #80751 (Comma in recipient name breaks email delivery)",
+      "path": "ext/standard/tests/mail/bug80751.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_basic_alt1-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_basic_alt2-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_basic_alt3-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_basic_alt4-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test var_dump() function",
+      "path": "ext/standard/tests/general_functions/var_dump.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test var_export() function with locale",
+      "path": "ext/standard/tests/general_functions/var_export-locale.phpt",
+      "detail": "reason: locale needed for this test is not supported on this platform"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test var_export() function with locale",
+      "path": "ext/standard/tests/general_functions/var_export-locale_32.phpt",
+      "detail": "reason: locale needed for this test is not supported on this platform"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test var_export() function with integer values",
+      "path": "ext/standard/tests/general_functions/var_export_basic1_32.phpt",
+      "detail": "reason: 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_variation_alt1-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_variation_alt2-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test mail() function : basic functionality",
+      "path": "ext/standard/tests/mail/mail_variation_alt3-win32.phpt",
+      "detail": "reason: ...Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #38802 (ignore_errors and max_redirects)",
+      "path": "ext/standard/tests/http/bug38802.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #43510 (stream_get_meta_data() does not return same mode as used in fopen)",
+      "path": "ext/standard/tests/http/bug43510.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #47021 (SoapClient stumbles over WSDL delivered with \"Transfer-Encoding: chunked\")",
+      "path": "ext/standard/tests/http/bug47021.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #48929 (duplicate \\r\\n sent after last header line)",
+      "path": "ext/standard/tests/http/bug48929.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #53198 (From: header cannot be changed with ini_set)",
+      "path": "ext/standard/tests/http/bug53198.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #60570 (Stream context leaks when http request fails)",
+      "path": "ext/standard/tests/http/bug60570.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #61548 (content-type must appear at the end of headers)",
+      "path": "ext/standard/tests/http/bug61548.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #65634 (HTTP wrapper is very slow with protocol_version 1.1)",
+      "path": "ext/standard/tests/http/bug65634.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #67430 (http:// wrapper doesn't follow 308 redirects)",
+      "path": "ext/standard/tests/http/bug67430.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #69337 (Stream context leaks when http request fails)",
+      "path": "ext/standard/tests/http/bug69337.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73297 (Ignore 100 Continue returned by HTTP/1.1 servers)",
+      "path": "ext/standard/tests/http/bug73297.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75535: Inappropriately parsing HTTP response leads to PHP segment fault",
+      "path": "ext/standard/tests/http/bug75535.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75981 (stack-buffer-overflow while parsing HTTP response)",
+      "path": "ext/standard/tests/http/bug75981.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #76342 (file_get_contents waits twice specified timeout)",
+      "path": "ext/standard/tests/http/bug76342.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78719 (http wrapper silently ignores long Location headers)",
+      "path": "ext/standard/tests/http/bug78719.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #79265 (Improper injection of Host header when using fopen for http requests)",
+      "path": "ext/standard/tests/http/bug79265.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #79265 variation: \"host:\" not at start of header",
+      "path": "ext/standard/tests/http/bug79265_2.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #80838 (HTTP wrapper waits for HTTP 1 response after HTTP 101)",
+      "path": "ext/standard/tests/http/bug80838.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test bindec() - basic function test bindec()",
+      "path": "ext/standard/tests/math/bindec_basic.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test bindec() function : usage variations - different data types as $binary_string arg",
+      "path": "ext/standard/tests/math/bindec_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "GHSA-fpwc-w8rq-cr92: strip credentials from user headers on cross-origin redirect",
+      "path": "ext/standard/tests/http/ghsa-fpwc-w8rq-cr92.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "$http_reponse_header (no redirect)",
+      "path": "ext/standard/tests/http/http_response_header_01.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "$http_reponse_header (redirect)",
+      "path": "ext/standard/tests/http/http_response_header_02.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "$http_reponse_header (redirect + not found)",
+      "path": "ext/standard/tests/http/http_response_header_03.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "$http_reponse_header (header with trailing whitespace)",
+      "path": "ext/standard/tests/http/http_response_header_04.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "http:// and ignore_errors",
+      "path": "ext/standard/tests/http/ignore_errors.phpt",
+      "detail": "reason: pcntl_fork() not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test decbin() function : usage variations - different data types as $number arg",
+      "path": "ext/standard/tests/math/decbin_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test dechex() function : usage variations - different data types as $number arg",
+      "path": "ext/standard/tests/math/dechex_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test decoct() function : usage variations - different data types as $number arg",
+      "path": "ext/standard/tests/math/decoct_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test hexdec() - basic function test hexdec()",
+      "path": "ext/standard/tests/math/hexdec_basic.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test hexdec() function : usage variations - different data types as $number arg",
+      "path": "ext/standard/tests/math/hexdec_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test octdec() - basic function test octdec()",
+      "path": "ext/standard/tests/math/octdec_basic.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test pow() - basic function test pow()",
+      "path": "ext/standard/tests/math/pow_basic.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test pow() function : usage variations - different data types as $base argument",
+      "path": "ext/standard/tests/math/pow_variation1.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "gethostbyname() function - basic return valid ip address test",
+      "path": "ext/standard/tests/network/gethostbyname_error004.phpt",
+      "detail": "reason: test requiring internet connection"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75574 putenv does not work properly if parameter contains non-ASCII unicode character, cp936 Windows",
+      "path": "ext/standard/tests/general_functions/putenv_bug75574_cp936_win.phpt",
+      "detail": "reason: Valid only on Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "getmxrr() test",
+      "path": "ext/standard/tests/network/getmxrr.phpt",
+      "detail": "reason: test requiring internet connection"
+    },
+    {
+      "status": "SKIP",
+      "title": "http-stream test",
+      "path": "ext/standard/tests/network/http-stream.phpt",
+      "detail": "reason: dom extension is not present"
+    },
+    {
+      "status": "SKIP",
+      "title": "ip2long() & long2ip() tests",
+      "path": "ext/standard/tests/network/ip.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test ip2long() function : usage variation 2, 32 bit",
+      "path": "ext/standard/tests/network/ip2long_variation2.phpt",
+      "detail": "reason: 32 bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75221 (Argon2i always throws NUL at the end)",
+      "path": "ext/standard/tests/password/bug75221.phpt",
+      "detail": "reason: password_hash not built with Argon2"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test normal operation of password_get_info() with Argon2i and Argon2id",
+      "path": "ext/standard/tests/password/password_get_info_argon2.phpt",
+      "detail": "reason: password_get_info not built with Argon2"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test normal operation of password_hash() with Argon2i and Argon2id",
+      "path": "ext/standard/tests/password/password_hash_argon2.phpt",
+      "detail": "reason: password_hash not built with Argon2"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test error operation of password_hash() with Argon2i and Argon2id",
+      "path": "ext/standard/tests/password/password_hash_error_argon2.phpt",
+      "detail": "reason: password_hash not built with Argon2"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test normal operation of password_needs_rehash() with Argon2i and Argon2id",
+      "path": "ext/standard/tests/password/password_needs_rehash_argon2.phpt",
+      "detail": "reason: password_needs_rehash not built with Argon2"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test normal operation of password_verify() with Argon2i and Argon2id",
+      "path": "ext/standard/tests/password/password_verify_argon2.phpt",
+      "detail": "reason: password_verify not built with Argon2"
+    },
+    {
+      "status": "SKIP",
+      "title": "Check that windows version constants are initialized",
+      "path": "ext/standard/tests/php_version_win_const.phpt",
+      "detail": "reason: .. Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #70513: GMP Deserialization Type Confusion Vulnerability",
+      "path": "ext/standard/tests/serialize/bug70513.phpt",
+      "detail": "reason: requires gmp"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test serialize() & unserialize() functions: many types",
+      "path": "ext/standard/tests/serialize/serialization_miscTypes_001.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #49936 (crash with ftp stream in php_stream_context_get_option())",
+      "path": "ext/standard/tests/streams/bug49936_win32.phpt",
+      "detail": "reason: . Do run on Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #72771. FTPS to FTP downgrade not allowed when server doesn't support AUTH TLS or AUTH SSL.",
+      "path": "ext/standard/tests/streams/bug72771.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73457. Wrong error message when fopen FTP wrapped fails to open data connection",
+      "path": "ext/standard/tests/streams/bug73457.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #74090 stream_get_contents maxlength>-1 returns empty string on windows",
+      "path": "ext/standard/tests/streams/bug74090.phpt",
+      "detail": "reason: : online test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #75776 (Flushing streams with compression filter is broken)",
+      "path": "ext/standard/tests/streams/bug75776.phpt",
+      "detail": "reason: bz2 extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #76943 (Inconsistent stream_wrapper_restore() errors)",
+      "path": "ext/standard/tests/streams/bug76943.phpt",
+      "detail": "reason: phar wrapper not registered"
+    },
+    {
+      "status": "SKIP",
+      "title": "Recursive mkdir() on ftp should create missing directories.",
+      "path": "ext/standard/tests/streams/bug77680.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "stat() on directory should return 40755 for ftp://",
+      "path": "ext/standard/tests/streams/bug77765.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78883 (fgets(STDIN) fails on Windows)",
+      "path": "ext/standard/tests/streams/bug78883.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #81346 (Non-seekable streams don't update position after write)",
+      "path": "ext/standard/tests/streams/bug81346.phpt",
+      "detail": "reason: bz2 extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73594 (dns_get_record() does not populate $additional out parameter)",
+      "path": "ext/standard/tests/network/bug73594.phpt",
+      "detail": "reason: test requiring internet connection"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73594 (dns_get_record() does not populate $additional out parameter - $authns parameter)",
+      "path": "ext/standard/tests/network/bug73594a.phpt",
+      "detail": "reason: test requiring internet connection"
+    },
+    {
+      "status": "SKIP",
+      "title": "opendir() with 'ftp://' stream.",
+      "path": "ext/standard/tests/streams/opendir-001.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "opendir() with 'ftp://' stream.",
+      "path": "ext/standard/tests/streams/opendir-002.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #80067 (Omitting the port in bindto setting errors)",
+      "path": "ext/standard/tests/network/bug80067.phpt",
+      "detail": "reason: online test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #81618: dns_get_record failure on FreeBSD",
+      "path": "ext/standard/tests/network/bug81618.phpt",
+      "detail": "reason: online test"
+    },
+    {
+      "status": "SKIP",
+      "title": "opendir() with 'ftps://' stream.",
+      "path": "ext/standard/tests/streams/opendir-003.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "opendir() with 'ftps://' stream.",
+      "path": "ext/standard/tests/streams/opendir-004.phpt",
+      "detail": "reason: pcntl_fork() not available."
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #51800 proc_open on Windows hangs forever",
+      "path": "ext/standard/tests/streams/proc_open_bug51800.phpt",
+      "detail": "reason: expected to fail or take too long"
+    },
+    {
+      "status": "SKIP",
+      "title": "stream context tcp_nodelay",
+      "path": "ext/standard/tests/streams/stream_context_tcp_nodelay.phpt",
+      "detail": "reason: online test"
+    },
+    {
+      "status": "SKIP",
+      "title": "stream context tcp_nodelay fopen",
+      "path": "ext/standard/tests/streams/stream_context_tcp_nodelay_fopen.phpt",
+      "detail": "reason: online test"
+    },
+    {
+      "status": "SKIP",
+      "title": "stream context tcp_nodelay server",
+      "path": "ext/standard/tests/streams/stream_context_tcp_nodelay_server.phpt",
+      "detail": "reason: : need sockets"
+    },
+    {
+      "status": "SKIP",
+      "title": "php_strip_whitespace() and output buffer",
+      "path": "ext/standard/tests/strings/007-win32.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test basename() function : usage variations with invalid paths",
+      "path": "ext/standard/tests/strings/basename_invalid_path_win.phpt",
+      "detail": "reason: Run only on Windows\""
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #39873 (number_format() breaks with locale & decimal points)",
+      "path": "ext/standard/tests/strings/bug39873.phpt",
+      "detail": "reason: locale needed for this test is not supported on this platform"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #65230 setting locale randomly broken",
+      "path": "ext/standard/tests/strings/bug65230.phpt",
+      "detail": "reason: Windows only test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #65769 localeconv() broken in TS builds",
+      "path": "ext/standard/tests/strings/bug65769.phpt",
+      "detail": "reason: Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #79986 (str_ireplace bug with diacritics characters)",
+      "path": "ext/standard/tests/strings/bug79986.phpt",
+      "detail": "reason: German locale not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test crc32() function : usage variations - single quoted strings",
+      "path": "ext/standard/tests/strings/crc32_variation2.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test crc32() function : usage variations - double quoted strings",
+      "path": "ext/standard/tests/strings/crc32_variation3.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test crc32() function : usage variations - heredoc strings",
+      "path": "ext/standard/tests/strings/crc32_variation4.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fprintf() function (variation - 3)",
+      "path": "ext/standard/tests/strings/fprintf_variation_003.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fprintf() function (variation - 6)",
+      "path": "ext/standard/tests/strings/fprintf_variation_006.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fprintf() function (variation - 7)",
+      "path": "ext/standard/tests/strings/fprintf_variation_007.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test fprintf() function (variation - 8)",
+      "path": "ext/standard/tests/strings/fprintf_variation_008.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test dirname() function : usage variations",
+      "path": "ext/standard/tests/strings/dirname_multi_win.phpt",
+      "detail": "reason: Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 2 (setlocale / fr_FR.ISO-8859-15)",
+      "path": "ext/standard/tests/strings/htmlentities02.phpt",
+      "detail": "reason: setlocale() failed"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 15 (setlocale / KOI8-R)",
+      "path": "ext/standard/tests/strings/htmlentities15.phpt",
+      "detail": "reason: setlocale() failed"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 16 (mbstring / cp1251)",
+      "path": "ext/standard/tests/strings/htmlentities16.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 3 (setlocale / de_DE.ISO-8859-1)",
+      "path": "ext/standard/tests/strings/htmlentities03.phpt",
+      "detail": "reason: setlocale() failed"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 4 (setlocale / ja_JP.EUC-JP)",
+      "path": "ext/standard/tests/strings/htmlentities04.phpt",
+      "detail": "reason: setlocale() failed"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 5 (mbstring / cp1252)",
+      "path": "ext/standard/tests/strings/htmlentities05.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 6 (mbstring / ISO-8859-15)",
+      "path": "ext/standard/tests/strings/htmlentities06.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 7 (mbstring / ISO-8859-1)",
+      "path": "ext/standard/tests/strings/htmlentities07.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 8 (mbstring / EUC-JP)",
+      "path": "ext/standard/tests/strings/htmlentities08.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "htmlentities() test 9 (mbstring / Shift_JIS)",
+      "path": "ext/standard/tests/strings/htmlentities09.phpt",
+      "detail": "reason: mbstring not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "money_format test",
+      "path": "ext/standard/tests/strings/moneyformat.phpt",
+      "detail": "reason: en_US locale not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test printf() function (32bit)",
+      "path": "ext/standard/tests/strings/printf.phpt",
+      "detail": "reason: 32bit test only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test printf() function : basic functionality - unsigned format",
+      "path": "ext/standard/tests/strings/printf_basic7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Generic pack()/unpack() tests",
+      "path": "ext/standard/tests/strings/pack.phpt",
+      "detail": "reason: 32bit test only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test printf() function : basic functionality - octal format",
+      "path": "ext/standard/tests/strings/printf_basic8.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "64bit pack()/unpack() tests",
+      "path": "ext/standard/tests/strings/pack64_32.phpt",
+      "detail": "reason: 32bit test only"
+    },
+    {
+      "status": "SKIP",
+      "title": "sapi_windows_cp_conv basic functionality",
+      "path": "ext/standard/tests/strings/sapi_windows_cp_conv.phpt",
+      "detail": "reason: for Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Unix locale names are rejected on Windows, except for some special cases",
+      "path": "ext/standard/tests/strings/setlocale-win32.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test setlocale() function : usage variations - setting system locale as null",
+      "path": "ext/standard/tests/strings/setlocale_variation4.phpt",
+      "detail": "reason: en_US.utf8/en_AU.utf8 locales not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test setlocale() function : usage variations - Setting system locale as empty string",
+      "path": "ext/standard/tests/strings/setlocale_variation5.phpt",
+      "detail": "reason: en_AU.utf8/en_US.utf8 locales not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - int formats with float values",
+      "path": "ext/standard/tests/strings/sprintf_variation4.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - unsigned formats with integer values",
+      "path": "ext/standard/tests/strings/sprintf_variation40.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - octal formats with integer values",
+      "path": "ext/standard/tests/strings/sprintf_variation28.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - unsigned formats with float values",
+      "path": "ext/standard/tests/strings/sprintf_variation41.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : basic functionality - unsigned format",
+      "path": "ext/standard/tests/strings/sprintf_basic7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - octal formats with float values",
+      "path": "ext/standard/tests/strings/sprintf_variation29.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : basic functionality - octal format",
+      "path": "ext/standard/tests/strings/sprintf_basic8.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - unsigned formats with string values",
+      "path": "ext/standard/tests/strings/sprintf_variation44.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "sprintf %f #3",
+      "path": "ext/standard/tests/strings/sprintf_f_3.phpt",
+      "detail": "reason: icelandic locale not supported"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - hexa formats with integer values",
+      "path": "ext/standard/tests/strings/sprintf_variation34.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sprintf() function : usage variations - hexa formats with float values",
+      "path": "ext/standard/tests/strings/sprintf_variation35.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test str_pad() function : usage variations - unexpected large value for '$pad_length' argument",
+      "path": "ext/standard/tests/strings/str_pad_variation5.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test sscanf() function : basic functionality - unsigned format",
+      "path": "ext/standard/tests/strings/sscanf_basic6.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test str_split() function : usage variations - different integer values for 'split_length' argument",
+      "path": "ext/standard/tests/strings/str_split_variation6.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test str_split() function : usage variations - different integer values for 'split_length' with heredoc 'str'",
+      "path": "ext/standard/tests/strings/str_split_variation7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "strnat(case)cmp(): potential OOB access for unterminated strings",
+      "path": "ext/standard/tests/strings/strcmp_unterminated.phpt",
+      "detail": "reason: zend_test extension not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strrpos() function : usage variations - unexpected inputs for 'haystack', 'needle' & 'offset' arguments",
+      "path": "ext/standard/tests/strings/strrpos_variation15.phpt",
+      "detail": "reason: this test is for 32-bit only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strtolower() function",
+      "path": "ext/standard/tests/strings/strtolower-win32.phpt",
+      "detail": "reason: Run only on Windows with locale as \"English_United States.1252\""
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strtoupper on non-ASCII characters",
+      "path": "ext/standard/tests/strings/strtoupper.phpt",
+      "detail": "reason: locale needed for this test is not supported on this platform"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test strtoupper() function",
+      "path": "ext/standard/tests/strings/strtoupper1-win32.phpt",
+      "detail": "reason: Run only on Windows with locale as \"English_United States.1252\""
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - octal formats with octal values",
+      "path": "ext/standard/tests/strings/vfprintf_variation11.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - octal formats with non-octal values",
+      "path": "ext/standard/tests/strings/vfprintf_variation12.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - hexa formats with hexa values",
+      "path": "ext/standard/tests/strings/vfprintf_variation13.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - hexa formats with non-hexa values",
+      "path": "ext/standard/tests/strings/vfprintf_variation14.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - unsigned formats with unsigned values",
+      "path": "ext/standard/tests/strings/vfprintf_variation15.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - unsigned formats with signed and other types of values",
+      "path": "ext/standard/tests/strings/vfprintf_variation16.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : basic functionality - unsigned format",
+      "path": "ext/standard/tests/strings/vprintf_basic7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - octal formats with octal values",
+      "path": "ext/standard/tests/strings/vprintf_variation11.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - with whitespaces in format strings",
+      "path": "ext/standard/tests/strings/vfprintf_variation19.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - octal formats with non-octal values",
+      "path": "ext/standard/tests/strings/vprintf_variation12.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - hexa formats with hexa values",
+      "path": "ext/standard/tests/strings/vprintf_variation13.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : basic functionality - unsigned format",
+      "path": "ext/standard/tests/strings/vfprintf_basic7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vfprintf() function : usage variations - int formats with non-integer values",
+      "path": "ext/standard/tests/strings/vfprintf_variation4.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - hexa formats with non-hexa values",
+      "path": "ext/standard/tests/strings/vprintf_variation14.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - unsigned formats with unsigned values",
+      "path": "ext/standard/tests/strings/vprintf_variation15.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - unsigned formats with signed and other types of values",
+      "path": "ext/standard/tests/strings/vprintf_variation16.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - with whitespaces in format strings",
+      "path": "ext/standard/tests/strings/vprintf_variation19.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vprintf() function : usage variations - int formats with non-integer values",
+      "path": "ext/standard/tests/strings/vprintf_variation4.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : basic functionality - unsigned format",
+      "path": "ext/standard/tests/strings/vsprintf_basic7.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - octal formats with octal values",
+      "path": "ext/standard/tests/strings/vsprintf_variation11.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "No overflow should occur during the memory_limit check for wordwrap()",
+      "path": "ext/standard/tests/strings/wordwrap_memory_limit_win32.phpt",
+      "detail": "reason: this test is for 32bit Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - octal formats with non-octal values",
+      "path": "ext/standard/tests/strings/vsprintf_variation12.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - hexa formats with hexa values",
+      "path": "ext/standard/tests/strings/vsprintf_variation13.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - hexa formats with non-hexa values",
+      "path": "ext/standard/tests/strings/vsprintf_variation14.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - unsigned formats with unsigned values",
+      "path": "ext/standard/tests/strings/vsprintf_variation15.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - unsigned formats with signed and other types of values",
+      "path": "ext/standard/tests/strings/vsprintf_variation16.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test parse_url() function: Parse unterminated string",
+      "path": "ext/standard/tests/url/parse_url_unterminated.phpt",
+      "detail": "reason: ext/test required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - with whitespaces in format strings",
+      "path": "ext/standard/tests/strings/vsprintf_variation19.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test base64_decode() function : basic functionality - padding and whitespace",
+      "path": "ext/standard/tests/url/base64_decode_basic_003.phpt",
+      "detail": ""
+    },
+    {
+      "status": "SKIP",
+      "title": "Test vsprintf() function : usage variations - int formats with non-integer values",
+      "path": "ext/standard/tests/strings/vsprintf_variation4.phpt",
+      "detail": "reason: this test is for 32bit platform only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #55544 (ob_gzhandler always conflicts with zlib.output_compression)",
+      "path": "ext/zlib/tests/bug55544-win.phpt",
+      "detail": "reason: windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test function gzgetc() by calling it with its expected arguments zlib 1.2.5",
+      "path": "ext/zlib/tests/gzgetc_basic.phpt",
+      "detail": "reason: - only for zlib <= 1.2.5"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test deflate_add() errors with ZLIB_BLOCK in zlib < 1.2.4",
+      "path": "ext/zlib/tests/deflate_add_block_v123.phpt",
+      "detail": "reason: - ZLIB < 1.2.4 required for test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gzencode() function : variation",
+      "path": "ext/zlib/tests/gzencode_variation1-win32.phpt",
+      "detail": "reason: only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test gzencode() function : variation - verify header contents with all encoding modes",
+      "path": "ext/zlib/tests/gzencode_variation2-win32.phpt",
+      "detail": "reason: .. only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic run",
+      "path": "sapi/phpdbg/tests/basic_run.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Fundamental breakpoints functionality",
+      "path": "sapi/phpdbg/tests/breakpoints_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Preserve breakpoints on restart",
+      "path": "sapi/phpdbg/tests/breakpoints_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test deleting breakpoints",
+      "path": "sapi/phpdbg/tests/breakpoints_003.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test opcode breakpoints",
+      "path": "sapi/phpdbg/tests/breakpoints_004.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test breakpoint into function context",
+      "path": "sapi/phpdbg/tests/breakpoints_005.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic function breakpoints",
+      "path": "sapi/phpdbg/tests/breakpoints_006.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic method breakpoints",
+      "path": "sapi/phpdbg/tests/breakpoints_007.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test namespaced and non-lowercase breakpoint names",
+      "path": "sapi/phpdbg/tests/breakpoints_008.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test parsing longer opcode",
+      "path": "sapi/phpdbg/tests/breakpoints_009.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73615 (phpdbg without option never load .phpdbginit at startup)",
+      "path": "sapi/phpdbg/tests/bug73615.phpt",
+      "detail": "reason: : No TEST_PHPDBG_EXECUTABLE specified"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73704 (phpdbg shows the wrong line in files with shebang)",
+      "path": "sapi/phpdbg/tests/bug73704.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73794 (Crash (out of memory) when using run and # command separator)",
+      "path": "sapi/phpdbg/tests/bug73794.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #73927 (phpdbg fails with windows error prompt at \"watch array\")",
+      "path": "sapi/phpdbg/tests/bug73927.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "include()ing files should not raise \"too many open files\" error",
+      "path": "sapi/phpdbg/tests/bug76801.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #78297: Include unexistent file memory leak",
+      "path": "sapi/phpdbg/tests/bug78297.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Cleaning must preserve breakpoints",
+      "path": "sapi/phpdbg/tests/clean_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test clearing breakpoints",
+      "path": "sapi/phpdbg/tests/clear_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test # delimiter parsing and execution",
+      "path": "sapi/phpdbg/tests/delimiter.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Properly handle exceptions going to be uncaught",
+      "path": "sapi/phpdbg/tests/exceptions_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test exceptions in eval during exception",
+      "path": "sapi/phpdbg/tests/exceptions_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test breaks on HANDLE_EXCEPTION",
+      "path": "sapi/phpdbg/tests/exceptions_003.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "test finish and leave commands",
+      "path": "sapi/phpdbg/tests/finish_leave_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Ensure proper saving of EX(opline)",
+      "path": "sapi/phpdbg/tests/generator_run.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "include_once must include only once",
+      "path": "sapi/phpdbg/tests/include_once_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "include_once must include only once #2",
+      "path": "sapi/phpdbg/tests/include_once_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test basic info functionality",
+      "path": "sapi/phpdbg/tests/info_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "info constants test",
+      "path": "sapi/phpdbg/tests/info_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test next command on function boundaries",
+      "path": "sapi/phpdbg/tests/next_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "A script with die() must end \"normally\"",
+      "path": "sapi/phpdbg/tests/normal_exit.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test phpdbg_break_next() function",
+      "path": "sapi/phpdbg/tests/phpdbg_break_next.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Getting executable lines from custom wrappers",
+      "path": "sapi/phpdbg/tests/phpdbg_get_executable_stream_wrapper.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test phpdbg_*_oplog() functions",
+      "path": "sapi/phpdbg/tests/phpdbg_oplog_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "phpdbg_end_oplog() alone must not crash",
+      "path": "sapi/phpdbg/tests/phpdbg_oplog_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Basic print functionality",
+      "path": "sapi/phpdbg/tests/print_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Relative print commands",
+      "path": "sapi/phpdbg/tests/print_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test argv passing",
+      "path": "sapi/phpdbg/tests/run_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Stdin and escaped args being passed to run command",
+      "path": "sapi/phpdbg/tests/run_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "set_exception_handler() in phpdbg",
+      "path": "sapi/phpdbg/tests/set_exception_handler.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test stdin input with breakpoints",
+      "path": "sapi/phpdbg/tests/stdin_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Stepping with exceptions must not be stuck at CATCH",
+      "path": "sapi/phpdbg/tests/stepping_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test simple recursive watchpoint",
+      "path": "sapi/phpdbg/tests/watch_001.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test simple array watchpoint with replace",
+      "path": "sapi/phpdbg/tests/watch_002.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test simple watchpoint with replace",
+      "path": "sapi/phpdbg/tests/watch_003.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test detection of inline string manipulations on zval watch",
+      "path": "sapi/phpdbg/tests/watch_004.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test proper watch comparisons when having multiple levels of indirection from a zval to its value",
+      "path": "sapi/phpdbg/tests/watch_005.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test multiple watch elements pointing to the same watchpoint",
+      "path": "sapi/phpdbg/tests/watch_006.phpt",
+      "detail": "reason: phpdbg not available"
+    },
+    {
+      "status": "SKIP",
+      "title": "using invalid combinations of cmdline options",
+      "path": "sapi/cgi/tests/005-win32.phpt",
+      "detail": "reason: Windows only"
+    },
+    {
+      "status": "SKIP",
+      "title": "GHSA-3qgc-jrrr-25jv",
+      "path": "sapi/cgi/tests/ghsa-3qgc-jrrr-25jv.phpt",
+      "detail": "reason: Only for Windows"
+    },
+    {
+      "status": "SKIP",
+      "title": "CLI -a and readline",
+      "path": "sapi/cli/tests/016.phpt",
+      "detail": "reason: need readline support"
+    },
+    {
+      "status": "SKIP",
+      "title": "CLI -a and libedit",
+      "path": "sapi/cli/tests/017.phpt",
+      "detail": "reason: need readline support using libedit"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #77111 php-win.exe corrupts unicode symbols from cli parameters",
+      "path": "sapi/cli/tests/argv_mb_bug77111.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Bug #64529 (Ran out of opcode space)",
+      "path": "sapi/cli/tests/bug64529.phpt",
+      "detail": "reason: readline support required"
+    },
+    {
+      "status": "SKIP",
+      "title": "Check cli_process_title support in Windows",
+      "path": "sapi/cli/tests/cli_process_title_windows.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "sapi_windows_set_ctrl_handler()",
+      "path": "sapi/cli/tests/sapi_windows_set_ctrl_handler.phpt",
+      "detail": "reason: this test is for Windows platforms only"
+    },
+    {
+      "status": "SKIP",
+      "title": "Testing ftell() on std streams",
+      "path": "sapi/cli/tests/std_streams.phpt",
+      "detail": "reason: I/O capture test"
+    },
+    {
+      "status": "SKIP",
+      "title": "Test lstat() and stat() functions: usage variations - effects of touch() on link",
+      "path": "ext/standard/tests/file/lstat_stat_variation6.phpt",
+      "detail": "reason: .. atime update is disabled, hence skip the test"
+    },
+    {
+      "status": "SKIP",
+      "title": "FPM: UNIX socket owner and group settings can be numeric",
+      "path": "sapi/fpm/tests/socket-uds-numeric-ugid.phpt",
+      "detail": "reason: posix extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "FPM: UNIX socket owner and group settings can be numeric",
+      "path": "sapi/fpm/tests/socket-uds-numeric-ugid-nonroot.phpt",
+      "detail": "reason: posix extension not loaded"
+    },
+    {
+      "status": "SKIP",
+      "title": "If SIGQUIT and SIGTERM during reloading fail, SIGKILL should be sent",
+      "path": "sapi/fpm/tests/reload-uses-sigkill-as-last-measure.phpt",
+      "detail": "reason: Requires pcntl_sigprocmask()"
+    },
+    {
+      "status": "SKIP",
+      "title": "FPM: Process manager config pm.process_idle_timeout",
+      "path": "sapi/fpm/tests/proc-idle-timeout.phpt",
+      "detail": "reason: Test fails in CI"
+    },
+    {
+      "status": "SKIP",
+      "title": "FPM: AppArmor basic test",
+      "path": "sapi/fpm/tests/pool-apparmor-basic.phpt",
+      "detail": "reason: ERROR:  unknown entry 'apparmor_hat'"
+    },
+    {
+      "status": "WARN",
+      "title": "FPM: Buffered worker output decorated log with multiple continuous messages (stdout/stderr mixed)",
+      "path": "sapi/fpm/tests/log-bwd-multiple-msgs-stdout-stderr.phpt",
+      "detail": "(warn: XFAIL section but test passes)"
+    }
+  ],
+  "note": "Vendor runner also counts entire unloaded-extension directories as skips without printing each. Directory list supplied separately; originals retained by build owner."
+}

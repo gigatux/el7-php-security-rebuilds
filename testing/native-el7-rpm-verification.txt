@@ -1,0 +1,451 @@
+RPM version 4.11.3
+/assets/php-8.3.36-1.gigatux20261021.el7.remi.src.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (1a7c71934b66640dcfb15a107f7102f2cce295d1)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (f960762d2633cb744b6a001c3df2e71b)
+/assets/php-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (32a55c12b1e4d9fd16f36b70042f543ab59c8866)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (f40439dd6a3e4024998f13c5fbc01f03)
+/assets/php-cli-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (02a0cb6ea5ecff40e11882a84896b5328f1e2a7e)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (cbf3b2bb2d5145f8752a705b4a30e9c3)
+/assets/php-common-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (cf4281edd8e0d800026b61a76669aa0008729cea)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (11ae1fd2af507f86de97cf440555347c)
+/assets/php-devel-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (9e6d009c244ccbc176c22a0c793e1d5e9fd90ff7)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (0ebb817020d12361105d34b05c99bc12)
+/assets/php-fpm-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (f0ec9b7a55674ad8edef0fef6f1f5fddb41629a0)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (ee6d5dc958b64f6db00662d659d8c8c2)
+/assets/php-gd-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (41c16afe4bd1e6f19dcfb2236a953604193ea77b)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (8f056a9e7ed018c6707d45600bff466e)
+/assets/php-intl-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6d91f5f4f2a056160adfc22f60e6b878d29f32eb)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (6f08915d44c041f59531b043f34384f9)
+/assets/php-mbstring-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (94d5280ac41c45f53bc2efd00ef34e9e30bdaa26)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (3be3be098d4e4fd2eb90da59838ae42b)
+/assets/php-mysqlnd-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (69c2bf15d6e8d9c40e83e12655a7f5035fd776ef)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (9b540b56acd1eeb6665ea8c79e8791d8)
+/assets/php-pdo-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (39e7531f96dbd56021ce4bc1e56aef7b05645455)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (627dfbcd03d021529af69480722e7e47)
+/assets/php-process-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (8ea32d4e1b2e0f47f8084a2ca75a0173ad1a7146)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (37903564a9d8885c4fd64c713158359d)
+/assets/php-sodium-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (4b26c9bfa2912a72bc682c057c5ea6e98d1d6eeb)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (addab3b9564850aa2bc3f7f754643a79)
+/assets/php-xml-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (b6afdd915672f75f59faba02ec5225fdb7b2cab6)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (14e9e0b2d8add71cc3e9b3e52540c26f)
+/assets/php74-php-7.4.33-31.1.gigatux20261023.el7.remi.src.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (5aa1d6ed57fbb492de37eb5852534c5ad11b5ff8)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (bd663e99812a815ac8a1bf1bf25d2c57)
+/assets/php74-php-bcmath-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (de3f60d2f29069c615bda76031b5255301f64204)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (f726072d1feff288a9946621da68214a)
+/assets/php74-php-cli-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (e6ce8a0f99666ec4d8a32f21cf80ac44ccb4efe8)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (005c0c4dc2472336f909c569d36e786c)
+/assets/php74-php-common-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (5a0ef670870ee1233f6072f2b2c17033b3887f12)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (41ba6e6ea717e89af04e9e48564e277d)
+/assets/php74-php-devel-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (93c13cfc62bbe10fd39279bd9496e45b6a55c51b)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (312308ceaf99d0fb875a9d493720275f)
+/assets/php74-php-fpm-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (9924c3e8d699e7c33e1cdde0ec1497776f666971)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (8c21a4da210a7b4b4c804f35b2f62ee7)
+/assets/php74-php-gd-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (8a426e77bcb9af6bbedd1e8c12f55b0ea7f5a3a8)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (6f8e138e7ba32f588a8bab14d2d30e14)
+/assets/php74-php-gmp-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (5f660af5a0d0524cd587d466e08f4e0143cb6151)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (80e86cd39c7bcd259d3bf8d4ce9c79a8)
+/assets/php74-php-imap-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (82667ed20959f469e480bdfaf98e7bf1e2fac34e)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (41b323f6afe38890b6c5bb94e6d94057)
+/assets/php74-php-intl-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (34874f360317f1be54ffa4c9663b2fe4de456aac)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (ed03f708477fac7d37b50c22b05ba823)
+/assets/php74-php-json-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (01d94d6e66137647d710a8cf3346bc1f79f6016d)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (872999f7fa1095ceb278b146b9d39035)
+/assets/php74-php-mbstring-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6c7aa1f9db4ce45c913930d3a93dde2fd066e10d)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (ca2851823e259d5bee6f9e40199c55fb)
+/assets/php74-php-mysqlnd-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (268e7fd51e9864e581d9ef8c85074cdab0dd2424)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (d7702746be801517285b0222c4a9a740)
+/assets/php74-php-opcache-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6745694411bf475588c6d81d4e27fbcac6c594c8)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (14d3c49730c8be09bcbcf8f9ae09f791)
+/assets/php74-php-pdo-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (ddb1c9104f1439e5174b75552c7876588a56d9ad)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (974b95d9731b11ddf4a44fdb1e630d91)
+/assets/php74-php-process-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6ef253cc70e981e48c18a5caa465048da46a23e2)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (6527ed1b071c5ef293d694ba91d8c9e9)
+/assets/php74-php-soap-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (76309a3d19e1cb4daa8a687283e82c9ce5fff8c9)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (8d5c11b323704e320dab064043b29d1b)
+/assets/php74-php-tidy-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (7abcd023f64216f1d9d2552ca672e7429ce79dc8)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b5c399e38b4596c759e00416c7dfbcc4)
+/assets/php74-php-xml-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (59215be0ea30607181aae4df245e39433fcf048c)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (5ce25101ba3b7546db579a8aea27e13b)
+/assets/php74-php-xmlrpc-7.4.33-31.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (69087a43fa1c8d736b7bf0efdd82ef2e60ad6548)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (8d3307ebd79e9b4e75a1d54498e1be34)
+/assets/php81-php-8.1.34-6.1.gigatux20261023.el7.remi.src.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (ec4bdb149e1e67ced89f8f778c01895f87ac0a11)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b9221528b495706c7f8029d1cd5fb7f1)
+/assets/php81-php-bcmath-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (7ad819da1282569079503ee72a8aaa9d7626d657)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (539bcd32e24382eeab938f3a0f1ea08b)
+/assets/php81-php-cli-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (8810736465f18151154b28ba8390d3672eff2acf)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (1671a9141635f69eff367dfdff8723b2)
+/assets/php81-php-common-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (8a11d335a0f1b24574e224ee5e261b0d142eec73)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (1702dcdc7657a31eaa0798e9421cea7c)
+/assets/php81-php-devel-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (8e13d5f207249391f89fed0a6d77619bd08ea854)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (5590a398038cbdba80295e817c90c049)
+/assets/php81-php-fpm-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (486472a5c51305c6728c085983bbb8be01bfd6e6)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (9b410cb644f66959fe6d0bacb1d6bc14)
+/assets/php81-php-gd-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6edcc1fd142878a73c0284e8ea8473f25b5d6e2d)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (0292a4f22545d38ba8ff80f9cfceba89)
+/assets/php81-php-gmp-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (faf2a647068b346ae65a5d8be411321c899292e6)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (70c0b7e75ac63c78b7991af71c244fe6)
+/assets/php81-php-imap-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (fc812ecb6cd774c73a61441b7d0e70d43d93274f)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (aabe10f2aee852e8cd2a67291d3ca50e)
+/assets/php81-php-intl-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (36ad8937cbb0c5dcc32f97e9e789fefa63289bbe)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b1a41964847eed60918360f0e8efe97c)
+/assets/php81-php-mbstring-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (30200b3f5fccd3f1c1f8856e772a4e000983b6a1)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (a804cd0225c1396900d7fd2776148697)
+/assets/php81-php-mysqlnd-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (f85f365886ceb54ffb2ab1200c2a5a6a12bf1af5)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (42c4293f3b3378ca9f2ff629fd04121c)
+/assets/php81-php-opcache-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (f65300e8520d782a07725ce447cbd6b90de009ac)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (92f914dd1b8c6f86d13707004a7b12f2)
+/assets/php81-php-pdo-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (49478c7d8f798067ea9bef2f079e3fdcc6856f06)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (02780f2a27b598d888907e13a3fe8977)
+/assets/php81-php-process-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (495411286dec279bc9e10ce2b63400ada578207c)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (d2232f10a3206319efa7bda3e1397859)
+/assets/php81-php-soap-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (1823df92444da26c4103e5db4c7647d86166b988)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (ca52d06bea566bc4a4903750ab0186ed)
+/assets/php81-php-tidy-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6754016894699380aa4716f2e332e9ed633d5438)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (d3212d26848995e5f294b96987b5ca73)
+/assets/php81-php-xml-8.1.34-6.1.gigatux20261023.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (128131734252b03563c347df4a74e2f0b62ea19f)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b97b5e3d0c5acb477cb950a6c3f6f25e)
+/assets/php82-php-8.2.35-1.gigatux20261021.el7.remi.src.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (dbdfa4dc1aa97a426df420c29bdc46cd97fa00bc)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (81b433bef6b34ce285e0d4249500931d)
+/assets/php82-php-bcmath-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (439016719432f566d728a03cab9e7cc22ef176b6)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (5c042c45caef5ca2690dd76894db18ea)
+/assets/php82-php-cli-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (5e8f47365440f334f65dda91c1c8a5e864cca972)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (c54681574522f709a230ca00608bfbb3)
+/assets/php82-php-common-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (30f7889cf6347e5f6328beaaca03186530c5c623)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (7cd936a18eb18bc0c7ea031327c14a8a)
+/assets/php82-php-devel-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (e7dfbbc3f3e54b1935e481c7fcad1ca7b7311f0a)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (262a833fd120661aea7fbce38ccbb4c2)
+/assets/php82-php-fpm-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (4553ddaec0495f5b89f5cdbe9f8ed0acd6611450)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (2d9aa5045697e90177ca4f503b0b9354)
+/assets/php82-php-gd-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (284ae0fff39babea570f75140a920e3aed512d9a)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (1511c51f9adc8dad8fa23b5d9762005a)
+/assets/php82-php-gmp-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (e5ddb264623e62edfa3b6290cb2186b5a040cf73)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (0a22514f2befcdb7f628a6b42be7d479)
+/assets/php82-php-imap-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6acad35f529291e3daae611e6df20b6f34845abd)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (e32f964a2d9af3961c4b0daed7ec4f17)
+/assets/php82-php-intl-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (47bbe38404b8cc15d16f88dd5d5f34b2e42dd261)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (346e597534219cfc879019535dfebf95)
+/assets/php82-php-mbstring-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (beb168cdc5d0f5c3e805828df7614d055745cccf)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (d1cf46729cd0ac2cf8c87fd8024b790c)
+/assets/php82-php-mysqlnd-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6d5c65b85cbdb36976e199818ccf70c7e4bef15a)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (e6a362aa02b4482afe8521891400f561)
+/assets/php82-php-opcache-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (4b8551b22e37b3499dca7e8eada6054412bbd870)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (c4726f4a90bb46a015de7d210cf01bf6)
+/assets/php82-php-pdo-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (3981e4894361a7e3f94afd2fc25449d5834c6fad)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (fff908ecf8f44eaa72a169adfb906381)
+/assets/php82-php-process-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (f91be4fcc039deb357957669887cc87e650f5958)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (ff19e971e2b122a0ff80c2d559578829)
+/assets/php82-php-soap-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (b6eadcafc429c172ee2624302b126608e1df37e6)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (20a75ca8e95ea54cc425a59e70931005)
+/assets/php82-php-sodium-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (f8c3252e57537a80550a88ae1a643bbdad3d7eb2)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (0abba664e0541d253b8881b1815f8029)
+/assets/php82-php-tidy-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (d02b573224cd50e2259a8fc931673689f799330f)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b84b280d5fbaa07f579857d7fd538155)
+/assets/php82-php-xml-8.2.35-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (ea32fe0bd7b1767712e0eb854b6566170335336b)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (c85b6d76e547bdb6e9109b7283814c89)
+/assets/php83-php-8.3.36-1.gigatux20261021.el7.remi.src.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (c343ceda237bd584786dc1a8a6f6347a67f35c0b)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (263b16689d3b33e7b8e00fc375114a5f)
+/assets/php83-php-bcmath-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (331ffb66b397910753e9d5c007a4403b329e3967)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (4d3540390e3a708b41b4599c8da5e96e)
+/assets/php83-php-cli-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (c662e36fbb7024a0458041a57bfd0dd81825f133)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (712ad4b34442319fd2cda411508de198)
+/assets/php83-php-common-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (dbaee57122c35e1d43c060c3128bc3e1a30cd1e0)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (aa2335b8028374c3743b933b5483344f)
+/assets/php83-php-devel-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (bf7e61994a5b8ae8c043a23780a9b6a5000a1ffe)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (e653ffcc653c49e4e08c618509fc1895)
+/assets/php83-php-fpm-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (9efbd69c6578fecccd80e6e3909577f4639badc8)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (f1d6e64ad78f401fa2ca237f868d296a)
+/assets/php83-php-gd-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (270760895071c53f078da4b86ea9a764f01c0ca3)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (dcf6c50c54b7814aeac475c0dde0a8ca)
+/assets/php83-php-gmp-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (98ffe1428919ddcd706a182d3655f152d8146467)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (338f74ed4e9f65a1a066ab8e2eed395f)
+/assets/php83-php-imap-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (aaea7cf91c95ec04f2fc469a11b16172ebb34d6a)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (027287db324c36051080d927ce92bce2)
+/assets/php83-php-intl-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (17df135595d330d1965cfab681ff74aeba83a554)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b58aa7b773186e2c04d5b30c5cf7d138)
+/assets/php83-php-mbstring-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (6630ee30f0c6f03e2982237f2fd4f2ecfedcb856)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (b2eed710e8d998fea27b9138dce40f87)
+/assets/php83-php-mysqlnd-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (78e89f1fa3eb784d039820cf3c00439cc0562590)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (4211d6faca5348f962099d540568e2b7)
+/assets/php83-php-opcache-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (a2990d0edd94169d146d53c5d1d2b14a513e9bdb)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (66bc70e9b893add2b306b1a789047373)
+/assets/php83-php-pdo-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (7ba66696f04993f6657a53e6a6570f5d76f5f6ee)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (236754263c5da0ab3b2253252e26c94f)
+/assets/php83-php-process-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (83232db01cc5d86b584e84e201f59196c9346f31)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (46581769ec1dd9f7b56365ba1a15159e)
+/assets/php83-php-soap-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (40c69695215ae52758148a554c767e7962ab0b6b)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (3b42bd8b7eac26fdde1f4ff144e46630)
+/assets/php83-php-sodium-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (e5f38c29d26f76cf12c4e19ca22da97976672c0e)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (579fe967fae7e9b7d9cc92e2a22a0cd4)
+/assets/php83-php-tidy-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (88bd0760320683fb05fda4c23a1a70fd35ad9a17)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (1581f359b4a333fbd372d1cd3ab0d172)
+/assets/php83-php-xml-8.3.36-1.gigatux20261021.el7.remi.x86_64.rpm:
+    Header V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    Header SHA1 digest: OK (108acbd643c9662e223768ee6436c7e9f3231a8c)
+    V4 RSA/SHA256 Signature, key ID d46bd47d: OK
+    MD5 digest: OK (744bb9a0b56b0907765d56b648e62424)

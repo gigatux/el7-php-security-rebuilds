@@ -1,0 +1,15 @@
+[GNUPG:] NEWSIG
+gpg: Signature made Mon 31 Oct 2022 11:40:06 GMT
+gpg:                using RSA key 5A52880781F755608BF815FC910DEB46F53EA312
+[GNUPG:] KEY_CONSIDERED 5A52880781F755608BF815FC910DEB46F53EA312 0
+[GNUPG:] SIG_ID tm5U0GU5S/jlWiVc9SfCT+oJT4w 2022-10-31 1667216406
+[GNUPG:] GOODSIG 910DEB46F53EA312 Derick Rethans <gpg@derickrethans.nl>
+gpg: Good signature from "Derick Rethans <gpg@derickrethans.nl>" [unknown]
+gpg:                 aka "Derick Rethans (PHP) <derick@php.net>" [unknown]
+gpg:                 aka "Derick Rethans <derick@derickrethans.nl>" [unknown]
+gpg:                 aka "Derick Rethans (GitHub) <github@derickrethans.nl>" [unknown]
+[GNUPG:] VALIDSIG 5A52880781F755608BF815FC910DEB46F53EA312 2022-10-31 1667216406 0 4 0 1 10 00 5A52880781F755608BF815FC910DEB46F53EA312
+[GNUPG:] TRUST_UNDEFINED 0 pgp
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 5A52 8807 81F7 5560 8BF8  15FC 910D EB46 F53E A312
